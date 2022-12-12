@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/lsnmst/static/css/main.eee7fdf0.css",
-    "main.js": "/lsnmst/static/js/main.8eec5492.js",
-    "static/js/787.7dc2dff3.chunk.js": "/lsnmst/static/js/787.7dc2dff3.chunk.js",
-    "static/media/tingua.jpg": "/lsnmst/static/media/tingua.ef0417c5eda7073ae9dc.jpg",
-    "static/media/uganda.jpg": "/lsnmst/static/media/uganda.2034338753667188e752.jpg",
-    "static/media/defence.jpg": "/lsnmst/static/media/defence.f8ce91d2e18786faaac7.jpg",
-    "static/media/vie.jpg": "/lsnmst/static/media/vie.74d6c9dbe598be94ec81.jpg",
-    "static/media/blood.jpg": "/lsnmst/static/media/blood.9406c7834d023af9b1bb.jpg",
-    "static/media/underwater.jpg": "/lsnmst/static/media/underwater.8952a10046cb0a5c1c53.jpg",
-    "static/media/tracker.jpg": "/lsnmst/static/media/tracker.c2cf517ae0b35fc03eb0.jpg",
-    "static/media/shores.jpg": "/lsnmst/static/media/shores.13c8e68a1d507d3ca5e0.jpg",
-    "static/media/onda.jpg": "/lsnmst/static/media/onda.cae8cb3780a70c561b23.jpg",
-    "static/media/paz.jpg": "/lsnmst/static/media/paz.d5e8fa39865e33338c35.jpg",
-    "static/media/diesel.jpg": "/lsnmst/static/media/diesel.5e47471afdcac80cde1f.jpg",
-    "static/media/metro.jpg": "/lsnmst/static/media/metro.41187e8ee36fd9df20c2.jpg",
-    "static/media/sound.jpg": "/lsnmst/static/media/sound.a7ab3a4c292d300da20e.jpg",
-    "index.html": "/lsnmst/index.html",
-    "main.eee7fdf0.css.map": "/lsnmst/static/css/main.eee7fdf0.css.map",
-    "main.8eec5492.js.map": "/lsnmst/static/js/main.8eec5492.js.map",
-    "787.7dc2dff3.chunk.js.map": "/lsnmst/static/js/787.7dc2dff3.chunk.js.map"
+    "main.css": "/static/css/main.71019b9b.css",
+    "main.js": "/static/js/main.4c61d437.js",
+    "static/js/787.7dc2dff3.chunk.js": "/static/js/787.7dc2dff3.chunk.js",
+    "static/media/tingua.jpg": "/static/media/tingua.ef0417c5eda7073ae9dc.jpg",
+    "static/media/uganda.jpg": "/static/media/uganda.2034338753667188e752.jpg",
+    "static/media/defence.jpg": "/static/media/defence.f8ce91d2e18786faaac7.jpg",
+    "static/media/vie.jpg": "/static/media/vie.74d6c9dbe598be94ec81.jpg",
+    "static/media/blood.jpg": "/static/media/blood.9406c7834d023af9b1bb.jpg",
+    "static/media/underwater.jpg": "/static/media/underwater.8952a10046cb0a5c1c53.jpg",
+    "static/media/tracker.jpg": "/static/media/tracker.c2cf517ae0b35fc03eb0.jpg",
+    "static/media/shores.jpg": "/static/media/shores.13c8e68a1d507d3ca5e0.jpg",
+    "static/media/onda.jpg": "/static/media/onda.cae8cb3780a70c561b23.jpg",
+    "static/media/paz.jpg": "/static/media/paz.d5e8fa39865e33338c35.jpg",
+    "static/media/diesel.jpg": "/static/media/diesel.5e47471afdcac80cde1f.jpg",
+    "static/media/metro.jpg": "/static/media/metro.41187e8ee36fd9df20c2.jpg",
+    "static/media/sound.jpg": "/static/media/sound.a7ab3a4c292d300da20e.jpg",
+    "index.html": "/index.html",
+    "main.71019b9b.css.map": "/static/css/main.71019b9b.css.map",
+    "main.4c61d437.js.map": "/static/js/main.4c61d437.js.map",
+    "787.7dc2dff3.chunk.js.map": "/static/js/787.7dc2dff3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eee7fdf0.css",
-    "static/js/main.8eec5492.js"
+    "static/css/main.71019b9b.css",
+    "static/js/main.4c61d437.js"
   ]
 }
