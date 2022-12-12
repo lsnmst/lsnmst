@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.71019b9b.css",
-    "main.js": "/static/js/main.4c61d437.js",
+    "main.js": "/static/js/main.9b9498d4.js",
     "static/js/787.7dc2dff3.chunk.js": "/static/js/787.7dc2dff3.chunk.js",
     "static/media/tingua.jpg": "/static/media/tingua.ef0417c5eda7073ae9dc.jpg",
     "static/media/uganda.jpg": "/static/media/uganda.2034338753667188e752.jpg",
@@ -18,11 +18,11 @@
     "static/media/sound.jpg": "/static/media/sound.a7ab3a4c292d300da20e.jpg",
     "index.html": "/index.html",
     "main.71019b9b.css.map": "/static/css/main.71019b9b.css.map",
-    "main.4c61d437.js.map": "/static/js/main.4c61d437.js.map",
+    "main.9b9498d4.js.map": "/static/js/main.9b9498d4.js.map",
     "787.7dc2dff3.chunk.js.map": "/static/js/787.7dc2dff3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71019b9b.css",
-    "static/js/main.4c61d437.js"
+    "static/js/main.9b9498d4.js"
   ]
 }
