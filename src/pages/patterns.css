@@ -20,11 +20,9 @@
   background-repeat: repeat;
 }
 .circles-3 {
-  opacity: 0.8;
-  background-image:  linear-gradient(135deg, #000000 25%, transparent 25%), linear-gradient(225deg, #000000 25%, transparent 25%), linear-gradient(45deg, #000000 25%, transparent 25%), linear-gradient(315deg, #000000 25%, rgba(255,255,255, 0) 25%);
-  background-position:  5px 0, 5px 0, 0 0, 0 0;
-  background-size: 10px 10px;
-  background-repeat: repeat;
+  background: linear-gradient(135deg, #f5ff54 16.66%, transparent 0 83.33%, #f5ff54 0), conic-gradient(from 45deg at 66.66% 33.33%, #390572 135deg, rgba(57,5,114,0.75) 0% 225deg, rgba(57,5,114,0.5) 0%);
+  background-size: 20px 20px;
+  background-color: #f5ff54;  
   width: 15px;
   height: 15px;
   padding: 4px;
@@ -34,8 +32,10 @@
 .circles-4 {
   background-color: rgba(255,255,255, 0);
   opacity: 0.8;
-  background: radial-gradient(circle, transparent 20%, rgba(255,255,255, 0) 20%, rgba(255,255,255, 0) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgba(255,255,255, 0) 20%, rgba(255,255,255, 0) 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#000000 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #000000 0.8px, rgba(255,255,255, 0) 0.8px) -0.4px 0;
-  background-size: 10px 10px, 10px 10px, 5px 5px, 5px 5px;
+  background: repeating-radial-gradient(circle, transparent, transparent 4.2px, #df1694 4.2px, #df1694 5.4px), repeating-radial-gradient(circle, transparent, transparent 4.2px, #df1694 4.2px, #df1694 5.4px), #effe88;
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px, 24px 12px;
+  background-color: #effe88;  
   width: 15px;
   height: 15px;
   padding: 4px;
@@ -45,8 +45,8 @@
 .circles-5 {
   background-color: rgba(255,255,255, 0);
   opacity: 0.8;
-  background-image: linear-gradient(-45deg, rgba(255,255,255, 0), rgba(255,255,255, 0) 50%, #000 50%, #000);
-  background-size: 8px 8px;
+  background-image:  repeating-radial-gradient(circle at 0 0, transparent 0, #f8ab87 18px), repeating-linear-gradient(#209dd2, #f8ac25);
+  background-color: #f8ab87;  
   width: 15px;
   height: 15px;
   padding: 4px;
@@ -54,12 +54,11 @@
   margin: 1px;
 }
 .circles-6 {
-  background-color: rgba(255,255,255, 0);
   opacity: 0.8;
-  background-image:  linear-gradient(135deg, #000000 25%, transparent 25%), linear-gradient(225deg, rgba(255,255,255, 0) 25%, transparent 25%), linear-gradient(45deg, rgba(255,255,255, 0) 25%, transparent 25%), linear-gradient(315deg, #000 25%, rgba(255,255,255, 0) 25%);
-  background-position:  10px 0, 10px 0, 0 0, 0 0;
-  background-size: 10px 10px;
-  background-repeat: repeat;
+  background-image:  linear-gradient(30deg, #eeb8b2 12%, transparent 12.5%, transparent 87%, #eeb8b2 87.5%, #eeb8b2), linear-gradient(150deg, #eeb8b2 12%, transparent 12.5%, transparent 87%, #eeb8b2 87.5%, #eeb8b2), linear-gradient(30deg, #eeb8b2 12%, transparent 12.5%, transparent 87%, #eeb8b2 87.5%, #eeb8b2), linear-gradient(150deg, #eeb8b2 12%, transparent 12.5%, transparent 87%, #eeb8b2 87.5%, #eeb8b2), linear-gradient(60deg, rgba(238,184,178,0.5) 25%, transparent 25.5%, transparent 75%, rgba(238,184,178,0.5) 75%, rgba(238,184,178,0.5)), linear-gradient(60deg, rgba(238,184,178,0.5) 25%, transparent 25.5%, transparent 75%, rgba(238,184,178,0.5) 75%, rgba(238,184,178,0.5));
+  background-size: 20px 35px;
+  background-position: 0 0, 0 0, 10px 17.5px, 10px 17.5px, 0 0, 10px 17.5px;
+  background-color: #c40c84;  
   width: 15px;
   height: 15px;
   padding: 4px;
@@ -67,10 +66,9 @@
   margin: 1px;
 }
 .circles-7 {
-  background-color: #fff;
   opacity: 0.8;
-  background-image: radial-gradient(#000 2px, #fff 2px);
-  background-size: 10px 10px;
+  background: linear-gradient(135deg, #58ef96 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, rgba(88,239,150,0.5) 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #58ef96 25%, transparent 25%) 0 0/ 20px 20px, linear-gradient(45deg, rgba(88,239,150,0.5) 25%, #326356 25%) 0 0/ 20px 20px;
+  background-color: #326356;  
   width: 15px;
   height: 15px;
   padding: 4px;

@@ -262,7 +262,7 @@ h1 {
         margin: 20px auto ;
     }
     .biotext{
-        margin-left: 22px;
+        margin-left: 10px;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 600;
         font-size: 0.75em;
@@ -272,6 +272,9 @@ h1 {
         max-width: 200px !important;
         align-items: center;
         justify-content: center;
+    }
+    .react-grid-item {
+        margin: 0;
     }
 }
 

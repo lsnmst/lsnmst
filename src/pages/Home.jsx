@@ -123,7 +123,7 @@ export default class Home extends React.Component {
     ];
 
     return (
-      <><><><h1>LSNMS</h1>
+      <><><><h1>LSNMST</h1>
 
         <div>
           <ResponsiveGridLayout
@@ -156,7 +156,7 @@ export default class Home extends React.Component {
                       {' '}
                       <div>
                         <SimpleImageSlider
-                          width={700}
+                          width={400}
                           height={500}
                           style={{ margin: '0 auto' }}
                           images={comunidadosImg}
@@ -241,7 +241,7 @@ export default class Home extends React.Component {
                       {' '}
                       <div>
                         <SimpleImageSlider
-                          width={600}
+                          width={500}
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={bloodImg}
