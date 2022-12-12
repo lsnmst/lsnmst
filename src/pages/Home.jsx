@@ -123,7 +123,7 @@ export default class Home extends React.Component {
     ];
 
     return (
-      <><><><h1>LSNMST</h1>
+      <><><><h1>LSNMS</h1>
 
         <div>
           <ResponsiveGridLayout
