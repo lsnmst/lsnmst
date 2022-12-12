@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans&family=Rubik:wght@300&display=swap');
+
+a:link {
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+  }
+a:visited {
+    color: black;
+    text-decoration: none;
+  }
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+  }
+h1 {
+    font-size: 5em;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 10px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.react-grid-item {
+    outline: solid 1px #000000;
+    transition: outline 0.6s linear;
+    margin: 0.5em;
+}
+.react-grid-item:hover{
+    outline-width: 5px;
+}
+.react-grid-layout{
+    max-width: 98%;
+    margin: auto;
+}
+.header {
+    list-style-type: none;
+    max-height: 10%;
+}
+.index {
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+    max-width:fit-content;
+    padding: 2px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5em;
+}
+.year {
+    display: inline;
+    float: right;
+    max-width:fit-content;
+    padding: 2px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8em;
+}
+.viz{
+    width: auto;
+    height:100px;
+    max-height: 20%;
+    margin:2%;
+}
+.title {
+    color: black;
+    max-width:100%;
+    padding: 0.2em;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 3.5em;
+    margin-top: 10%;
+    max-height: 70%;
+    overflow:hidden;
+    cursor:pointer;
+}
+.description {
+    float: right;
+    max-width:fit-content;
+    padding: 2px;
+    font-family: 'JetBrains Mono', monospace;
+    width: auto;
+    margin-left: 15%;
+    margin-right: 5%;
+    font-size: 0.6em;
+    max-height: 25%;
+}
+.title:hover {
+    color: hotpink;
+    display: inline-block;
+    mix-blend-mode: exclusion;
+    cursor: url("https://www.svgrepo.com/show/428064/photos.svg"), auto;
+}
+.description:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 0.75em;
+    display: inline-block;
+    mix-blend-mode: hard-light;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(255, 255, 255);
+    text-underline-offset: 2px;
+    text-decoration-thickness: 14px;
+    cursor: url("https://www.svgrepo.com/show/428070/paper.svg"), auto;
+}
+.popup{
+    margin: auto;
+    width: 90%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.headerpopup{
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8em;
+    padding: 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+.comunidados:hover {
+    background: url("../../public/img/tingua.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.blood:hover {
+    background: url("../../public/img/blood.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.defence:hover {
+    background: url("../../public/img/defence.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.shores:hover {
+    background: url("../../public/img/shores.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.onda:hover {
+    background: url("../../public/img/onda.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.tracker:hover {
+    background: url("../../public/img/tracker.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.underwater:hover {
+    background: url("../../public/img/underwater.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.metro:hover {
+    background: url("../../public/img/metro.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.uganda:hover {
+    background: url("../../public/img/uganda.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.paz:hover {
+    background: url("../../public/img/paz.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.vie:hover {
+    background: url("../../public/img/vie.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.diesel:hover {
+    background: url("../../public/img/diesel.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.sound:hover {
+    background: url("../../public/img/sound.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.legend{
+    width: 20%;
+    margin: 40px 40px;
+}
+.legendtext{
+    float: right;
+    max-width:fit-content;
+    margin-left: 22px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 0.75em;
+    background-color: white;
+    padding: 1px;
+}
+.bio{
+    width: 66%;
+    margin: 40px auto ;
+    text-align: justify;
+    text-justify: auto;
+}
+.biotext{
+    float: right;
+    max-width:fit-content;
+    margin-top: 22px;
+    margin-left: 22px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    font-size: 0.75em;
+    background-color: white;
+    padding: 1px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .legend{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .legendtext{
+        float: right;
+        max-width:fit-content;
+        margin-left: 22px;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 900;
+        font-size: 0.65em;
+        background-color: white;
+        padding: 1px;
+    }
+    .bio{
+        width: 75%;
+        margin: 20px auto ;
+    }
+    .biotext{
+        margin-left: 22px;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 600;
+        font-size: 0.75em;
+    } 
+    .content {
+        display: flex;
+        max-width: 200px !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
