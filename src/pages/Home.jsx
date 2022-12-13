@@ -142,7 +142,7 @@ export default class Home extends React.Component {
               </div>
               <Popup
                 contentStyle={{ backgroundColor: 'rgba(255, 255, 255, 0)', width: "80%", borderStyle: 'none' }}
-                trigger={<div className="title">Comunidados</div>}
+                trigger={<div className="title">Comuni-<br/>dados</div>}
                 modal
                 nested
               >

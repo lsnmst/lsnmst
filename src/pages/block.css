@@ -121,7 +121,7 @@ h1 {
 .comunidados:hover {
     background: url("../../public/img/tingua.jpg") no-repeat;
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 180px;
     background-attachment: fixed;
     background-position: top right;
 }
@@ -210,8 +210,9 @@ h1 {
     background-position: top right;
 }
 .legend{
-    width: 20%;
-    margin: 40px 40px;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
 }
 .legendtext{
     float: right;
