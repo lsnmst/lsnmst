@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lsnmst/static/css/main.f8e5bd8d.css",
-    "main.js": "/lsnmst/static/js/main.79387d96.js",
+    "main.css": "/lsnmst/static/css/main.eb80b39b.css",
+    "main.js": "/lsnmst/static/js/main.ecaeea94.js",
     "static/js/787.7dc2dff3.chunk.js": "/lsnmst/static/js/787.7dc2dff3.chunk.js",
     "static/media/uganda.jpg": "/lsnmst/static/media/uganda.2034338753667188e752.jpg",
     "static/media/tingua.jpg": "/lsnmst/static/media/tingua.2a2ec74b4f480e3ae339.jpg",
@@ -12,17 +12,18 @@
     "static/media/tracker.jpg": "/lsnmst/static/media/tracker.c2cf517ae0b35fc03eb0.jpg",
     "static/media/shores.jpg": "/lsnmst/static/media/shores.13c8e68a1d507d3ca5e0.jpg",
     "static/media/onda.jpg": "/lsnmst/static/media/onda.cae8cb3780a70c561b23.jpg",
+    "static/media/animal.jpg": "/lsnmst/static/media/animal.f703e02b75cfa8cc14de.jpg",
     "static/media/paz.jpg": "/lsnmst/static/media/paz.d5e8fa39865e33338c35.jpg",
     "static/media/diesel.jpg": "/lsnmst/static/media/diesel.5e47471afdcac80cde1f.jpg",
     "static/media/metro.jpg": "/lsnmst/static/media/metro.41187e8ee36fd9df20c2.jpg",
     "static/media/sound.jpg": "/lsnmst/static/media/sound.a7ab3a4c292d300da20e.jpg",
     "index.html": "/lsnmst/index.html",
-    "main.f8e5bd8d.css.map": "/lsnmst/static/css/main.f8e5bd8d.css.map",
-    "main.79387d96.js.map": "/lsnmst/static/js/main.79387d96.js.map",
+    "main.eb80b39b.css.map": "/lsnmst/static/css/main.eb80b39b.css.map",
+    "main.ecaeea94.js.map": "/lsnmst/static/js/main.ecaeea94.js.map",
     "787.7dc2dff3.chunk.js.map": "/lsnmst/static/js/787.7dc2dff3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8e5bd8d.css",
-    "static/js/main.79387d96.js"
+    "static/css/main.eb80b39b.css",
+    "static/js/main.ecaeea94.js"
   ]
 }
