@@ -241,6 +241,11 @@ h1 {
     background-color: white;
     padding: 1px;
 }
+.content {
+    filter: hue-rotate(300deg);
+    -webkit-filter: hue-rotate(300deg);
+    -moz-filter: hue-rotate(300deg);
+}
 
 
 @media screen and (max-width: 480px) {
