@@ -662,7 +662,7 @@ export default class Home extends React.Component {
                   </div>
                 )}
               </Popup>
-              <div className="description">(experimental) Sonification and musification: turning information into knowledge through the design and production of a taxonomy that provides a systematic classification of visualization techniques of data.</div>
+              <div className="description">Sonification and musification: turning information into knowledge through the design and production of a taxonomy that provides a systematic classification of visualization techniques of data.</div>
               <div className="viz">
                 <div className="circles-3"></div>
               </div>
@@ -701,7 +701,7 @@ export default class Home extends React.Component {
                   </div>
                 )}
               </Popup>
-              <div className="description">(experimental) Animal Estates is a speculative project around the capability of living species to build their own inhabiting space, to co-operate and co-habit.</div>
+              <div className="description">Animal Estates is a speculative project around the capability of living species to build their own inhabiting space, to co-operate and co-habit.</div>
               <div className="viz">
                 <div className="circles-3"></div>
               </div>
