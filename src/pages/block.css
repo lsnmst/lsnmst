@@ -270,7 +270,6 @@ h1 {
     } 
     .content {
         display: flex;
-        max-width: 200px !important;
         align-items: center;
         justify-content: center;
     }

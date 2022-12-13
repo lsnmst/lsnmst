@@ -160,7 +160,7 @@ export default class Home extends React.Component {
                           height={500}
                           style={{ margin: '0 auto' }}
                           images={comunidadosImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -203,7 +203,7 @@ export default class Home extends React.Component {
                           height={500}
                           style={{ margin: '0 auto' }}
                           images={defenceImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -245,7 +245,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={bloodImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -286,7 +286,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={shoresImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -327,7 +327,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={ondaImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -368,7 +368,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={trackerImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -409,7 +409,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={underwaterImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -449,7 +449,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={metroImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -489,7 +489,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={pazImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -529,7 +529,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={ugandaImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -569,7 +569,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={vieImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -609,7 +609,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={dieselImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
@@ -648,7 +648,7 @@ export default class Home extends React.Component {
                           height={400}
                           style={{ margin: '0 auto' }}
                           images={soundImg}
-                          showBullets={false}
+                          showBullets={true}
                           showNavs={true} />
                       </div>
                     </div>
