@@ -151,14 +151,14 @@ export default class Home extends React.Component {
                     <button className="close" onClick={close}>
                       &times;
                     </button>
-                    <div className="headerpopup"><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">🔗  </a></div>
+                    <div className="headerpopup"><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">🔗  \Comunidados\ participative platform</a></div>
                     <div className="content">
                       {' '}
                       <div>
                         <SimpleImageSlider
                           width={400}
                           height={500}
-                          style={{ margin: '0 auto' }}
+                          style={{ margin: '0 auto'}}
                           images={comunidadosImg}
                           showBullets={true}
                           showNavs={true} />
@@ -201,7 +201,7 @@ export default class Home extends React.Component {
                         <SimpleImageSlider
                           width={700}
                           height={500}
-                          style={{ margin: '0 auto' }}
+                          style={{ margin: '0 auto', boxShadow: 'none' }}
                           images={defenceImg}
                           showBullets={true}
                           showNavs={true} />

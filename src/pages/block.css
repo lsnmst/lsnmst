@@ -245,8 +245,8 @@ h1 {
     filter: hue-rotate(300deg);
     -webkit-filter: hue-rotate(300deg);
     -moz-filter: hue-rotate(300deg);
+    box-shadow: none !important;
 }
-
 
 @media screen and (max-width: 480px) {
     .legend{
