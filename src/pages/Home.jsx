@@ -19,37 +19,44 @@ export default class Home extends React.Component {
   render() {
     // layout is an array of objects, see the demo for more complete usage
     const layout = [
-      { i: "13", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "12", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "11", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "10", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "09", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "08", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "07", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "06", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "05", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "04", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "03", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "02", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "01", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "14", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "13", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "12", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "11", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "10", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "09", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "08", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "07", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "06", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "05", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "04", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "03", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "02", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "01", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
     ];
 
     const layoutxs = [
-      { i: "13", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "12", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "11", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "10", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "09", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "08", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "07", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "06", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "05", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "04", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "03", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "02", x: 9, y: 6, w: 3, h: 3, static: true },
-      { i: "01", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "14", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "13", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "12", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "11", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "10", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "09", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "08", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "07", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "06", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "05", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "04", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "03", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "02", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "01", x: 3, y: 9, w: 3, h: 3, static: true },
     ];
 
+    const animalImg = [
+      { url: 'img/animal/1.jpg', caption: '' },
+      { url: 'img/animal/2.jpg', caption: '' },
+      { url: 'img/animal/3.jpg', caption: '' },
+    ];
     const comunidadosImg = [
       { url: 'img/tingua/1.jpg', caption: '' },
       { url: 'img/tingua/2.jpg', caption: '' },
@@ -134,10 +141,10 @@ export default class Home extends React.Component {
             cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 }}
           >
 
-            {/*Add block 13 */}
-            <div key="13" className='comunidados'>
+            {/*Add block 14 */}
+            <div key="14" className='comunidados'>
               <div className="header">
-                <div className="index">13</div>
+                <div className="index">14</div>
                 <div className="year">2022</div>
               </div>
               <Popup
@@ -156,7 +163,7 @@ export default class Home extends React.Component {
                       {' '}
                       <div>
                         <SimpleImageSlider
-                          width={400}
+                          width={700}
                           height={500}
                           style={{ margin: '0 auto'}}
                           images={comunidadosImg}
@@ -177,10 +184,10 @@ export default class Home extends React.Component {
             </div>
 
 
-            {/*Add block 12 */}
-            <div key="12" className='defence'>
+            {/*Add block 13 */}
+            <div key="13" className='defence'>
               <div className="header">
-                <div className="index">12</div>
+                <div className="index">13</div>
                 <div className="year">2022</div>
               </div>
               <Popup
@@ -219,10 +226,10 @@ export default class Home extends React.Component {
             </div>
 
 
-            {/*Add block 11 */}
-            <div key="11" className='blood'>
+            {/*Add block 12 */}
+            <div key="12" className='blood'>
               <div className="header">
-                <div className="index">11</div>
+                <div className="index">12</div>
                 <div className="year">2021</div>
               </div>
               <Popup
@@ -260,10 +267,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 10 */}
-            <div key="10" className='shores'>
+            {/*Add block 11 */}
+            <div key="11" className='shores'>
               <div className="header">
-                <div className="index">10</div>
+                <div className="index">11</div>
                 <div className="year">2021</div>
               </div>
               <Popup
@@ -301,10 +308,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 09 */}
-            <div key="09" className='onda'>
+            {/*Add block 10 */}
+            <div key="10" className='onda'>
               <div className="header">
-                <div className="index">09</div>
+                <div className="index">10</div>
                 <div className="year">2021</div>
               </div>
               <Popup
@@ -342,10 +349,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 08 */}
-            <div key="08" className='tracker'>
+            {/*Add block 09 */}
+            <div key="09" className='tracker'>
               <div className="header">
-                <div className="index">08</div>
+                <div className="index">09</div>
                 <div className="year">2020</div>
               </div>
               <Popup
@@ -383,10 +390,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 07 */}
-            <div key="07" className='underwater'>
+            {/*Add block 08 */}
+            <div key="08" className='underwater'>
               <div className="header">
-                <div className="index">07</div>
+                <div className="index">08</div>
                 <div className="year">2020</div>
               </div>
               <Popup
@@ -423,10 +430,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 06 */}
-            <div key="06" className='metro'>
+            {/*Add block 07 */}
+            <div key="07" className='metro'>
               <div className="header">
-                <div className="index">06</div>
+                <div className="index">07</div>
                 <div className="year">2019</div>
               </div>
               <Popup
@@ -463,10 +470,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 05 */}
-            <div key="05" className='paz'>
+            {/*Add block 06 */}
+            <div key="06" className='paz'>
               <div className="header">
-                <div className="index">05</div>
+                <div className="index">06</div>
                 <div className="year">2018</div>
               </div>
               <Popup
@@ -503,10 +510,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 04 */}
-            <div key="04" className='uganda'>
+            {/*Add block 05 */}
+            <div key="05" className='uganda'>
               <div className="header">
-                <div className="index">04</div>
+                <div className="index">05</div>
                 <div className="year">2018</div>
               </div>
               <Popup
@@ -543,10 +550,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 03 */}
-            <div key="03" className='vie'>
+            {/*Add block 04 */}
+            <div key="04" className='vie'>
               <div className="header">
-                <div className="index">03</div>
+                <div className="index">04</div>
                 <div className="year">2017</div>
               </div>
               <Popup
@@ -583,10 +590,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 02 */}
-            <div key="02" className='diesel'>
+            {/*Add block 03 */}
+            <div key="03" className='diesel'>
               <div className="header">
-                <div className="index">02</div>
+                <div className="index">03</div>
                 <div className="year">2017</div>
               </div>
               <Popup
@@ -622,10 +629,10 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 01 */}
-            <div key="01" className='sound'>
+            {/*Add block 02 */}
+            <div key="02" className='sound'>
               <div className="header">
-                <div className="index">01</div>
+                <div className="index">02</div>
                 <div className="year">2014</div>
               </div>
               <Popup
@@ -656,6 +663,45 @@ export default class Home extends React.Component {
                 )}
               </Popup>
               <div className="description">(experimental) Sonification and musification: turning information into knowledge through the design and production of a taxonomy that provides a systematic classification of visualization techniques of data.</div>
+              <div className="viz">
+                <div className="circles-3"></div>
+              </div>
+            </div>
+
+              {/*Add block 01 */}
+              <div key="01" className='animal'>
+              <div className="header">
+                <div className="index">01</div>
+                <div className="year">2013</div>
+              </div>
+              <Popup
+                contentStyle={{ backgroundColor: 'rgba(255, 255, 255, 0)', width: "80%", borderStyle: 'none' }}
+                trigger={<div className="title">ANIMAL ESTATES</div>}
+                modal
+                nested
+              >
+                {close => (
+                  <div className="modal">
+                    <button className="close" onClick={close}>
+                      &times;
+                    </button>
+                    <div className="headerpopup"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">🔗 Research : Animal Estates </a></div>
+                    <div className="content">
+                      {' '}
+                      <div>
+                        <SimpleImageSlider
+                          width={600}
+                          height={400}
+                          style={{ margin: '0 auto' }}
+                          images={animalImg}
+                          showBullets={true}
+                          showNavs={true} />
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </Popup>
+              <div className="description">(experimental) Animal Estates is a speculative project around the capability of living species to build their own inhabiting space, to co-operate and co-habit.</div>
               <div className="viz">
                 <div className="circles-3"></div>
               </div>

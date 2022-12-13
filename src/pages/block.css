@@ -118,6 +118,13 @@ h1 {
     background-color: white;
     border-radius: 2px;
 }
+.animal:hover {
+    background: url("../../public/img/animal.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 280px;
+    background-attachment: fixed;
+    background-position: top right;
+}
 .comunidados:hover {
     background: url("../../public/img/tingua.jpg") no-repeat;
     background-repeat: no-repeat;
