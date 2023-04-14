@@ -56,7 +56,7 @@ export default class Home extends React.Component {
 
 
     return (
-      <><><><h1>LSNMST</h1>
+      <><><><h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
 
         <div>
           <ResponsiveGridLayout

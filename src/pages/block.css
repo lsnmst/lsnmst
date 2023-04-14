@@ -4,15 +4,18 @@ a:link {
     color: rgb(27, 27, 27);
     text-decoration: none;
     cursor: none;
-  }
+}
+
 a:visited {
     color: black;
     text-decoration: none;
-  }
+}
+
 a:hover {
     color: hotpink;
     text-decoration: none;
-  }
+}
+
 h1 {
     font-size: 5em;
     font-family: 'JetBrains Mono', monospace;
@@ -23,67 +26,89 @@ h1 {
     margin-right: 0;
     font-weight: bold;
 }
+
+.ilnomecheappareprimadelresto:hover span {
+    display: none
+}
+
+.ilnomecheappareprimadelresto:hover:before {
+    content: "ALESSANDRO";
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
 .react-grid-item {
     outline: solid 1px #000000;
     transition: outline 0.6s linear;
     margin: 0.5em;
 }
-.react-grid-item:hover{
+
+.react-grid-item:hover {
     outline-width: 5px;
 }
-.react-grid-layout{
+
+.react-grid-layout {
     max-width: 98%;
     margin: auto;
 }
+
 .react-grid-item.react-grid-placeholder {
     background: hotpink !important;
     opacity: 1;
 }
+
 .header {
     list-style-type: none;
     max-height: 10%;
 }
+
 .index {
     color: black;
     display: inline;
-    max-width:fit-content;
+    max-width: fit-content;
     padding: 2px;
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.5em;
 }
+
 .year {
     color: aliceblue;
     background-color: black;
     display: inline;
     float: right;
-    max-width:fit-content;
+    max-width: fit-content;
     padding: 2px;
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.8em;
 }
-.viz{
+
+.viz {
     width: auto;
-    height:100px;
+    height: 100px;
     max-height: 20%;
-    margin:2%;
+    margin: 2%;
 }
+
 .title {
     color: black;
-    max-width:100%;
+    max-width: 100%;
     padding: 0.2em;
     text-transform: uppercase;
     font-family: 'JetBrains Mono', monospace;
     font-size: 3.5em;
     margin-top: 10%;
     max-height: 70%;
-    overflow:hidden;
+    overflow: hidden;
 }
-.title a{
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>📁</text></svg>") 16 0,auto !important;
+
+.title a {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>📁</text></svg>") 16 0, auto !important;
 }
+
 .description {
     float: right;
-    max-width:fit-content;
+    max-width: fit-content;
     padding: 2px;
     font-family: 'JetBrains Mono', monospace;
     width: auto;
@@ -91,14 +116,16 @@ h1 {
     margin-right: 5%;
     font-size: 0.6em;
     max-height: 25%;
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>🖊️</text></svg>") 16 0,auto !important;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>🖊️</text></svg>") 16 0, auto !important;
 }
+
 .title:hover {
     color: hotpink;
     display: inline-block;
     mix-blend-mode: exclusion;
     cursor: url("https://www.svgrepo.com/show/428064/photos.svg"), auto;
 }
+
 .description:hover {
     color: rgb(0, 0, 0);
     font-weight: bolder;
@@ -112,17 +139,20 @@ h1 {
     text-decoration-thickness: 14px;
     cursor: url("https://www.svgrepo.com/show/428070/paper.svg"), auto;
 }
-.description a{
+
+.description a {
     color: rgb(0, 0, 0);
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>🖊️</text></svg>") 16 0,auto !important;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>🖊️</text></svg>") 16 0, auto !important;
 }
-.popup{
+
+.popup {
     margin: auto;
     width: 90%;
     border: 3px solid green;
     padding: 10px;
 }
-.headerpopup{
+
+.headerpopup {
     margin: 10px;
     text-transform: uppercase;
     font-family: 'JetBrains Mono', monospace;
@@ -131,6 +161,7 @@ h1 {
     background-color: white;
     border-radius: 2px;
 }
+
 .animal:hover {
     background: url("../../public/img/animal.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -138,6 +169,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .comunidados:hover {
     background: url("../../public/img/tingua.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -145,6 +177,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .blood:hover {
     background: url("../../public/img/blood.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -152,6 +185,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .defence:hover {
     background: url("../../public/img/defence.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -159,6 +193,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .shores:hover {
     background: url("../../public/img/shores.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -166,6 +201,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .onda:hover {
     background: url("../../public/img/onda.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -173,6 +209,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .tracker:hover {
     background: url("../../public/img/tracker.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -180,6 +217,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .underwater:hover {
     background: url("../../public/img/underwater.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -187,6 +225,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .metro:hover {
     background: url("../../public/img/metro.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -194,6 +233,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .uganda:hover {
     background: url("../../public/img/uganda.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -201,6 +241,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .paz:hover {
     background: url("../../public/img/paz.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -208,6 +249,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .vie:hover {
     background: url("../../public/img/vie.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -215,6 +257,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .diesel:hover {
     background: url("../../public/img/diesel.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -222,6 +265,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .sound:hover {
     background: url("../../public/img/sound.jpg") no-repeat;
     background-repeat: no-repeat;
@@ -229,6 +273,7 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+
 .carto:hover {
     background: url("../../public/img/cover-carto.png") no-repeat;
     background-repeat: no-repeat;
@@ -236,14 +281,16 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
-.legend{
+
+.legend {
     width: 95%;
     margin: auto;
     margin-top: 40px;
 }
-.legendtext{
+
+.legendtext {
     float: right;
-    max-width:fit-content;
+    max-width: fit-content;
     margin-left: 22px;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 700;
@@ -251,15 +298,17 @@ h1 {
     background-color: white;
     padding: 1px;
 }
-.bio{
+
+.bio {
     width: 66%;
-    margin: 40px auto ;
+    margin: 40px auto;
     text-align: justify;
     text-justify: auto;
 }
-.biotext{
+
+.biotext {
     float: right;
-    max-width:fit-content;
+    max-width: fit-content;
     margin-top: 22px;
     margin-left: 22px;
     font-family: 'JetBrains Mono', monospace;
@@ -268,24 +317,27 @@ h1 {
     background-color: white;
     padding: 1px;
 }
+
 .content {
     filter: hue-rotate(300deg);
     -webkit-filter: hue-rotate(300deg);
     -moz-filter: hue-rotate(300deg);
     box-shadow: none !important;
 }
-.react-grid-item{
+
+.react-grid-item {
     cursor: move !important;
 }
 
 @media screen and (max-width: 480px) {
-    .legend{
+    .legend {
         width: 70%;
         margin: 20px auto;
     }
-    .legendtext{
+
+    .legendtext {
         float: right;
-        max-width:fit-content;
+        max-width: fit-content;
         margin-left: 22px;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 900;
@@ -293,26 +345,26 @@ h1 {
         background-color: white;
         padding: 1px;
     }
-    .bio{
+
+    .bio {
         width: 75%;
-        margin: 20px auto ;
+        margin: 20px auto;
     }
-    .biotext{
+
+    .biotext {
         margin-left: 10px;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 600;
         font-size: 0.75em;
-    } 
+    }
+
     .content {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .react-grid-item {
         margin: 0;
     }
 }
-
-
-
-
