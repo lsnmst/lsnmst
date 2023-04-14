@@ -3,6 +3,7 @@
 a:link {
     color: rgb(27, 27, 27);
     text-decoration: none;
+    cursor: none;
   }
 a:visited {
     color: black;
@@ -34,13 +35,16 @@ h1 {
     max-width: 98%;
     margin: auto;
 }
+.react-grid-item.react-grid-placeholder {
+    background: hotpink !important;
+    opacity: 1;
+}
 .header {
     list-style-type: none;
     max-height: 10%;
 }
 .index {
-    background-color: black;
-    color: aliceblue;
+    color: black;
     display: inline;
     max-width:fit-content;
     padding: 2px;
@@ -48,6 +52,8 @@ h1 {
     font-size: 1.5em;
 }
 .year {
+    color: aliceblue;
+    background-color: black;
     display: inline;
     float: right;
     max-width:fit-content;
@@ -71,7 +77,9 @@ h1 {
     margin-top: 10%;
     max-height: 70%;
     overflow:hidden;
-    cursor:pointer;
+}
+.title a{
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>📁</text></svg>") 16 0,auto !important;
 }
 .description {
     float: right;
@@ -83,6 +91,7 @@ h1 {
     margin-right: 5%;
     font-size: 0.6em;
     max-height: 25%;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>🖊️</text></svg>") 16 0,auto !important;
 }
 .title:hover {
     color: hotpink;
@@ -93,7 +102,7 @@ h1 {
 .description:hover {
     color: rgb(0, 0, 0);
     font-weight: bolder;
-    font-size: 0.75em;
+    font-size: 0.78em;
     display: inline-block;
     mix-blend-mode: hard-light;
     text-decoration-line: underline;
@@ -102,6 +111,10 @@ h1 {
     text-underline-offset: 2px;
     text-decoration-thickness: 14px;
     cursor: url("https://www.svgrepo.com/show/428070/paper.svg"), auto;
+}
+.description a{
+    color: rgb(0, 0, 0);
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>🖊️</text></svg>") 16 0,auto !important;
 }
 .popup{
     margin: auto;
@@ -216,6 +229,13 @@ h1 {
     background-attachment: fixed;
     background-position: top right;
 }
+.carto:hover {
+    background: url("../../public/img/cover-carto.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
 .legend{
     width: 95%;
     margin: auto;
@@ -253,6 +273,9 @@ h1 {
     -webkit-filter: hue-rotate(300deg);
     -moz-filter: hue-rotate(300deg);
     box-shadow: none !important;
+}
+.react-grid-item{
+    cursor: move !important;
 }
 
 @media screen and (max-width: 480px) {
