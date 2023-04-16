@@ -1,7 +1,6 @@
 import React from 'react';
+import Navbar from '../Navbar';
 import { Responsive, WidthProvider } from "react-grid-layout";
-import Popup from 'reactjs-popup';
-import SimpleImageSlider from "react-simple-image-slider";
 import '../../node_modules/react-grid-layout/css/styles.css';
 import '../../node_modules/react-resizable/css/styles.css';
 import 'reactjs-popup/dist/index.css';
@@ -56,7 +55,9 @@ export default class Home extends React.Component {
 
 
     return (
-      <><><><h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
+
+      <><Navbar /><><><>
+      <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
 
         <div>
           <ResponsiveGridLayout
@@ -68,7 +69,7 @@ export default class Home extends React.Component {
           >
 
 
-            {/* key list https://decodeunicode.org/en/u+0A5B3 */}
+            {/* key font https://decodeunicode.org/en/u+0A5B3 */}
 
             {/*Add block 15 */}
             <div key="15" className='carto'>
@@ -242,7 +243,7 @@ export default class Home extends React.Component {
                 <div className="index">ꖜ</div>
                 <div className="year">2017</div>
               </div>
-              <div className="title" ><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">SANT ORSOLA 5</a></div>
+              <div className="title"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">SANT ORSOLA 5</a></div>
               <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">Historical GIS. Muzio, Gio Ponti and the architects of Sant Orsola street (Milan, Italy)</a></div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
@@ -312,7 +313,7 @@ export default class Home extends React.Component {
 
       </><div className='bio'>
           <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Since we are human beings surrounded by an immensurable complexity, we couldn't terraform Mars in a matter a few human generations, or surgically engineer the climate without a torrent of unintended consequences. If you need short and simple solutions first you must be able to see the complexity. My superpower is to turn simple into complex, even though to many complex sounds or is mistaken for complicated.<br />Curiosity made me fall in love with research and investigations. Especially by building practices in the fields of political ecology, social and climate justice. But there is no such research without fieldwork, so I am available backpacking anytime.<br />Thanks for being here!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br /></div>
-        </div></>
+        </div></></>
     );
   }
 }

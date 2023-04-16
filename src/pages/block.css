@@ -16,6 +16,50 @@ a:hover {
     text-decoration: none;
 }
 
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 75%;
+    font-size: 8px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.menu a {
+    cursor: crosshair !important;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu:hover{
+    font-size: 10px;
+    color: hotpink;
+}
+
+.menu li a:hover:active {
+    color: hotpink !important;
+}
+
+.menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: white;
+}
+
+.menu li a.active {
+    float: right;
+}
+
 h1 {
     font-size: 5em;
     font-family: 'JetBrains Mono', monospace;
@@ -28,12 +72,13 @@ h1 {
 }
 
 .ilnomecheappareprimadelresto:hover span {
-    display: none
+    display: none;
 }
 
 .ilnomecheappareprimadelresto:hover:before {
     content: "ALESSANDRO";
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
@@ -366,5 +411,9 @@ h1 {
 
     .react-grid-item {
         margin: 0;
+    }
+
+    .menu {
+        font-size: 6px;
     }
 }
