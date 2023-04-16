@@ -3,8 +3,6 @@ import Navbar from '../Navbar';
 import { Responsive, WidthProvider } from "react-grid-layout";
 import '../../node_modules/react-grid-layout/css/styles.css';
 import '../../node_modules/react-resizable/css/styles.css';
-import 'reactjs-popup/dist/index.css';
-import 'react-slideshow-image/dist/styles.css'
 import './block.css';
 import './patterns.css';
 
@@ -16,7 +14,6 @@ export default class Home extends React.Component {
     margin: [2, 2],
   }
   render() {
-    // layout is an array of objects, see the demo for more complete usage
     const layout = [
       { i: "15", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
       { i: "14", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },

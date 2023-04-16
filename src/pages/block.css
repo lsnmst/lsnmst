@@ -16,8 +16,13 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    list-style: outside none none;
+}
+
 .menu {
     list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -53,11 +58,19 @@ a:hover {
 }
 
 .menu li a:hover:not(.active) {
-    background-color: white;
+    background-color: black;
+    color: #ffffff;
+    font-size: 15px;
 }
 
 .menu li a.active {
     float: right;
+}
+
+.casa li a:hover:not(.active) {
+    background-color: black;
+    color: #ffffff;
+    font-size: 15px;
 }
 
 h1 {
@@ -128,6 +141,18 @@ h1 {
     font-size: 0.8em;
 }
 
+.yeartext {
+    color: black;
+    display: inline;
+    float: right;
+    max-width: fit-content;
+    padding: 2px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8em;
+    border: 1px solid black;
+}
+
+
 .viz {
     width: auto;
     height: 100px;
@@ -151,6 +176,24 @@ h1 {
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>📁</text></svg>") 16 0, auto !important;
 }
 
+.titletext a {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='32' viewport='0 0 32 32' style='font-size:50px;'><text y='130%' x='-25%'>🖊️</text></svg>") 16 0, auto !important;
+}
+
+
+.titletext {
+    color: black;
+    max-width: 100%;
+    padding: 0.2em;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 10%;
+    max-height: 70%;
+    overflow: hidden;
+}
+
 .description {
     float: right;
     max-width: fit-content;
@@ -169,6 +212,12 @@ h1 {
     display: inline-block;
     mix-blend-mode: exclusion;
     cursor: url("https://www.svgrepo.com/show/428064/photos.svg"), auto;
+}
+
+.titletext:hover {
+    color: hotpink;
+    display: inline-block;
+    mix-blend-mode: exclusion;
 }
 
 .description:hover {
@@ -323,6 +372,46 @@ h1 {
     background: url("../../public/img/cover-carto.png") no-repeat;
     background-repeat: no-repeat;
     background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.forest:hover {
+    background: url("../../public/img/forest.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.ice:hover {
+    background: url("../../public/img/ice.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.desert:hover {
+    background: url("../../public/img/desert.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.amazonia:hover {
+    background: url("../../public/img/amazonia.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.candomble:hover {
+    background: url("../../public/img/candomble.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 550px;
     background-attachment: fixed;
     background-position: top right;
 }

@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Casabar() {
   return (
-    <nav className="menu">
+    <nav className="menu casa">
       <ul>
         <li>
-          <Link to="/about">Hidden section with some text</Link>
+          <Link to="/lsnmst">⌫</Link>
         </li>
       </ul>
     </nav>
   );
 }
 
-export default Navbar;
+export default Casabar;
