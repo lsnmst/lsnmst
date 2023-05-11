@@ -416,6 +416,22 @@ h1 {
     background-position: top right;
 }
 
+.idp:hover {
+    background: url("../../public/img/idp.jpeg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.bugoma:hover {
+    background: url("../../public/img/bugoma-CFR.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .legend {
     width: 95%;
     margin: auto;

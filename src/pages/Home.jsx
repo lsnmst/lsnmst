@@ -15,46 +15,48 @@ export default class Home extends React.Component {
   }
   render() {
     const layout = [
-      { i: "15", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "14", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "13", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "12", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "11", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "10", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "09", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "08", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "07", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "06", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "05", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "04", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "03", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "02", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "01", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "16", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "15", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "14", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "13", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "12", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "11", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "10", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "09", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "08", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "07", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "06", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "05", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "04", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "03", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "02", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "01", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
     ];
 
     const layoutxs = [
-      { i: "15", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "14", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "13", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "12", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "11", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "10", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "09", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "08", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "07", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "06", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "05", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "04", x: 9, y: 6, w: 3, h: 3, static: true },
-      { i: "03", x: 0, y: 9, w: 3, h: 3, static: true },
-      { i: "02", x: 3, y: 9, w: 3, h: 3, static: true },
-      { i: "01", x: 6, y: 9, w: 3, h: 3, static: true },
+      { i: "16", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "15", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "14", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "13", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "12", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "11", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "10", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "09", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "08", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "07", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "06", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "05", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "04", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "03", x: 3, y: 9, w: 3, h: 3, static: true },
+      { i: "02", x: 6, y: 9, w: 3, h: 3, static: true },
+      { i: "01", x: 9, y: 9, w: 3, h: 3, static: true },
     ];
 
 
     return (
 
       <><Navbar /><><><>
-      <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
+        <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
 
         <div>
           <ResponsiveGridLayout
@@ -68,8 +70,8 @@ export default class Home extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+0A5B3 */}
 
-            {/*Add block 15 */}
-            <div key="15" className='carto'>
+            {/*Add block 16 */}
+            <div key="16" className='carto'>
               <div className="header">
                 <div className="index">ꗴ</div>
                 <div className="year">2023</div>
@@ -85,8 +87,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 14 */}
-            <div key="14" className='comunidados'>
+            {/*Add block 15 */}
+            <div key="15" className='comunidados'>
               <div className="header">
                 <div className="index">ꖳ</div>
                 <div className="year">2022</div>
@@ -102,14 +104,14 @@ export default class Home extends React.Component {
             </div>
 
 
-            {/*Add block 13 */}
-            <div key="13" className='defence'>
+            {/*Add block 14 */}
+            <div key="14" className='defence'>
               <div className="header">
                 <div className="index">ꖺ</div>
                 <div className="year">2022</div>
               </div>
               <div className="title"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Last Defence</a></div>
-              <div className="description"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Open Source Investigation (2022). "The Last Line of Defense. Halting the Ecological Crisis and Ecosystem Collapse of the Congo Basin Edge", investigates the concepts of social, ecological and climate justice by focusing on the Watsa territory, Haut-Uélé province, Democratic Republic of the Congo</a></div>
+              <div className="description"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Open Source Investigation (2022). \The Last Line of Defense. Halting the Ecological Crisis and Ecosystem Collapse of the Congo Basin Edge\, investigates the concepts of social, ecological and climate justice by focusing on the Watsa territory, Haut-Uélé province, Democratic Republic of the Congo</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -118,8 +120,8 @@ export default class Home extends React.Component {
             </div>
 
 
-            {/*Add block 12 */}
-            <div key="12" className='blood'>
+            {/*Add block 13 */}
+            <div key="13" className='blood'>
               <div className="header">
                 <div className="index">ꖁ</div>
                 <div className="year">2021</div>
@@ -133,14 +135,14 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 11 */}
-            <div key="11" className='shores'>
+            {/*Add block 12 */}
+            <div key="12" className='shores'>
               <div className="header">
                 <div className="index">ꖻ</div>
                 <div className="year">2021</div>
               </div>
-              <div className="title"><a href="https://watetezi.org/hrd/along-the-shores/index.html" target="_blank" rel="noopener noreferrer">ALONG THE SHORES</a></div>
-              <div className="description"><a href="https://watetezi.org/hrd/along-the-shores/index.html" target="_blank" rel="noopener noreferrer">Open Source Investigation (2021). Along the Shores of the Itaka Lya Mwitanzige. A journey that connects women and rights in the Northern Albertine Rift, Uganda</a></div>
+              <div className="title"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">ALONG THE SHORES</a></div>
+              <div className="description"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">Open Source Investigation (2021). Along the Shores of the Itaka Lya Mwitanzige. A journey that connects women and rights in the Northern Albertine Rift, Uganda</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-6" title='Front-end web developer'></div>
@@ -148,8 +150,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 10 */}
-            <div key="10" className='onda'>
+            {/*Add block 11 */}
+            <div key="11" className='onda'>
               <div className="header">
                 <div className="index">ꖃ</div>
                 <div className="year">2021</div>
@@ -163,6 +165,22 @@ export default class Home extends React.Component {
               </div>
             </div>
 
+            {/*Add block 10 */}
+            <div key="10" className='bugoma'>
+              <div className="header">
+                <div className="index">ฒ</div>
+                <div className="year">2021</div>
+              </div>
+              <div className="title"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">664<br />HECTARES</a></div>
+              <div className="description"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">Two sugarcane companies have begun clearing thousands of hectares in disputed sections of Uganda’s Bugoma Forest. \664 Hectares\ enables satellite technology depicts the degree of forest destruction</a></div>
+              <div className="viz">
+                <div className="circles-3" title='Researcher'></div>
+                <div className="circles-4" title='GIS specialist'></div>
+                <div className="circles-6" title='Front-end web developer'></div>
+                <div className="circles-5" title='Information designer'></div>
+              </div>
+            </div>
+
             {/*Add block 09 */}
             <div key="09" className='tracker'>
               <div className="header">
@@ -170,7 +188,7 @@ export default class Home extends React.Component {
                 <div className="year">2020</div>
               </div>
               <div className="title"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">TRACKER</a></div>
-              <div className="description"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">The Albertine Region Tracker is a human rights abuses and environmental crimes reporting and mapping platform. The Albertine region tracker gathers, audits and publishes reports from a network of dedicated and trained activists based in the districts of northern and western Uganda</a></div>
+              <div className="description"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">The \Albertine Region Tracker\ is a human rights abuses and environmental crimes reporting and mapping platform. The Albertine region tracker gathers, audits and publishes reports from a network of dedicated and trained activists based in the districts of northern and western Uganda</a></div>
               <div className="viz">
                 <div className="circles-6" title='Front-end web developer'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -281,7 +299,7 @@ export default class Home extends React.Component {
                 <div className="year">2013</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">ANIMAL ESTATES</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">Animal Estates is a speculative project around the capability of living species to build their own inhabiting space, to co-operate and co-habit.</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">\Animal Estates\ is a speculative project around the capability of living species to build their own inhabiting space, to co-operate and co-habit.</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>

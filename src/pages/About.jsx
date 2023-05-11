@@ -15,19 +15,21 @@ export default class Home extends React.Component {
   }
   render() {
     const layout = [
-      { i: "05", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "04", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "03", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "02", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "01", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "06", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "05", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "04", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "03", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "02", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "01", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
     ];
 
     const layoutxs = [
-      { i: "05", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "04", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "03", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "02", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "01", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "06", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "05", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "04", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "03", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "02", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "01", x: 3, y: 3, w: 3, h: 3, static: true },
     ];
 
 
@@ -49,7 +51,7 @@ export default class Home extends React.Component {
             {/* key font https://decodeunicode.org/en/u+AB01 */}
 
             {/*Add block 05 */}
-            <div key="05" className='amazonia'>
+            <div key="06" className='amazonia'>
               <div className="header">
                 <div className="index">ꬁ</div>
                 <div className="yeartext">2022</div>
@@ -59,7 +61,7 @@ export default class Home extends React.Component {
             </div>
 
             {/*Add block 04 */}
-            <div key="04" className='candomble'>
+            <div key="05" className='candomble'>
               <div className="header">
                 <div className="index">ꬉ</div>
                 <div className="yeartext">2022</div>
@@ -69,6 +71,16 @@ export default class Home extends React.Component {
             </div>
 
             {/*Add block 03 */}
+            <div key="04" className='idp'>
+              <div className="header">
+                <div className="index">𐓦</div>
+                <div className="yeartext">2022</div>
+              </div>
+              <div className="description">LANG_EN</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/Managing-water-scarcity-IDPs-Rutshuru-YOUsustain.pdf" target="_blank" rel="noopener noreferrer">Managing water scarcity in the IDPs camps located in the second-tier towns along the Congolese N2 national highway</a></div>
+            </div>
+
+            {/*Add block 04 */}
             <div key="03" className='ice'>
               <div className="header">
                 <div className="index">ꬤ</div>
