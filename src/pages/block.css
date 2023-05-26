@@ -376,6 +376,14 @@ h1 {
     background-position: top right;
 }
 
+.beatrice:hover {
+    background: url("../../public/img/beatrice-cover.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .forest:hover {
     background: url("../../public/img/forest.png") no-repeat;
     background-repeat: no-repeat;
