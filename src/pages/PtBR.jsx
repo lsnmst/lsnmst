@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar';
+import Navbarpt from '../Navbar-ptBR';
 import { Link } from "react-router-dom";
 import { Responsive, WidthProvider } from "react-grid-layout";
 import '../../node_modules/react-grid-layout/css/styles.css';
@@ -58,7 +58,7 @@ export default class Home extends React.Component {
 
     return (
 
-      <><Navbar /><><><>
+      <><Navbarpt /><><><>
         <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
 
         <div>
@@ -81,7 +81,7 @@ export default class Home extends React.Component {
                 <div className="year">2023</div>
               </div>
               <div className="title"><a href="https://watetezi.github.io/beatrice/" target="_blank" rel="noopener noreferrer">BEATRICE</a></div>
-              <div className="description"><p><a href="https://watetezi.github.io/beatrice/" target="_blank" rel="noopener noreferrer">\Morembe, my name is Beatrice\ is the story of a fisherwoman and her community at the border between Uganda and the Democratic Republic of Congo, a loudspeaker to amplify her voice given the challenges the women are facing for their livelihoods</a></p></div>
+              <div className="description"><p><a href="https://watetezi.github.io/beatrice/" target="_blank" rel="noopener noreferrer">\Morembe, meu nome é Beatrice\, é a história de uma pescadora e sua comunidade na fronteira entre Uganda e a República Democrática do Congo. Como as mulheres estão enfrentando desafios para sua subsistência, um megafone para amplificar sua voz</a></p></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -97,7 +97,7 @@ export default class Home extends React.Component {
                 <div className="year">2023</div>
               </div>
               <div className="title"><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">CARTO RITUALS</a></div>
-              <div className="description"><p><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">\Rituals in the cartographic practice\ visual archive hosts social technology practices and participatory cartography from the Global South as an endogenous product of the multiple relationship between body-territory-language. Countering epistemic racism</a></p></div>
+              <div className="description"><p><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">\Rituals in the cartographic practice\, è um arquivo visual que reúne práticas de tecnologia social e cartografia participativa do Sul Global como um produto endógeno da relação múltipla entre corpo - território - idioma. Enfrentando o racismo epistêmico</a></p></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -114,7 +114,7 @@ export default class Home extends React.Component {
                 <div className="year">2022</div>
               </div>
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">Comuni-<br />dados</a></div>
-              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">\Comunidados\ is a participative platform to collect, share and process data, information, texts, videos, images, audio about Tinguá and the communities of the Tinguá Valley (Nova Iguaçu, Rio de Janiero, Brazil). From an environmentalist perspective and a fair and sustainable socio-economic development</a></p></div>
+              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">\Comunidados\, è uma plataforma participativa para coletar, compartilhar e processar dados, informações, textos, vídeos, imagens e áudio sobre Tinguá e as comunidades do Vale do Tinguá (Nova Iguaçu, Rio de Janeiro, Brasil). A partir de uma perspectiva ambientalista e de um desenvolvimento socioeconômico justo e sustentável</a></p></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -131,7 +131,7 @@ export default class Home extends React.Component {
                 <div className="year">2022</div>
               </div>
               <div className="title"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Last Defence</a></div>
-              <div className="description"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Open Source Investigation (2022). \The Last Line of Defense. Halting the Ecological Crisis and Ecosystem Collapse of the Congo Basin Edge\, investigates the concepts of social, ecological and climate justice by focusing on the Watsa territory, Haut-Uélé province, Democratic Republic of the Congo</a></div>
+              <div className="description"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">\The last defence\, mostra como evitar a crise ecológica e o colapso do ecossistema da orla da bacia do Congo e investiga as noções de justiça social, ecológica e climática, concentrando-se no território de Watsa, província de Haut-Uélé, República Democrática do Congo</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -147,7 +147,7 @@ export default class Home extends React.Component {
                 <div className="year">2021</div>
               </div>
               <div className="title"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">Blood in the Forest</a></div>
-              <div className="description"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">Open Source Investigation (2021). Blood in the forest. Identification of ecologically fragile areas prioritized for forest conservation and restoration in Mambasa and Mongbwalu sector, Ituri province, Democratic Republic of the Congo</a></div>
+              <div className="description"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">\Blood in the Forest\, identifica áreas prioritárias ecologicamente frágeis para conservação e restauração florestal no setor de Mambasa e Mongbwalu, província de Ituri, República Democrática do Congo</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -162,7 +162,7 @@ export default class Home extends React.Component {
                 <div className="year">2021</div>
               </div>
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">ALONG THE SHORES</a></div>
-              <div className="description"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">Open Source Investigation (2021). Along the Shores of the Itaka Lya Mwitanzige. A journey that connects women and rights in the Northern Albertine Rift, Uganda</a></div>
+              <div className="description"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">\Along the Shores of the Itaka Lya Mwitanzige\, è uma viagem que conecta mulheres e seus direitos no norte de Albertine Rift, Uganda</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-6" title='Front-end web developer'></div>
@@ -177,7 +177,7 @@ export default class Home extends React.Component {
                 <div className="year">2021</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/comunidados/arquivo/Brasil/Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense/01-Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense.pdf" target="_blank" rel="noopener noreferrer">ÁGUA E MATA</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/comunidados/arquivo/Brasil/Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense/01-Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense.pdf" target="_blank" rel="noopener noreferrer">Open Source Investigation (2021). Onda Verde, a Forest Economies Center for the Baixada Fluminense (State of Rio de Janeiro, Brazil). Assessment of the operational scenario and the potential of forest restoration as a climate change adaptation strategy</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/comunidados/arquivo/Brasil/Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense/01-Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense.pdf" target="_blank" rel="noopener noreferrer">Um relatório para demonstrar que a entidade ambientalista Onda Verde se torna um centro para as economias florestais da Baixada Fluminense (Estado do Rio de Janeiro, Brasil), ampliando o potencial da restauração florestal como estratégia de adaptação às mudanças climáticas</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -192,7 +192,7 @@ export default class Home extends React.Component {
                 <div className="year">2021</div>
               </div>
               <div className="title"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">664<br />HECTARES</a></div>
-              <div className="description"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">Two sugarcane companies have begun clearing thousands of hectares in disputed sections of Uganda’s Bugoma Forest. \664 Hectares\ enables satellite technology depicts the degree of forest destruction</a></div>
+              <div className="description"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">Duas empresas da indústria da cana-de-açúcar deram início ao desmatamento de milhares de hectares em trechos disputados da Floresta Bugoma, em Uganda. \664 Hectares\, habilita o sensoriamento remoto para demonstrar o tamanho da destruição da floresta</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -208,7 +208,7 @@ export default class Home extends React.Component {
                 <div className="year">2020</div>
               </div>
               <div className="title"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">TRACKER</a></div>
-              <div className="description"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">The \Albertine Region Tracker\ is a human rights abuses and environmental crimes reporting and mapping platform. The Albertine region tracker gathers, audits and publishes reports from a network of dedicated and trained activists based in the districts of northern and western Uganda</a></div>
+              <div className="description"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">\Albertine Region Tracker\, é uma plataforma de mapeamento e denúncia de violações de direitos humanos e crimes ambientais. O tracker da região de Albertine Rift coleta, verifica e publica relatórios de uma rede de ativistas dedicados e treinados, baseados nos distritos do norte e oeste de Uganda</a></div>
               <div className="viz">
                 <div className="circles-6" title='Front-end web developer'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -223,7 +223,7 @@ export default class Home extends React.Component {
                 <div className="year">2020</div>
               </div>
               <div className="title"><a href="https://valori.it/innalzamento-mari-danni-miliardari-mappe/" target="_blank" rel="noopener noreferrer">ITALY UNDERWATER</a></div>
-              <div className="description"><a href="https://valori.it/innalzamento-mari-danni-miliardari-mappe/" target="_blank" rel="noopener noreferrer">Italy underwater because of climate change: how much wealth each Italian province would lose</a></div>
+              <div className="description"><a href="https://valori.it/innalzamento-mari-danni-miliardari-mappe/" target="_blank" rel="noopener noreferrer">\Italy underwater\, estima a riqueza que cada província italiana perderia devido a elevação do nível do mar provocada pelas mudanças climáticas</a></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -237,7 +237,7 @@ export default class Home extends React.Component {
                 <div className="year">2019</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">METRO CARTO</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">Online course. The metropolitan cartography is the process of reading, understanding, and interpreting the territory of a metropolis using maps and spatial information technologies in a decision-making support system</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer"> \The metropolitan cartography\, é um curso on-line sobre o processo de leitura, conhecimento e interpretação do território de uma metrópole usando mapas e tecnologias de informações espaciais por meio de um sistema de apoio à tomada de decisões</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-6" title='Front-end web developer'></div>
@@ -251,7 +251,7 @@ export default class Home extends React.Component {
                 <div className="year">2018</div>
               </div>
               <div className="title">PACEÑ@S Y ALTEÑ@S</div>
-              <div className="description">Research materials and methods about La Paz / El Alto (Bolivia) urban area within the UN-Habitat Expert Group for developing the Guiding Principles on Urban-Rural Linkages for advancing integrated territorial development</div>
+              <div className="description">Materiais e métodos de pesquisa sobre a área urbana de La Paz / El Alto (Bolívia) no âmbito do Grupo de Especialistas da ONU-Habitat para o desenvolvimento dos Princípios Orientadores sobre Conexões Urbano-Rurais para o avanço do desenvolvimento territorial integrad</div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -265,7 +265,7 @@ export default class Home extends React.Component {
                 <div className="year">2018</div>
               </div>
               <div className="title">WAKATI UJAO JE?</div>
-              <div className="description">Research materials and methods about secondary cities in Uganda with a focus in the Koboko, Arua, Nebbi corridor, West Nile Region (Uganda)</div>
+              <div className="description">Materiais e métodos de pesquisa sobre cidades secundárias em Uganda, com foco no corredor Koboko, Arua, Nebbi, região do Nilo Ocidental (Uganda)</div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -279,7 +279,7 @@ export default class Home extends React.Component {
                 <div className="year">2017</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">SANT ORSOLA 5</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">Historical GIS. Muzio, Gio Ponti and the architects of Sant Orsola street (Milan, Italy)</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">\Le matite di Sant'Orsola\ é um GIS histórico que documenta a vida e as obras dos arquitetos de Milão da geração "Novecento", como Gio Ponti e Piero Portaluppi</a></div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
                 <div className="circles-7" title='Map Design'></div>
@@ -293,7 +293,7 @@ export default class Home extends React.Component {
                 <div className="year">2017</div>
               </div>
               <div className="title">DIESELGATE</div>
-              <div className="description">A series of infographics on Dieselgate case, presenting the steps taken for a paradigm shift in the automotive industry</div>
+              <div className="description">Uma série de infográficos sobre o caso Dieselgate, apresentando as medidas tomadas para uma mudança de paradigma no setor automotivo</div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
               </div>
@@ -306,7 +306,7 @@ export default class Home extends React.Component {
                 <div className="year">2014</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">SOUND OF THINGS</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">Sonification and musification: turning information into knowledge through the design and production of a taxonomy that provides a systematic classification of visualization techniques of data.</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">\Sound of Things\ é um projeto de sonificação e musicalização, sobre como transformar informações por meio do design e da produção de uma taxonomia sonora</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
@@ -319,7 +319,7 @@ export default class Home extends React.Component {
                 <div className="year">2013</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">ANIMAL ESTATES</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">\Animal Estates\ is a speculative project around the capability of living species to build their own inhabiting space, to co-operate and co-habit.</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">\Animal Estates\ é um projeto especulativo sobre a capacidade das espécies silvestres de construir no espaço urbano seu próprio espaço de habitação, de cooperar e co-habitar</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
@@ -347,7 +347,7 @@ export default class Home extends React.Component {
         </div>
 
       </><div className='bio'>
-          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Because we are human beings surrounded by immeasurable complexity, we cannot terraform Mars in a matter of a few human generations, nor surgically engineer the climate without a flood of unintended consequences. So if you need quick and simple solutions, you must first be able to see the complexity. My superpower is indeed to turn the simple into complex (≠ complicated) and communicate it, because once revealed, it will be easier to find common solutions. Or at least, we try to. The urgency to understand practices, ontologies and epistemologies made me passionate about research and investigations. Above all, building experiences in the fields of political ecology and social justice; moreover, I have a special attachment to the causes of African and Afro-descendant movements and to forms of liberation and South-South cooperation. Thus, I cannot stop listening to people and I am willing to travel as far as necessary to learn from them.<br /><br />Thanks for being here!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br /><Link style={{ fontSize: 8 }} to="/PtBR">ptBR</Link><br /><br />
+          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Como somos seres humanos cercados por uma complexidade imensurável, não conseguimos terraformar Marte em uma questão de poucas gerações humanas, nem fazer a engenharia cirúrgica do clima sem uma enxurrada de consequências indesejadas. Então, se você precisa de soluções rápidas e simples, primeiro deve ser capaz de enxergar a complexidade. Meu superpoder é justamente transformar o simples em complexo (≠ complicado) e comunicá-lo, pois, uma vez revelado, será mais fácil encontrar soluções comuns. Ou pelo menos, tentamos. A urgência de compreender práticas, ontologias e epistemologias fizeram que me apaixonasse por pesquisas e investigações. Acima de tudo, construindo experiências nos campos da ecologia política e da justiça social; aliás, tenho um apego especial às causas dos movimentos africanos e afrodescendentes e às formas de libertação e cooperação Sul-Sul. Assim, não posso deixar de ouvir as pessoas e estou disposto a viajar o quanto for necessário para aprender com elas.<br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br /><Link style={{fontSize: 8 }} to="/lsnmst">EN</Link><br /><br />
           </div>
         </div></></>
     );
