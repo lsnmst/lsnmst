@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbarpt from '../Navbar-ptBR';
+import NavbarptBR from './Navbar-ptBR';
 import { Link } from "react-router-dom";
 import { Responsive, WidthProvider } from "react-grid-layout";
 import '../../node_modules/react-grid-layout/css/styles.css';
@@ -58,7 +58,7 @@ export default class Home extends React.Component {
 
     return (
 
-      <><Navbarpt /><><><>
+      <><NavbarptBR /><><><>
         <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
 
         <div>

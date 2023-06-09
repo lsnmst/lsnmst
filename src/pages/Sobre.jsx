@@ -1,5 +1,5 @@
 import React from 'react';
-import CasabarptBR from '../Casabar-ptBR';
+import CasabarptBR from './Casabar-ptBR';
 import { Responsive, WidthProvider } from "react-grid-layout";
 import '../../node_modules/react-grid-layout/css/styles.css';
 import '../../node_modules/react-resizable/css/styles.css';

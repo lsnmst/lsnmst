@@ -1,16 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="menu">
+    <><nav className="menu">
       <ul>
         <li>
           <Link to="/about">Hidden section with some text</Link>
         </li>
       </ul>
     </nav>
-  );
+
+      <Outlet /></>
+  )
 }
+
 
 export default Navbar;

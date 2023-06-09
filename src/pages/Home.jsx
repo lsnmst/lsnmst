@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar';
+import Navbar from './Navbar';
 import { Link } from "react-router-dom";
 import { Responsive, WidthProvider } from "react-grid-layout";
 import '../../node_modules/react-grid-layout/css/styles.css';
