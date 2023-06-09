@@ -237,7 +237,7 @@ export default class Home extends React.Component {
                 <div className="year">2019</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">METRO CARTO</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer"> \The metropolitan cartography\, é um curso on-line sobre o processo de leitura, conhecimento e interpretação do território de uma metrópole usando mapas e tecnologias de informações espaciais por meio de um sistema de apoio à tomada de decisões</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">\The metropolitan cartography\, é um curso on-line sobre o processo de leitura, conhecimento e interpretação do território de uma metrópole usando mapas e tecnologias de informações espaciais por meio de um sistema de apoio à tomada de decisões</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-6" title='Front-end web developer'></div>
@@ -279,7 +279,7 @@ export default class Home extends React.Component {
                 <div className="year">2017</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">SANT ORSOLA 5</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">\Le matite di Sant'Orsola\ é um GIS histórico que documenta a vida e as obras dos arquitetos de Milão da geração "Novecento", como Gio Ponti e Piero Portaluppi</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">\Le matite di Sant'Orsola\, é um GIS histórico que documenta a vida e as obras dos arquitetos de Milão da geração "Novecento", como Gio Ponti e Piero Portaluppi</a></div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
                 <div className="circles-7" title='Map Design'></div>
@@ -306,7 +306,7 @@ export default class Home extends React.Component {
                 <div className="year">2014</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">SOUND OF THINGS</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">\Sound of Things\ é um projeto de sonificação e musicalização, sobre como transformar informações por meio do design e da produção de uma taxonomia sonora</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">\Sound of Things\, é um projeto de sonificação e musicalização, sobre como transformar informações por meio do design e da produção de uma taxonomia sonora</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
@@ -319,7 +319,7 @@ export default class Home extends React.Component {
                 <div className="year">2013</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">ANIMAL ESTATES</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">\Animal Estates\ é um projeto especulativo sobre a capacidade das espécies silvestres de construir no espaço urbano seu próprio espaço de habitação, de cooperar e co-habitar</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">\Animal Estates\, é um projeto especulativo sobre a capacidade das espécies silvestres de construir no espaço urbano seu próprio espaço de habitação, de cooperar e co-habitar</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
@@ -330,19 +330,19 @@ export default class Home extends React.Component {
 
       </><div className='legend'>
           <div className="circles-3" style={{ width: "100%" }}>
-            <div className='legendtext'>Researcher</div>
+            <div className='legendtext'>Pesquisa</div>
           </div>
           <div className="circles-4" style={{ width: "100%", marginTop: "5px" }}>
-            <div className='legendtext'>GIS Specialist</div>
+            <div className='legendtext'>Especialista em SIG</div>
           </div>
           <div className="circles-5" style={{ width: "100%", marginTop: "5px" }}>
-            <div className='legendtext'>Information Designer</div>
+            <div className='legendtext'>Design de informação</div>
           </div>
           <div className="circles-6" style={{ width: "100%", marginTop: "5px" }}>
-            <div className='legendtext'>Front-end web developer</div>
+            <div className='legendtext'>Desenvolvimento web</div>
           </div>
           <div className="circles-7" style={{ width: "100%", marginTop: "5px" }}>
-            <div className='legendtext'>Map Design</div>
+            <div className='legendtext'>Design do mapa</div>
           </div>
         </div>
 

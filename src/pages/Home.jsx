@@ -131,7 +131,7 @@ export default class Home extends React.Component {
                 <div className="year">2022</div>
               </div>
               <div className="title"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Last Defence</a></div>
-              <div className="description"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Open Source Investigation (2022). \The Last Line of Defense. Halting the Ecological Crisis and Ecosystem Collapse of the Congo Basin Edge\, investigates the concepts of social, ecological and climate justice by focusing on the Watsa territory, Haut-Uélé province, Democratic Republic of the Congo</a></div>
+              <div className="description"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">\The last defence\, demonstrates how to avoid the ecological crisis and the collapse of the ecosystem of the Congo basin edge and investigates the notions of social, ecological and climate justice, focusing on the territory of Watsa, Haut-Uélé province, Democratic Republic of Congo</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -147,7 +147,7 @@ export default class Home extends React.Component {
                 <div className="year">2021</div>
               </div>
               <div className="title"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">Blood in the Forest</a></div>
-              <div className="description"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">Open Source Investigation (2021). Blood in the forest. Identification of ecologically fragile areas prioritized for forest conservation and restoration in Mambasa and Mongbwalu sector, Ituri province, Democratic Republic of the Congo</a></div>
+              <div className="description"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">\Blood in the Forest\, identifies ecologically fragile priority areas for forest conservation and restoration in the Mambasa and Mongbwalu sector, Ituri province, Democratic Republic of Congo</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -162,7 +162,7 @@ export default class Home extends React.Component {
                 <div className="year">2021</div>
               </div>
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">ALONG THE SHORES</a></div>
-              <div className="description"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">Open Source Investigation (2021). Along the Shores of the Itaka Lya Mwitanzige. A journey that connects women and rights in the Northern Albertine Rift, Uganda</a></div>
+              <div className="description"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">\Along the Shores of the Itaka Lya Mwitanzige\, is a journey connecting women and their rights in the Northern Albertine Rift, Uganda</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-6" title='Front-end web developer'></div>
@@ -177,7 +177,7 @@ export default class Home extends React.Component {
                 <div className="year">2021</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/comunidados/arquivo/Brasil/Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense/01-Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense.pdf" target="_blank" rel="noopener noreferrer">ÁGUA E MATA</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/comunidados/arquivo/Brasil/Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense/01-Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense.pdf" target="_blank" rel="noopener noreferrer">Open Source Investigation (2021). Onda Verde, a Forest Economies Center for the Baixada Fluminense (State of Rio de Janeiro, Brazil). Assessment of the operational scenario and the potential of forest restoration as a climate change adaptation strategy</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/comunidados/arquivo/Brasil/Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense/01-Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense.pdf" target="_blank" rel="noopener noreferrer">A report to demonstrate how the conservation NGO Onda Verde could become the forest economy hub for the Baixada Fluminense (State of Rio de Janeiro, Brazil), enhancing the potential of forest restoration as a strategy to adapt to climate change</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -223,7 +223,7 @@ export default class Home extends React.Component {
                 <div className="year">2020</div>
               </div>
               <div className="title"><a href="https://valori.it/innalzamento-mari-danni-miliardari-mappe/" target="_blank" rel="noopener noreferrer">ITALY UNDERWATER</a></div>
-              <div className="description"><a href="https://valori.it/innalzamento-mari-danni-miliardari-mappe/" target="_blank" rel="noopener noreferrer">Italy underwater because of climate change: how much wealth each Italian province would lose</a></div>
+              <div className="description"><a href="https://valori.it/innalzamento-mari-danni-miliardari-mappe/" target="_blank" rel="noopener noreferrer">\Italy underwater\, estimates the wealth that each Italian province would lose due to rising sea levels caused by climate change</a></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -237,7 +237,7 @@ export default class Home extends React.Component {
                 <div className="year">2019</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">METRO CARTO</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">Online course. The metropolitan cartography is the process of reading, understanding, and interpreting the territory of a metropolis using maps and spatial information technologies in a decision-making support system</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">\The metropolitan cartography\, is an online course about the process of reading, knowing and interpreting the territory of a metropolis using maps and spatial information technologies through a decision support system</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-6" title='Front-end web developer'></div>
@@ -279,7 +279,7 @@ export default class Home extends React.Component {
                 <div className="year">2017</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">SANT ORSOLA 5</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">Historical GIS. Muzio, Gio Ponti and the architects of Sant Orsola street (Milan, Italy)</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">\Le matite di Sant'Orsola\, is a historical GIS that documents the life and works of Milan architects of the "Novecento" generation, such as Gio Ponti and Piero Portaluppi</a></div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
                 <div className="circles-7" title='Map Design'></div>
@@ -293,7 +293,7 @@ export default class Home extends React.Component {
                 <div className="year">2017</div>
               </div>
               <div className="title">DIESELGATE</div>
-              <div className="description">A series of infographics on Dieselgate case, presenting the steps taken for a paradigm shift in the automotive industry</div>
+              <div className="description">A series of infographics on the Dieselgate case, presenting the steps taken towards a paradigm shift in the automotive sector</div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
               </div>
@@ -306,7 +306,7 @@ export default class Home extends React.Component {
                 <div className="year">2014</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">SOUND OF THINGS</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">Sonification and musification: turning information into knowledge through the design and production of a taxonomy that provides a systematic classification of visualization techniques of data.</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/soundofthings/index.html" target="_blank" rel="noopener noreferrer">\Sound of Things\, is a sonification and musification project, about transforming information through design and the production of a sound taxonomy</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
@@ -319,7 +319,7 @@ export default class Home extends React.Component {
                 <div className="year">2013</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">ANIMAL ESTATES</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">\Animal Estates\ is a speculative project around the capability of living species to build their own inhabiting space, to co-operate and co-habit.</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/resource/alessandro-musetta-animal-estates.pdf" target="_blank" rel="noopener noreferrer">\Animal Estates\, is a speculative project around the capability of living species to build their own inhabiting space, to co-operate and co-habit.</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
