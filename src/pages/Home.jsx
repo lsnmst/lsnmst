@@ -81,7 +81,7 @@ export default class Home extends React.Component {
                 <div className="year">2023</div>
               </div>
               <div className="title"><a href="https://watetezi.github.io/beatrice/" target="_blank" rel="noopener noreferrer">BEATRICE</a></div>
-              <div className="description"><p><a href="https://watetezi.github.io/beatrice/" target="_blank" rel="noopener noreferrer">\Morembe, my name is Beatrice\ is the story of a fisherwoman and her community at the border between Uganda and the Democratic Republic of Congo, a loudspeaker to amplify her voice given the challenges the women are facing for their livelihoods</a></p></div>
+              <div className="description"><p><a href="https://watetezi.github.io/beatrice/" target="_blank" rel="noopener noreferrer">\Morembe, my name is Beatrice\, is the story of a fisherwoman and her community at the border between Uganda and the Democratic Republic of Congo, a loudspeaker to amplify her voice given the challenges the women are facing for their livelihoods</a></p></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -97,7 +97,7 @@ export default class Home extends React.Component {
                 <div className="year">2023</div>
               </div>
               <div className="title"><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">CARTO RITUALS</a></div>
-              <div className="description"><p><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">\Rituals in the cartographic practice\ visual archive hosts social technology practices and participatory cartography from the Global South as an endogenous product of the multiple relationship between body-territory-language. Countering epistemic racism</a></p></div>
+              <div className="description"><p><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">\Rituals in the cartographic practice\, visual archive hosts social technology practices and participatory cartography from the Global South as an endogenous product of the multiple relationship between body-territory-language. Countering epistemic racism</a></p></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -114,7 +114,7 @@ export default class Home extends React.Component {
                 <div className="year">2022</div>
               </div>
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">Comuni-<br />dados</a></div>
-              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">\Comunidados\ is a participative platform to collect, share and process data, information, texts, videos, images, audio about Tinguá and the communities of the Tinguá Valley (Nova Iguaçu, Rio de Janiero, Brazil). From an environmentalist perspective and a fair and sustainable socio-economic development</a></p></div>
+              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">\Comunidados\, is a participative platform to collect, share and process data, information, texts, videos, images, audio about Tinguá and the communities of the Tinguá Valley (Nova Iguaçu, Rio de Janiero, Brazil). From an environmentalist perspective and a fair and sustainable socio-economic development</a></p></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -192,7 +192,7 @@ export default class Home extends React.Component {
                 <div className="year">2021</div>
               </div>
               <div className="title"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">664<br />HECTARES</a></div>
-              <div className="description"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">Two sugarcane companies have begun clearing thousands of hectares in disputed sections of Uganda’s Bugoma Forest. \664 Hectares\ enables satellite technology depicts the degree of forest destruction</a></div>
+              <div className="description"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">Two sugarcane companies have begun clearing thousands of hectares in disputed sections of Uganda’s Bugoma Forest. \664 Hectares\, enables satellite technology depicts the degree of forest destruction</a></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-4" title='GIS specialist'></div>
@@ -208,7 +208,7 @@ export default class Home extends React.Component {
                 <div className="year">2020</div>
               </div>
               <div className="title"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">TRACKER</a></div>
-              <div className="description"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">The \Albertine Region Tracker\ is a human rights abuses and environmental crimes reporting and mapping platform. The Albertine region tracker gathers, audits and publishes reports from a network of dedicated and trained activists based in the districts of northern and western Uganda</a></div>
+              <div className="description"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">The \Albertine Region Tracker\, is a human rights abuses and environmental crimes reporting and mapping platform. The Albertine region tracker gathers, audits and publishes reports from a network of dedicated and trained activists based in the districts of northern and western Uganda</a></div>
               <div className="viz">
                 <div className="circles-6" title='Front-end web developer'></div>
                 <div className="circles-4" title='GIS specialist'></div>
