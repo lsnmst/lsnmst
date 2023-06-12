@@ -292,8 +292,8 @@ export default class Home extends React.Component {
                 <div className="index">ꖵ</div>
                 <div className="year">2017</div>
               </div>
-              <div className="title">DIESELGATE</div>
-              <div className="description">A series of infographics on the Dieselgate case, presenting the steps taken towards a paradigm shift in the automotive sector</div>
+              <div className="title"><a href="https://www.alessandromusetta.com/cloud/Musetta_Dieselgate_Esta_FIOM_poster.pdf" target="_blank" rel="noopener noreferrer">DIESELGATE</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/cloud/Musetta_Dieselgate_Esta_FIOM_poster.pdf" target="_blank" rel="noopener noreferrer">A series of infographics on the Dieselgate case, presenting the steps taken towards a paradigm shift in the automotive sector</a></div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
               </div>

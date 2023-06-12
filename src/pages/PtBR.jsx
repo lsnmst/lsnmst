@@ -279,7 +279,7 @@ export default class Home extends React.Component {
                 <div className="year">2017</div>
               </div>
               <div className="title"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">SANT ORSOLA 5</a></div>
-              <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">\Le matite di Sant'Orsola\, é um GIS histórico que documenta a vida e as obras dos arquitetos de Milão da geração "Novecento", como Gio Ponti e Piero Portaluppi</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/presentations/milano/milano.php" target="_blank" rel="noopener noreferrer">\Le matite di Sant'Orsola\, é um SIG histórico que documenta a vida e as obras dos arquitetos de Milão da geração "Novecento", como Gio Ponti e Piero Portaluppi</a></div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
                 <div className="circles-7" title='Map Design'></div>
@@ -292,8 +292,8 @@ export default class Home extends React.Component {
                 <div className="index">ꖵ</div>
                 <div className="year">2017</div>
               </div>
-              <div className="title">DIESELGATE</div>
-              <div className="description">Uma série de infográficos sobre o caso Dieselgate, apresentando as medidas tomadas para uma mudança de paradigma no setor automotivo</div>
+              <div className="title"><a href="https://www.alessandromusetta.com/cloud/Musetta_Dieselgate_Esta_FIOM_poster.pdf" target="_blank" rel="noopener noreferrer">DIESELGATE</a></div>
+              <div className="description"><a href="https://www.alessandromusetta.com/cloud/Musetta_Dieselgate_Esta_FIOM_poster.pdf" target="_blank" rel="noopener noreferrer">Uma série de infográficos sobre o caso Dieselgate, apresentando as medidas tomadas para uma mudança de paradigma no setor automotivo</a></div>
               <div className="viz">
                 <div className="circles-5" title='Information designer'></div>
               </div>
