@@ -384,6 +384,14 @@ h1 {
     background-position: top right;
 }
 
+.ishasha:hover {
+    background: url("../../public/img/IDPs.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .forest:hover {
     background: url("../../public/img/forest.png") no-repeat;
     background-repeat: no-repeat;
