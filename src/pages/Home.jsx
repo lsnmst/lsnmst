@@ -16,45 +16,47 @@ export default class Home extends React.Component {
   }
   render() {
     const layout = [
-      { i: "18", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "17", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "16", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "15", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "14", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "13", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "12", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "11", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "10", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "09", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "08", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "07", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "06", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "05", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "04", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "03", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "02", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "01", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "19", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "18", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "17", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "16", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "15", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "14", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "13", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "12", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "11", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "10", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "09", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "08", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "07", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "06", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "05", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "04", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "03", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "02", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "01", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
     ];
 
     const layoutxs = [
-      { i: "18", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "17", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "16", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "15", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "14", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "13", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "12", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "11", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "10", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "09", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "08", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "07", x: 9, y: 6, w: 3, h: 3, static: true },
-      { i: "06", x: 0, y: 9, w: 3, h: 3, static: true },
-      { i: "05", x: 3, y: 9, w: 3, h: 3, static: true },
-      { i: "04", x: 6, y: 9, w: 3, h: 3, static: true },
-      { i: "03", x: 9, y: 9, w: 3, h: 3, static: true },
-      { i: "02", x: 0, y: 12, w: 3, h: 3, static: true },
-      { i: "01", x: 3, y: 12, w: 3, h: 3, static: true },
+      { i: "19", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "18", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "17", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "16", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "15", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "14", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "13", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "12", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "11", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "10", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "09", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "08", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "07", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "06", x: 3, y: 9, w: 3, h: 3, static: true },
+      { i: "05", x: 6, y: 9, w: 3, h: 3, static: true },
+      { i: "04", x: 9, y: 9, w: 3, h: 3, static: true },
+      { i: "03", x: 0, y: 12, w: 3, h: 3, static: true },
+      { i: "02", x: 3, y: 12, w: 3, h: 3, static: true },
+      { i: "01", x: 6, y: 12, w: 3, h: 3, static: true },
     ];
 
 
@@ -75,6 +77,21 @@ export default class Home extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+0A5B3 */}
 
+            {/*Add block 19 */}
+            <div key="19" className='quilombo'>
+              <div className="header">
+                <div className="index">ꔞ</div>
+                <div className="year">2023</div>
+              </div>
+              <div className="title"><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">RE-EXISTÊNCIAS</a></div>
+              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">\Re-existências quilombolas\, is a visibilisation and recognition campaign for the Brazilian "quilombola" communities</a></p></div>
+              <div className="viz">
+                <div className="circles-4" title='GIS specialist'></div>
+                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-6" title='Front-end web developer'></div>
+                <div className="circles-7" title='Map Design'></div>
+              </div>
+            </div>
 
             {/*Add block 18 */}
             <div key="18" className='ishasha'>

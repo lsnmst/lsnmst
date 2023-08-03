@@ -392,6 +392,14 @@ h1 {
     background-position: top right;
 }
 
+.quilombo:hover {
+    background: url("../../public/img/quilombolas.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .forest:hover {
     background: url("../../public/img/forest.png") no-repeat;
     background-repeat: no-repeat;
