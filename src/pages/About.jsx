@@ -36,7 +36,7 @@ export default class Home extends React.Component {
     return (
 
       <><Casabar /><><><>
-      <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
+        <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
 
         <div>
           <ResponsiveGridLayout
@@ -50,38 +50,8 @@ export default class Home extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+AB01 */}
 
-            {/*Add block 05 */}
-            <div key="06" className='amazonia'>
-              <div className="header">
-                <div className="index">ꬁ</div>
-                <div className="yeartext">2022</div>
-              </div>
-              <div className="description">LANG_EN, pt-BR, ES, FR</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/alliances-aliancas-alianzas-alliances.pdf" target="_blank" rel="noopener noreferrer">Tightening alliances between researchers, earth and land rights defenders between Amazonia and the Congo Basin</a></div>
-            </div>
-
-            {/*Add block 04 */}
-            <div key="05" className='candomble'>
-              <div className="header">
-                <div className="index">ꬉ</div>
-                <div className="yeartext">2022</div>
-              </div>
-              <div className="description">LANG_EN, pt-BR</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/culto-afro-educacao-ambiental_v02.pdf" target="_blank" rel="noopener noreferrer">Stop religious intolerance through environmental education. The African diaspora religions in Brazil</a></div>
-            </div>
-
-            {/*Add block 03 */}
-            <div key="04" className='idp'>
-              <div className="header">
-                <div className="index">𐓦</div>
-                <div className="yeartext">2022</div>
-              </div>
-              <div className="description">LANG_EN</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/Managing-water-scarcity-IDPs-Rutshuru-YOUsustain.pdf" target="_blank" rel="noopener noreferrer">Managing water scarcity in the IDPs camps located in the second-tier towns along the Congolese N2 national highway</a></div>
-            </div>
-
-            {/*Add block 04 */}
-            <div key="03" className='ice'>
+            {/*Add block 06 */}
+            <div key="06" className='ice'>
               <div className="header">
                 <div className="index">ꬤ</div>
                 <div className="yeartext">2023</div>
@@ -90,8 +60,8 @@ export default class Home extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Antarctica, Southern Ocean, Ross Sea, Victoria Land, Transantarctic Mountains, Ross Ice Shelf, Mcmurdo Sound, Terra Nova Bay</a></div>
             </div>
 
-            {/*Add block 02 */}
-            <div key="02" className='desert'>
+            {/*Add block 05 */}
+            <div key="05" className='desert'>
               <div className="header">
                 <div className="index">ꬬ</div>
                 <div className="yeartext">2023</div>
@@ -100,8 +70,8 @@ export default class Home extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Ténéré Desert, Aïr Mountains, Ighazer Plain, Aïr And Ténéré National Nature Reserve, Kawar Oases</a></div>
             </div>
 
-            {/*Add block 01 */}
-            <div key="01" className='forest'>
+            {/*Add block 04 */}
+            <div key="04" className='forest'>
               <div className="header">
                 <div className="index">︗</div>
                 <div className="yeartext">2023</div>
@@ -109,6 +79,37 @@ export default class Home extends React.Component {
               <div className="description">LANG_EN, FR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Forest, Congo Basin, Ituri And Hautuélé Provinces, Mambasa And Watsa Chiefdom, Okapi Wildlife Reserve, Kibali and Ituri River</a></div>
             </div>
+
+            {/*Add block 03 */}
+            <div key="03" className='amazonia'>
+              <div className="header">
+                <div className="index">ꬁ</div>
+                <div className="yeartext">2022</div>
+              </div>
+              <div className="description">LANG_EN, pt-BR, ES, FR</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/alliances-aliancas-alianzas-alliances.pdf" target="_blank" rel="noopener noreferrer">Tightening alliances between researchers, earth and land rights defenders between Amazonia and the Congo Basin</a></div>
+            </div>
+
+            {/*Add block 02 */}
+            <div key="02" className='candomble'>
+              <div className="header">
+                <div className="index">ꬉ</div>
+                <div className="yeartext">2022</div>
+              </div>
+              <div className="description">LANG_EN, pt-BR</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/culto-afro-educacao-ambiental_v02.pdf" target="_blank" rel="noopener noreferrer">Stop religious intolerance through environmental education. The African diaspora religions in Brazil</a></div>
+            </div>
+
+            {/*Add block 01 */}
+            <div key="01" className='idp'>
+              <div className="header">
+                <div className="index">𐓦</div>
+                <div className="yeartext">2022</div>
+              </div>
+              <div className="description">LANG_EN</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/Managing-water-scarcity-IDPs-Rutshuru-YOUsustain.pdf" target="_blank" rel="noopener noreferrer">Managing water scarcity in the IDPs camps located in the second-tier towns along the Congolese N2 national highway</a></div>
+            </div>
+
 
           </ResponsiveGridLayout>
 

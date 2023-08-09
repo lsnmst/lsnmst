@@ -166,10 +166,11 @@ h1 {
     padding: 0.2em;
     text-transform: uppercase;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 3.5em;
+    font-size: 3.3em;
     margin-top: 10%;
     max-height: 70%;
     overflow: hidden;
+    min-height: 150px !important;
 }
 
 .title a {
@@ -457,9 +458,10 @@ h1 {
 }
 
 .legend {
-    width: 95%;
-    margin: auto;
-    margin-top: 40px;
+    width: 66%;
+    margin: 100px auto;
+    text-align: justify;
+    text-justify: auto;
 }
 
 .legendtext {
@@ -504,9 +506,14 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
+
+    .menu li a {
+        padding: 14px 8px !important;
+    }
+
     .legend {
         width: 70%;
-        margin: 20px auto;
+        margin: 80px auto;
     }
 
     .legendtext {

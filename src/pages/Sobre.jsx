@@ -50,38 +50,8 @@ export default class Home extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+AB01 */}
 
-            {/*Add block 05 */}
-            <div key="06" className='amazonia'>
-              <div className="header">
-                <div className="index">ꬁ</div>
-                <div className="yeartext">2022</div>
-              </div>
-              <div className="description">LANG_EN, pt-BR, ES, FR</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/alliances-aliancas-alianzas-alliances.pdf" target="_blank" rel="noopener noreferrer">Fortalecimento das alianças entre pesquisadorxs, defensorxs da terra e dos direitos territoriais entre a Amazônia e a Bacia do Congo</a></div>
-            </div>
-
-            {/*Add block 04 */}
-            <div key="05" className='candomble'>
-              <div className="header">
-                <div className="index">ꬉ</div>
-                <div className="yeartext">2022</div>
-              </div>
-              <div className="description">LANG_EN, pt-BR</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/culto-afro-educacao-ambiental_v02.pdf" target="_blank" rel="noopener noreferrer">Acabar com a intolerância religiosa através da educação ambiental. As religiões da diáspora africana no Brasil</a></div>
-            </div>
-
-            {/*Add block 03 */}
-            <div key="04" className='idp'>
-              <div className="header">
-                <div className="index">𐓦</div>
-                <div className="yeartext">2022</div>
-              </div>
-              <div className="description">LANG_EN</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/Managing-water-scarcity-IDPs-Rutshuru-YOUsustain.pdf" target="_blank" rel="noopener noreferrer">Gerenciar a falta de água nos campos de refugiados internos ao longo da rodovia nacional congolesa N2</a></div>
-            </div>
-
-            {/*Add block 04 */}
-            <div key="03" className='ice'>
+            {/*Add block 06 */}
+            <div key="06" className='ice'>
               <div className="header">
                 <div className="index">ꬤ</div>
                 <div className="yeartext">2023</div>
@@ -90,8 +60,8 @@ export default class Home extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Antártica, Oceano Antártico, Mar de Ross, Terra de Victoria, Montanhas Transantárticas, Plataforma de Gelo Ross, Mcmurdo Sound</a></div>
             </div>
 
-            {/*Add block 02 */}
-            <div key="02" className='desert'>
+            {/*Add block 05 */}
+            <div key="05" className='desert'>
               <div className="header">
                 <div className="index">ꬬ</div>
                 <div className="yeartext">2023</div>
@@ -100,14 +70,44 @@ export default class Home extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Deserto de Ténéré, Montanhas de Aïr, Planície de Ighazer, Reserva Natural Nacional de Aïr e Ténéré, Oásis de Kawar</a></div>
             </div>
 
-            {/*Add block 01 */}
-            <div key="01" className='forest'>
+            {/*Add block 04 */}
+            <div key="04" className='forest'>
               <div className="header">
                 <div className="index">︗</div>
                 <div className="yeartext">2023</div>
               </div>
               <div className="description">LANG_EN, FR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Floresta, Bacia do Congo, Províncias de Ituri e Hautuélé, Chefatura de Mambasa e Watsa, Reserva do Okapi, Rio Kibali e Ituri</a></div>
+            </div>
+
+            {/*Add block 03 */}
+            <div key="03" className='amazonia'>
+              <div className="header">
+                <div className="index">ꬁ</div>
+                <div className="yeartext">2022</div>
+              </div>
+              <div className="description">LANG_EN, pt-BR, ES, FR</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/alliances-aliancas-alianzas-alliances.pdf" target="_blank" rel="noopener noreferrer">Fortalecimento das alianças entre pesquisadorxs, defensorxs da terra e dos direitos territoriais entre a Amazônia e a Bacia do Congo</a></div>
+            </div>
+
+            {/*Add block 02 */}
+            <div key="02" className='candomble'>
+              <div className="header">
+                <div className="index">ꬉ</div>
+                <div className="yeartext">2022</div>
+              </div>
+              <div className="description">LANG_EN, pt-BR</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/culto-afro-educacao-ambiental_v02.pdf" target="_blank" rel="noopener noreferrer">Acabar com a intolerância religiosa através da educação ambiental. As religiões da diáspora africana no Brasil</a></div>
+            </div>
+
+            {/*Add block 01 */}
+            <div key="01" className='idp'>
+              <div className="header">
+                <div className="index">𐓦</div>
+                <div className="yeartext">2022</div>
+              </div>
+              <div className="description">LANG_EN</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/Managing-water-scarcity-IDPs-Rutshuru-YOUsustain.pdf" target="_blank" rel="noopener noreferrer">Gerenciar a falta de água nos campos de refugiados internos ao longo da rodovia nacional congolesa N2</a></div>
             </div>
 
           </ResponsiveGridLayout>

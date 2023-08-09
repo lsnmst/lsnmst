@@ -83,7 +83,7 @@ export default class Home extends React.Component {
                 <div className="index">ꔞ</div>
                 <div className="year">2023</div>
               </div>
-              <div className="title"><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">RE-EXISTÊNCIAS</a></div>
+              <div className="title"><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">RE-EXISTIR</a></div>
               <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">\Re-existências quilombolas\, is a visibilisation and recognition campaign for the Brazilian "quilombola" communities</a></p></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
