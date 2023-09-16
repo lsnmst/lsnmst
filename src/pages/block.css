@@ -130,6 +130,12 @@ h2 {
     padding: 20px;
 }
 
+.dopoilnomecheappareprimadelrestopt {
+    width: 800px;
+    outline: solid 5px #000000;
+    padding: 20px;
+}
+
 .ascii {
     text-align: center;
 }
@@ -596,5 +602,12 @@ h2 {
         padding: 20px;
         font-size: 2em !important;
     }
+
+    .dopoilnomecheappareprimadelrestopt {
+        max-width: 300px;
+        padding: 20px;
+        font-size: 1.5em !important;
+    }
+
     
 }

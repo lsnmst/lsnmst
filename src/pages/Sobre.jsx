@@ -37,7 +37,6 @@ export default class Home extends React.Component {
 
       <><CasabarptBR /><><><>
       <h1 className='ilnomecheappareprimadelrestopt'><span>LSNMST</span></h1>
-      <h2 className='dopoilnomecheappareprimadelresto'><span>AMPLIFICA AS HISTÓRIAS DAS COMUNIDADES MARGINALIZADAS, CONSTRUINDO SOLIDARIEDADE E COOPERAÇÃO SUL-SUL</span></h2>
       <h1 className='ascii'><span>✑</span></h1>
 
         <div>
