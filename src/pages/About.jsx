@@ -37,6 +37,8 @@ export default class Home extends React.Component {
 
       <><Casabar /><><><>
         <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
+        <h2 className='dopoilnomecheappareprimadelresto'><span>AMPLIFIES THE STORIES OF MARGINALISED COMMUNITIES, BUILDING SOLIDARITY AND SOUTH-SOUTH COOPERATION</span></h2>
+        <h1 className='ascii'><span>✑</span></h1>
 
         <div>
           <ResponsiveGridLayout
@@ -57,7 +59,7 @@ export default class Home extends React.Component {
                 <div className="yeartext">2023</div>
               </div>
               <div className="description">LANG_EN</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Antarctica, Southern Ocean, Ross Sea, Victoria Land, Transantarctic Mountains, Ross Ice Shelf, Mcmurdo Sound, Terra Nova Bay</a></div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Antarctica, Southern Ocean, Ross Sea, Victoria Land, Transantarctic Mountains, Ross Ice Shelf, Mcmurdo Sound, Terra Nova Bay</a></div>
             </div>
 
             {/*Add block 05 */}
@@ -67,7 +69,7 @@ export default class Home extends React.Component {
                 <div className="yeartext">2023</div>
               </div>
               <div className="description">LANG_EN, FR</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Ténéré Desert, Aïr Mountains, Ighazer Plain, Aïr And Ténéré National Nature Reserve, Kawar Oases</a></div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Ténéré Desert, Aïr Mountains, Ighazer Plain, Aïr And Ténéré National Nature Reserve, Kawar Oases</a></div>
             </div>
 
             {/*Add block 04 */}
@@ -77,7 +79,7 @@ export default class Home extends React.Component {
                 <div className="yeartext">2023</div>
               </div>
               <div className="description">LANG_EN, FR</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Forest, Congo Basin, Ituri And Hautuélé Provinces, Mambasa And Watsa Chiefdom, Okapi Wildlife Reserve, Kibali and Ituri River</a></div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Forest, Congo Basin, Ituri And Hautuélé Provinces, Mambasa And Watsa Chiefdom, Okapi Wildlife Reserve, Kibali and Ituri River</a></div>
             </div>
 
             {/*Add block 03 */}

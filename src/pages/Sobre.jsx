@@ -36,7 +36,9 @@ export default class Home extends React.Component {
     return (
 
       <><CasabarptBR /><><><>
-      <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
+      <h1 className='ilnomecheappareprimadelrestopt'><span>LSNMST</span></h1>
+      <h2 className='dopoilnomecheappareprimadelresto'><span>AMPLIFICA AS HISTÓRIAS DAS COMUNIDADES MARGINALIZADAS, CONSTRUINDO SOLIDARIEDADE E COOPERAÇÃO SUL-SUL</span></h2>
+      <h1 className='ascii'><span>✑</span></h1>
 
         <div>
           <ResponsiveGridLayout
@@ -57,7 +59,7 @@ export default class Home extends React.Component {
                 <div className="yeartext">2023</div>
               </div>
               <div className="description">LANG_EN</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Antártica, Oceano Antártico, Mar de Ross, Terra de Victoria, Montanhas Transantárticas, Plataforma de Gelo Ross, Mcmurdo Sound</a></div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Revelando a complexidade : Antártica, Oceano Antártico, Mar de Ross, Terra de Victoria, Montanhas Transantárticas, Plataforma de Gelo Ross, Mcmurdo Sound</a></div>
             </div>
 
             {/*Add block 05 */}
@@ -67,7 +69,7 @@ export default class Home extends React.Component {
                 <div className="yeartext">2023</div>
               </div>
               <div className="description">LANG_EN, FR</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Deserto de Ténéré, Montanhas de Aïr, Planície de Ighazer, Reserva Natural Nacional de Aïr e Ténéré, Oásis de Kawar</a></div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Revelando a complexidade : Deserto de Ténéré, Montanhas de Aïr, Planície de Ighazer, Reserva Natural Nacional de Aïr e Ténéré, Oásis de Kawar</a></div>
             </div>
 
             {/*Add block 04 */}
@@ -77,7 +79,7 @@ export default class Home extends React.Component {
                 <div className="yeartext">2023</div>
               </div>
               <div className="description">LANG_EN, FR</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Complexity series : Floresta, Bacia do Congo, Províncias de Ituri e Hautuélé, Chefatura de Mambasa e Watsa, Reserva do Okapi, Rio Kibali e Ituri</a></div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Revelando a complexidade : Floresta, Bacia do Congo, Províncias de Ituri e Hautuélé, Chefatura de Mambasa e Watsa, Reserva do Okapi, Rio Kibali e Ituri</a></div>
             </div>
 
             {/*Add block 03 */}

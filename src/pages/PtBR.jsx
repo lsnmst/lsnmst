@@ -63,7 +63,9 @@ export default class Home extends React.Component {
     return (
 
       <><NavbarptBR /><><><>
-        <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
+        <h1 className='ilnomecheappareprimadelrestopt'><span>LSNMST</span></h1>
+        <h2 className='dopoilnomecheappareprimadelresto'><span>AMPLIFICA AS HISTÓRIAS DAS COMUNIDADES MARGINALIZADAS, CONSTRUINDO SOLIDARIEDADE E COOPERAÇÃO SUL-SUL</span></h2>
+        <h1 className='ascii'><span>☸</span></h1>
 
         <div>
           <ResponsiveGridLayout
@@ -100,8 +102,8 @@ export default class Home extends React.Component {
                 <div className="index">ꖹ</div>
                 <div className="year">2023</div>
               </div>
-              <div className="title"><a href="https://chiroxiphiacaudata.github.io/60point8/" target="_blank" rel="noopener noreferrer">60.8KM</a></div>
-              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/60point8/" target="_blank" rel="noopener noreferrer">\60.8 km, une route de sang\, é um relatório on-line que expõe e condena crimes ambientais perpetrados entre 2018 e 2023 no eixo rodoviário Rutshuru-Ishasha na província de Kivu do Norte da República Democrática do Congo</a></p></div>
+              <div className="title"><a href="https://chiroxiphiacaudata.github.io/60point8/#/fr-FR" target="_blank" rel="noopener noreferrer">60.8KM</a></div>
+              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/60point8/#/fr-FR" target="_blank" rel="noopener noreferrer">\60.8 km, une route de sang\, é um relatório on-line que expõe e condena crimes ambientais perpetrados entre 2018 e 2023 no eixo rodoviário Rutshuru-Ishasha na província de Kivu do Norte da República Democrática do Congo</a></p></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -383,7 +385,7 @@ export default class Home extends React.Component {
         </div>
 
       </><div className='bio'>
-          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Como somos seres humanos cercados por uma complexidade imensurável, não conseguimos terraformar Marte em uma questão de poucas gerações humanas, nem fazer a engenharia cirúrgica do clima sem uma enxurrada de consequências indesejadas. Então, se você precisa de soluções rápidas e simples, primeiro deve ser capaz de enxergar a complexidade. Meu superpoder é justamente transformar o simples em complexo (≠ complicado) e comunicá-lo, pois, uma vez revelado, será mais fácil encontrar soluções comuns. Ou pelo menos, tentamos. A urgência de compreender práticas, ontologias e epistemologias fizeram que me apaixonasse por pesquisas e investigações. Acima de tudo, construindo experiências nos campos da ecologia política e da justiça social; aliás, tenho um apego especial às causas dos movimentos africanos e afrodescendentes e às formas de libertação e cooperação Sul-Sul. Assim, não posso deixar de ouvir as pessoas e estou disposto a viajar o quanto for necessário para aprender com elas.<br /><br />⚠<br /><br />Alguns dos projetos apresentados foram construídos junto com comunidades locais e tradicionais com o único objetivo de apoiar suas reivindicações territoriais para que o mundo conheça sua luta pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.<br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br /><Link style={{fontSize: 8 }} to="/">EN</Link><br /><br />
+          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Como somos seres humanos cercados por uma complexidade imensurável, não conseguimos terraformar Marte em uma questão de poucas gerações humanas, nem fazer a engenharia cirúrgica do clima sem uma enxurrada de consequências indesejadas. Então, se você precisa de soluções rápidas e simples, primeiro deve ser capaz de enxergar a complexidade. Meu superpoder é justamente transformar o simples em complexo (≠ complicado) e comunicá-lo, pois, uma vez revelado, será mais fácil encontrar soluções comuns. Ou pelo menos, tentamos. A urgência de compreender práticas, ontologias e epistemologias fizeram que me apaixonasse por pesquisas e investigações. Acima de tudo, construindo experiências nos campos da ecologia política e da justiça social; aliás, tenho um apego especial às causas dos movimentos africanos e afrodescendentes e às formas de libertação e cooperação Sul-Sul. Assim, não posso deixar de ouvir as pessoas e estou disposto a viajar o quanto for necessário para aprender com elas.<br /><br />⚠<br /><br />Entre os projetos apresentados, alguns foram desenvolvidos em conjunto com comunidades locais e tradicionais com o único objetivo de apoiar seus direitos territoriais e visibilizar suas lutas pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.<br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br /><Link style={{fontSize: 8 }} to="/">EN</Link><br /><br />
           </div>
         </div></></>
     );

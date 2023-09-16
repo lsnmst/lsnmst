@@ -84,16 +84,54 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 2.8em;
+    font-family: 'JetBrains Mono', monospace;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 5px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 5%;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 .ilnomecheappareprimadelresto:hover span {
     display: none;
 }
 
 .ilnomecheappareprimadelresto:hover:before {
-    content: "ALESSANDRO";
+    content: "LOVES TO DRAW MAPS";
     -webkit-text-fill-color: white;
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+}
+
+.ilnomecheappareprimadelrestopt:hover span {
+    display: none;
+}
+
+.ilnomecheappareprimadelrestopt:hover:before {
+    content: "APAIXONADO POR DESENHAR MAPAS";
+    font-size: 0.5em;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.dopoilnomecheappareprimadelresto {
+    width: 800px;
+    outline: solid 5px #000000;
+    padding: 20px;
+}
+
+.ascii {
+    text-align: center;
 }
 
 .react-grid-item {
@@ -388,7 +426,7 @@ h1 {
 .ishasha:hover {
     background: url("../../public/img/IDPs.jpg") no-repeat;
     background-repeat: no-repeat;
-    background-size: 250px;
+    background-size: 200px;
     background-attachment: fixed;
     background-position: top right;
 }
@@ -552,4 +590,11 @@ h1 {
     .menu {
         font-size: 6px;
     }
+
+    .dopoilnomecheappareprimadelresto {
+        max-width: 300px;
+        padding: 20px;
+        font-size: 2em !important;
+    }
+    
 }
