@@ -6,7 +6,7 @@ function CasabarptBR() {
     <nav className="menu casa">
       <ul>
         <li>
-          <Link to="/PtBR">⌫</Link>
+          <Link to="/PtBR">⌫ Volte, por favor</Link>
         </li>
       </ul>
     </nav>

@@ -16,47 +16,49 @@ export default class Home extends React.Component {
   }
   render() {
     const layout = [
-      { i: "19", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "18", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "17", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "16", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "15", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "14", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "13", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "12", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "11", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "10", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "09", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "08", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "07", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "06", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "05", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "04", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "03", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "02", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "01", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "20", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "19", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "18", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "17", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "16", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "15", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "14", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "13", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "12", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "11", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "10", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "09", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "08", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "07", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "06", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "05", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "04", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "03", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "02", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "01", x: 9, y: 12, w: 3, h: 3, minW: 2, minH: 2, }
     ];
 
     const layoutxs = [
-      { i: "19", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "18", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "17", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "16", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "15", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "14", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "13", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "12", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "11", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "10", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "09", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "08", x: 9, y: 6, w: 3, h: 3, static: true },
-      { i: "07", x: 0, y: 9, w: 3, h: 3, static: true },
-      { i: "06", x: 3, y: 9, w: 3, h: 3, static: true },
-      { i: "05", x: 6, y: 9, w: 3, h: 3, static: true },
-      { i: "04", x: 9, y: 9, w: 3, h: 3, static: true },
-      { i: "03", x: 0, y: 12, w: 3, h: 3, static: true },
-      { i: "02", x: 3, y: 12, w: 3, h: 3, static: true },
-      { i: "01", x: 6, y: 12, w: 3, h: 3, static: true },
+      { i: "20", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "19", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "18", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "17", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "16", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "15", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "14", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "13", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "12", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "11", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "10", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "09", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "08", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "07", x: 3, y: 9, w: 3, h: 3, static: true },
+      { i: "06", x: 6, y: 9, w: 3, h: 3, static: true },
+      { i: "05", x: 9, y: 9, w: 3, h: 3, static: true },
+      { i: "04", x: 0, y: 12, w: 3, h: 3, static: true },
+      { i: "03", x: 3, y: 12, w: 3, h: 3, static: true },
+      { i: "02", x: 6, y: 12, w: 3, h: 3, static: true },
+      { i: "01", x: 9, y: 12, w: 3, h: 3, static: true },
     ];
 
 
@@ -80,14 +82,14 @@ export default class Home extends React.Component {
             {/* key font https://decodeunicode.org/en/u+0A5B3 */}
 
 
-            {/*Add block 19 */}
-            <div key="19" className='quilombo'>
+            {/*Add block 20 */}
+            <div key="20" className='quilombo'>
               <div className="header">
                 <div className="index">ꔞ</div>
                 <div className="year">2023</div>
               </div>
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">RE-EXISTIR</a></div>
-              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">\Re-existências quilombolas\, é um projeto de visibilização e reconhecimento das comunidades quilombolas brasileiras</a></p></div>
+              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">\Re-existências quilombolas\ coloca as comunidades quilombolas no mapa e reivindica seu reconhecimento. Cada ponto no mapa é uma pessoa quilombola que re-existe</a></p></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -96,8 +98,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 18 */}
-            <div key="18" className='ishasha'>
+            {/*Add block 19 */}
+            <div key="19" className='ishasha'>
               <div className="header">
                 <div className="index">ꖹ</div>
                 <div className="year">2023</div>
@@ -112,8 +114,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 17 */}
-            <div key="17" className='beatrice'>
+            {/*Add block 18 */}
+            <div key="18" className='beatrice'>
               <div className="header">
                 <div className="index">ㅆ</div>
                 <div className="year">2023</div>
@@ -128,8 +130,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 16 */}
-            <div key="16" className='carto'>
+            {/*Add block 17 */}
+            <div key="17" className='carto'>
               <div className="header">
                 <div className="index">ꗴ</div>
                 <div className="year">2023</div>
@@ -145,8 +147,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 15 */}
-            <div key="15" className='comunidados'>
+            {/*Add block 16 */}
+            <div key="16" className='comunidados'>
               <div className="header">
                 <div className="index">ꖳ</div>
                 <div className="year">2022</div>
@@ -162,8 +164,8 @@ export default class Home extends React.Component {
             </div>
 
 
-            {/*Add block 14 */}
-            <div key="14" className='defence'>
+            {/*Add block 15 */}
+            <div key="15" className='defence'>
               <div className="header">
                 <div className="index">ꖺ</div>
                 <div className="year">2022</div>
@@ -178,8 +180,8 @@ export default class Home extends React.Component {
             </div>
 
 
-            {/*Add block 13 */}
-            <div key="13" className='blood'>
+            {/*Add block 14 */}
+            <div key="14" className='blood'>
               <div className="header">
                 <div className="index">ꖁ</div>
                 <div className="year">2021</div>
@@ -193,8 +195,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 12 */}
-            <div key="12" className='shores'>
+            {/*Add block 13 */}
+            <div key="13" className='shores'>
               <div className="header">
                 <div className="index">ꖻ</div>
                 <div className="year">2021</div>
@@ -208,8 +210,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 11 */}
-            <div key="11" className='onda'>
+            {/*Add block 12 */}
+            <div key="12" className='onda'>
               <div className="header">
                 <div className="index">ꖃ</div>
                 <div className="year">2021</div>
@@ -223,8 +225,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 10 */}
-            <div key="10" className='bugoma'>
+            {/*Add block 11 */}
+            <div key="11" className='bugoma'>
               <div className="header">
                 <div className="index">ฒ</div>
                 <div className="year">2021</div>
@@ -239,8 +241,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 09 */}
-            <div key="09" className='tracker'>
+            {/*Add block 10 */}
+            <div key="10" className='tracker'>
               <div className="header">
                 <div className="index">ꖬ</div>
                 <div className="year">2020</div>
@@ -254,8 +256,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 08 */}
-            <div key="08" className='underwater'>
+            {/*Add block 09 */}
+            <div key="09" className='underwater'>
               <div className="header">
                 <div className="index">ꖸ</div>
                 <div className="year">2020</div>
@@ -268,8 +270,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 07 */}
-            <div key="07" className='metro'>
+            {/*Add block 08 */}
+            <div key="08" className='metro'>
               <div className="header">
                 <div className="index">ꖧ</div>
                 <div className="year">2019</div>
@@ -282,8 +284,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 06 */}
-            <div key="06" className='paz'>
+            {/*Add block 07 */}
+            <div key="07" className='paz'>
               <div className="header">
                 <div className="index">ꖅ</div>
                 <div className="year">2018</div>
@@ -296,8 +298,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 05 */}
-            <div key="05" className='uganda'>
+            {/*Add block 06 */}
+            <div key="06" className='uganda'>
               <div className="header">
                 <div className="index">ꖐ</div>
                 <div className="year">2018</div>
@@ -310,8 +312,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 04 */}
-            <div key="04" className='vie'>
+            {/*Add block 05 */}
+            <div key="05" className='vie'>
               <div className="header">
                 <div className="index">ꖜ</div>
                 <div className="year">2017</div>
@@ -324,8 +326,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 03 */}
-            <div key="03" className='diesel'>
+            {/*Add block 04 */}
+            <div key="04" className='diesel'>
               <div className="header">
                 <div className="index">ꖵ</div>
                 <div className="year">2017</div>
@@ -337,8 +339,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 02 */}
-            <div key="02" className='sound'>
+            {/*Add block 03 */}
+            <div key="03" className='sound'>
               <div className="header">
                 <div className="index">ꖣ</div>
                 <div className="year">2014</div>
@@ -350,8 +352,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/*Add block 01 */}
-            <div key="01" className='animal'>
+            {/*Add block 02 */}
+            <div key="02" className='animal'>
               <div className="header">
                 <div className="index">ꖒ</div>
                 <div className="year">2013</div>
@@ -363,29 +365,34 @@ export default class Home extends React.Component {
               </div>
             </div>
 
+            {/*Add block 01 */}
+            <div key="01" >
+              <div className='legend'>
+                <div className="circles-3" style={{ width: "100%" }}>
+                  <div className='legendtext'>Pesquisa</div>
+                </div>
+                <div className="circles-4" style={{ width: "100%", marginTop: "5px" }}>
+                  <div className='legendtext'>Especialista em SIG</div>
+                </div>
+                <div className="circles-5" style={{ width: "100%", marginTop: "5px" }}>
+                  <div className='legendtext'>Design de informação</div>
+                </div>
+                <div className="circles-6" style={{ width: "100%", marginTop: "5px" }}>
+                  <div className='legendtext'>Desenvolvimento web</div>
+                </div>
+                <div className="circles-7" style={{ width: "100%", marginTop: "5px" }}>
+                  <div className='legendtext'>Design do mapa</div>
+                </div>
+              </div>
+            </div>
+
           </ResponsiveGridLayout>
         </div>
 
-      </><div className='legend'>
-          <div className="circles-3" style={{ width: "100%" }}>
-            <div className='legendtext'>Pesquisa</div>
-          </div>
-          <div className="circles-4" style={{ width: "100%", marginTop: "5px" }}>
-            <div className='legendtext'>Especialista em SIG</div>
-          </div>
-          <div className="circles-5" style={{ width: "100%", marginTop: "5px" }}>
-            <div className='legendtext'>Design de informação</div>
-          </div>
-          <div className="circles-6" style={{ width: "100%", marginTop: "5px" }}>
-            <div className='legendtext'>Desenvolvimento web</div>
-          </div>
-          <div className="circles-7" style={{ width: "100%", marginTop: "5px" }}>
-            <div className='legendtext'>Design do mapa</div>
-          </div>
-        </div>
+      </>
 
       </><div className='bio'>
-          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Como somos seres humanos cercados por uma complexidade imensurável, não conseguimos terraformar Marte em uma questão de poucas gerações humanas, nem fazer a engenharia cirúrgica do clima sem uma enxurrada de consequências indesejadas. Então, se você precisa de soluções rápidas e simples, primeiro deve ser capaz de enxergar a complexidade. Meu superpoder é justamente transformar o simples em complexo (≠ complicado) e comunicá-lo, pois, uma vez revelado, será mais fácil encontrar soluções comuns. Ou pelo menos, tentamos. A urgência de compreender práticas, ontologias e epistemologias fizeram que me apaixonasse por pesquisas e investigações. Acima de tudo, construindo experiências nos campos da ecologia política e da justiça social; aliás, tenho um apego especial às causas dos movimentos africanos e afrodescendentes e às formas de libertação e cooperação Sul-Sul. Assim, não posso deixar de ouvir as pessoas e estou disposto a viajar o quanto for necessário para aprender com elas.<br /><br />⚠<br /><br />Entre os projetos apresentados, alguns foram desenvolvidos em conjunto com comunidades locais e tradicionais com o único objetivo de apoiar seus direitos territoriais e visibilizar suas lutas pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.<br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br /><Link style={{fontSize: 8 }} to="/">EN</Link><br /><br />
+          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Como somos seres humanos cercados por uma complexidade imensurável, não conseguimos terraformar Marte em uma questão de poucas gerações humanas, nem fazer a engenharia cirúrgica do clima sem uma enxurrada de consequências indesejadas. Então, se você precisa de soluções rápidas e simples, primeiro deve ser capaz de enxergar a complexidade. Meu superpoder é justamente transformar o simples em complexo (≠ complicado) e comunicá-lo, pois, uma vez revelado, será mais fácil encontrar soluções comuns. Ou pelo menos, tentamos. A urgência de compreender práticas, ontologias e epistemologias fizeram que me apaixonasse por pesquisas e investigações. Acima de tudo, construindo experiências nos campos da ecologia política e da justiça social; aliás, tenho um apego especial às causas dos movimentos africanos e afrodescendentes e às formas de libertação e cooperação Sul-Sul. Assim, não posso deixar de ouvir as pessoas e estou disposto a viajar o quanto for necessário para aprender com elas.<br /><br />⚠<br /><br />Entre os projetos apresentados, alguns foram desenvolvidos em conjunto com comunidades locais e tradicionais com o único objetivo de apoiar seus direitos territoriais e visibilizar suas lutas pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.<br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br /><Link style={{ fontSize: 8 }} to="/">EN</Link><br /><br />
           </div>
         </div></></>
     );

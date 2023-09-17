@@ -6,7 +6,7 @@ function Casabar() {
     <nav className="menu casa">
       <ul>
         <li>
-          <Link to="/">⌫</Link>
+          <Link to="/">⌫ Go back, please</Link>
         </li>
       </ul>
     </nav>
