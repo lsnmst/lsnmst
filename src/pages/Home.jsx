@@ -89,7 +89,7 @@ export default class Home extends React.Component {
                 <div className="year">2023</div>
               </div>
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">RE-EXISTIR</a></div>
-              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">\Re-existências quilombolas\ put Brazilian 'quilombola' communities on the map and advocated for their recognition. Each point on the map is a quilombola person who re-exists</a></p></div>
+              <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">\Re-existências quilombolas\, puts Brazilian 'quilombola' communities on the map and advocated for their recognition. Each point on the map is a 'quilombola' person who re-exists</a></p></div>
               <div className="viz">
                 <div className="circles-4" title='GIS specialist'></div>
                 <div className="circles-5" title='Information designer'></div>
@@ -313,7 +313,7 @@ export default class Home extends React.Component {
             </div>
 
             {/*Add block 05 */}
-            <div key="05" className='vie'>
+            {/* <div key="05" className='vie'>
               <div className="header">
                 <div className="index">ꖜ</div>
                 <div className="year">2017</div>
@@ -324,7 +324,7 @@ export default class Home extends React.Component {
                 <div className="circles-5" title='Information designer'></div>
                 <div className="circles-7" title='Map Design'></div>
               </div>
-            </div>
+            </div> */}
 
             {/*Add block 04 */}
             <div key="04" className='diesel'>
@@ -340,7 +340,7 @@ export default class Home extends React.Component {
             </div>
 
             {/*Add block 03 */}
-            <div key="03" className='sound'>
+            {/* <div key="03" className='sound'>
               <div className="header">
                 <div className="index">ꖣ</div>
                 <div className="year">2014</div>
@@ -350,10 +350,10 @@ export default class Home extends React.Component {
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
-            </div>
+            </div> */}
 
             {/*Add block 02 */}
-            <div key="02" className='animal'>
+            {/* <div key="02" className='animal'>
               <div className="header">
                 <div className="index">ꖒ</div>
                 <div className="year">2013</div>
@@ -363,7 +363,7 @@ export default class Home extends React.Component {
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
-            </div>
+            </div> */}
 
             {/*Add block 01 */}
             <div key="01" >
@@ -381,7 +381,7 @@ export default class Home extends React.Component {
                   <div className='legendtext'>Front-end web developer</div>
                 </div>
                 <div className="circles-7" style={{ width: "100%", marginTop: "5px" }}>
-                  <div className='legendtext'>Map Design</div>
+                  <div className='legendtext'>Map Designer</div>
                 </div>
               </div>
             </div>

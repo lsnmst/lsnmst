@@ -313,7 +313,7 @@ export default class Home extends React.Component {
             </div>
 
             {/*Add block 05 */}
-            <div key="05" className='vie'>
+            {/* <div key="05" className='vie'>
               <div className="header">
                 <div className="index">ꖜ</div>
                 <div className="year">2017</div>
@@ -324,7 +324,7 @@ export default class Home extends React.Component {
                 <div className="circles-5" title='Information designer'></div>
                 <div className="circles-7" title='Map Design'></div>
               </div>
-            </div>
+            </div> */}
 
             {/*Add block 04 */}
             <div key="04" className='diesel'>
@@ -340,7 +340,7 @@ export default class Home extends React.Component {
             </div>
 
             {/*Add block 03 */}
-            <div key="03" className='sound'>
+            {/* <div key="03" className='sound'>
               <div className="header">
                 <div className="index">ꖣ</div>
                 <div className="year">2014</div>
@@ -350,10 +350,10 @@ export default class Home extends React.Component {
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
-            </div>
+            </div> */}
 
             {/*Add block 02 */}
-            <div key="02" className='animal'>
+            {/* <div key="02" className='animal'>
               <div className="header">
                 <div className="index">ꖒ</div>
                 <div className="year">2013</div>
@@ -363,7 +363,7 @@ export default class Home extends React.Component {
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
               </div>
-            </div>
+            </div> */}
 
             {/*Add block 01 */}
             <div key="01" >
