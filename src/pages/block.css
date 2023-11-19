@@ -517,6 +517,14 @@ h2 {
     background-position: top right;
 }
 
+.wwa:hover {
+    background: url("../../public/img/wwa.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .legend {
     width: 85%;
     margin: 100px auto;
