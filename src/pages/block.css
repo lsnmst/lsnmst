@@ -525,6 +525,14 @@ h2 {
     background-position: top right;
 }
 
+.simpleshort:hover {
+    background: url("../../public/img/simpleshort.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .legend {
     width: 85%;
     margin: 100px auto;
