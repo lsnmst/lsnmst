@@ -525,6 +525,14 @@ h2 {
     background-position: top right;
 }
 
+.izzi:hover {
+    background: url("../../public/img/Izzi.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .simpleshort:hover {
     background: url("../../public/img/simpleshort.png") no-repeat;
     background-repeat: no-repeat;
