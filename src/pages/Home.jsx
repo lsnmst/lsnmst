@@ -93,8 +93,8 @@ export default class Home extends React.Component {
                 <div className="index">ⵞ</div>
                 <div className="year">2024</div>
               </div>
-              <div className="title"><a href="https://lsnmst.github.io/first-language/" target="_blank" rel="noopener noreferrer">ECO-COSMIC CALENDAR</a></div>
-              <div className="description"><p><a href="https://lsnmst.github.io/first-language/" target="_blank" rel="noopener noreferrer">The \Ecological and cosmic calendar of the Izzi people\ (Ȯra Ebonyi, Nigeria) is a living knowledge system that continually incorporate their understanding of time and cosmological phenomenologies in relation to ecological processes and the movement of celestial bodies. The calendar is presented here graphically with the aim of documenting and transmitting Indigenous knowledge</a></p></div>
+              <div className="title"><a href="https://lsnmst.github.io/izzi/#/" target="_blank" rel="noopener noreferrer">ECO-COSMIC CALENDAR</a></div>
+              <div className="description"><p><a href="https://lsnmst.github.io/izzi/#/" target="_blank" rel="noopener noreferrer">The \Ecological and cosmic calendar of the Izzi people\ (Ȯra Ebonyi, Nigeria) is a living knowledge system that continually incorporate their understanding of time and cosmological phenomenologies in relation to ecological processes and the movement of celestial bodies. The calendar is presented here graphically with the aim of documenting and transmitting Indigenous knowledge</a></p></div>
               <div className="viz">
                 <div className="circles-3" title='Researcher'></div>
                 <div className="circles-5" title='Information designer'></div>
