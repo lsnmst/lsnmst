@@ -6,7 +6,7 @@ function NavbarptBR() {
     <><nav className="menu">
       <ul>
         <li>
-          <Link to="/sobre">Seção escondida com algum texto</Link>
+          <Link to="/sobre">textos</Link>
         </li>
       </ul>
     </nav>

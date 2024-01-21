@@ -46,7 +46,7 @@ ul {
     margin-left: 75%;
     font-size: 8px;
     font-family: 'JetBrains Mono', monospace;
-}
+  }
 
 .menu a {
     cursor: crosshair !important;
@@ -54,6 +54,8 @@ ul {
 
 .menu li {
     float: right;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
 }
 
 .menu:hover{
@@ -635,6 +637,8 @@ h2 {
 
     .menu {
         font-size: 6px;
+        margin-top: 50px;
+        line-height: 1.8;
     }
 
     .dopoilnomecheappareprimadelresto {

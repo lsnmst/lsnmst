@@ -6,7 +6,7 @@ function Navbar() {
     <><nav className="menu">
       <ul>
         <li>
-          <Link to="/about">Hidden section with some text</Link>
+          <Link to="/about">texts</Link>
         </li>
       </ul>
     </nav>
