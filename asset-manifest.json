@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lsnmst/static/css/main.a1bf3dd2.css",
-    "main.js": "/lsnmst/static/js/main.3e40909b.js",
+    "main.css": "/lsnmst/static/css/main.7884fb30.css",
+    "main.js": "/lsnmst/static/js/main.53b6929c.js",
     "static/js/787.7dc2dff3.chunk.js": "/lsnmst/static/js/787.7dc2dff3.chunk.js",
     "static/media/uganda.jpg": "/lsnmst/static/media/uganda.2034338753667188e752.jpg",
     "static/media/tingua.jpg": "/lsnmst/static/media/tingua.2a2ec74b4f480e3ae339.jpg",
@@ -33,12 +33,12 @@
     "static/media/idp.jpeg": "/lsnmst/static/media/idp.bfb691a6f18a974a7b11.jpeg",
     "static/media/open_to_collaborate.png": "/lsnmst/static/media/open_to_collaborate.5bc0767b266c20c583f9.png",
     "index.html": "/lsnmst/index.html",
-    "main.a1bf3dd2.css.map": "/lsnmst/static/css/main.a1bf3dd2.css.map",
-    "main.3e40909b.js.map": "/lsnmst/static/js/main.3e40909b.js.map",
+    "main.7884fb30.css.map": "/lsnmst/static/css/main.7884fb30.css.map",
+    "main.53b6929c.js.map": "/lsnmst/static/js/main.53b6929c.js.map",
     "787.7dc2dff3.chunk.js.map": "/lsnmst/static/js/787.7dc2dff3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1bf3dd2.css",
-    "static/js/main.3e40909b.js"
+    "static/css/main.7884fb30.css",
+    "static/js/main.53b6929c.js"
   ]
 }
