@@ -375,6 +375,15 @@ h2 {
     background-position: top right;
 }
 
+.agathe:hover {
+    background: url("../../public/img/agathe.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+
 .underwater:hover {
     background: url("../../public/img/underwater.jpg") no-repeat;
     background-repeat: no-repeat;
