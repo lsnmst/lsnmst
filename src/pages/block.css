@@ -18,19 +18,19 @@ a:hover {
 
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #000000;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }  
+}
 
 ul {
     list-style: outside none none;
@@ -46,7 +46,7 @@ ul {
     margin-left: 75%;
     font-size: 8px;
     font-family: 'JetBrains Mono', monospace;
-  }
+}
 
 .menu a {
     cursor: crosshair !important;
@@ -58,7 +58,7 @@ ul {
     text-decoration-thickness: 3px;
 }
 
-.menu:hover{
+.menu:hover {
     font-size: 10px;
     color: hotpink;
 }
@@ -115,6 +115,10 @@ h2 {
     margin-left: 5%;
     margin-right: 0;
     font-weight: bold;
+}
+
+.ilnomecheappareprimadelresto {
+    margin-left: 10px;
 }
 
 .ilnomecheappareprimadelresto:hover span {
@@ -650,8 +654,22 @@ h2 {
         line-height: 1.8;
     }
 
+    .ilnomecheappareprimadelresto>span {
+        max-width: 300px;
+        word-wrap: break-word;
+        font-size: 0.38em !important;
+        display: inline-block;
+        -webkit-transform: scale(1, 5);
+        -moz-transform: scale(1, 5);
+        -ms-transform: scale(1, 5);
+        -o-transform: scale(1, 5);
+        transform: scale(1, 5);
+        padding-bottom: 10px;
+    }
+
     .dopoilnomecheappareprimadelresto {
         max-width: 300px;
+        margin: auto;
         padding: 20px;
         font-size: 2em !important;
     }
@@ -662,5 +680,5 @@ h2 {
         font-size: 1.5em !important;
     }
 
-    
+
 }

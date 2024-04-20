@@ -38,7 +38,7 @@ export default class Home extends React.Component {
     return (
 
       <><Casabar /><><><>
-        <h1 className='ilnomecheappareprimadelresto'><span>LSNMST</span></h1>
+        <h1 className='ilnomecheappareprimadelresto'><span>ALESSANDRO</span></h1>
         <h1 className='ascii'><span>✑</span></h1>
 
         <div>
