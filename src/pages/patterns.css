@@ -9,6 +9,28 @@
   Licensed under the MIT License.
 */
 
+.tooltip:before {
+  content: attr(data-text); /* here's the magic */
+  position:absolute;
+  
+  /* basic styles */
+  width:200px;
+  padding:10px;
+  border-radius:10px;
+  background:#fff;
+  color: black;
+  text-align:center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8em;
+  font-weight: bold;
+  display:none; /* hide by default */
+}
+.tooltip:hover:before {
+  display:block;
+  opacity: 1 !important;
+  left: 45px !important;
+  border: 2px solid black;
+}
 
 /* Group: circles */
 .circles-1 {
@@ -30,6 +52,7 @@
   margin: 1px;
 }
 .circles-4 {
+  position: relative;
   background-color: rgba(255,255,255, 0);
   opacity: 0.8;
   background-color: rgb(233, 100, 121);
@@ -72,6 +95,7 @@
   border: solid 2px #000000;
   margin: 1px;
 }
+
 .circles-5 {
   background-color: rgba(255,255,255, 0);
   opacity: 0.8;

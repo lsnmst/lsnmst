@@ -196,6 +196,17 @@ h2 {
     font-size: 1.5em;
 }
 
+.lang {
+    color: black;
+    max-width: fit-content;
+    padding: 2px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+
 .year {
     color: aliceblue;
     background-color: black;
@@ -604,6 +615,10 @@ h2 {
     cursor: move !important;
 }
 
+.viz {
+    cursor: help !important;
+}
+
 @media screen and (max-width: 480px) {
 
     .menu li a {
@@ -626,7 +641,7 @@ h2 {
         padding: 1px;
     }
 
-    .bio { 
+    .bio {
         width: 75%;
         margin: 20px auto;
     }

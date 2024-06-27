@@ -99,11 +99,12 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://alliancepourlavie.github.io/agathe/" target="_blank" rel="noopener noreferrer">AGATHE</a></div>
               <div className="description"><p><a href="https://alliancepourlavie.github.io/agathe/" target="_blank" rel="noopener noreferrer"> \Agathe, the matriarch above the water\ is a mixed-media story raising the voices of the customary fisherwomen from the landing sites of Kadutu and Bagira, province of South Kivu, Democratic Republic of the Congo</a></p></div>
               <div className="viz">
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-7" title='Map Design'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-7 tooltip" data-text='Map Design'></div>
               </div>
+              <div className="lang" title='Language'>sw, en, fr</div>
             </div>
 
             {/*Add block 22 */}
@@ -115,10 +116,11 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://lsnmst.github.io/izzi/#/" target="_blank" rel="noopener noreferrer">ECO-COSMIC CALENDAR</a></div>
               <div className="description"><p><a href="https://lsnmst.github.io/izzi/#/" target="_blank" rel="noopener noreferrer">The \Ecological and cosmic calendar of the Izzi people\ (Ȯra Ebonyi, Nigeria) is a living knowledge system that continually incorporate their understanding of time and cosmological phenomenologies in relation to ecological processes and the movement of celestial bodies. The calendar is presented here graphically with the aim of documenting and transmitting Indigenous knowledge</a></p></div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-5" title='Information designer'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 21 */}
@@ -130,9 +132,10 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://lsnmst.github.io/first-language/" target="_blank" rel="noopener noreferrer">FIRST LANGUAGE</a></div>
               <div className="description"><p><a href="https://lsnmst.github.io/first-language/" target="_blank" rel="noopener noreferrer">Who are they and what is the legacy of women writing Africa in their First languages? \The First language of the women writing Africa\ collects the written literary expression of African women along the last two centuries</a></p></div>
               <div className="viz">
-                <div className="circles-5" title='Information designer'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 20 */}
@@ -144,11 +147,12 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">RE-EXISTIR</a></div>
               <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/quilombo/" target="_blank" rel="noopener noreferrer">\Re-existências quilombolas\, puts Brazilian 'quilombola' communities on the map and advocated for their recognition. Each point on the map is a 'quilombola' person who re-exists</a></p></div>
               <div className="viz">
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-7" title='Map Design'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-7 tooltip" data-text='Map Design'></div>
               </div>
+              <div className="lang" title='Language'>pt</div>
             </div>
 
             {/*Add block 19 */}
@@ -160,11 +164,12 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/60point8/#/fr-FR" target="_blank" rel="noopener noreferrer">60.8KM</a></div>
               <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/60point8/#/fr-FR" target="_blank" rel="noopener noreferrer">\60.8 km, une route de sang\, is an online report exposing and condemning environmental crimes perpetrated between 2018-2023 on the Rutshuru-Ishasha road axis in the North-Kivu province of DR Congo</a></p></div>
               <div className="viz">
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-7" title='Map Design'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-7 tooltip" data-text='Map Design'></div>
               </div>
+              <div className="lang" title='Language'>en, fr</div>
             </div>
 
             {/*Add block 18 */}
@@ -176,11 +181,12 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://watetezi.github.io/beatrice/" target="_blank" rel="noopener noreferrer">BEATRICE</a></div>
               <div className="description"><p><a href="https://watetezi.github.io/beatrice/" target="_blank" rel="noopener noreferrer">\Morembe, my name is Beatrice\, is the story of a fisherwoman and her community at the border between Uganda and the Democratic Republic of Congo, a loudspeaker to amplify her voice given the challenges the women are facing for their livelihoods</a></p></div>
               <div className="viz">
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-7" title='Map Design'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-7 tooltip" data-text='Map Design'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 17 */}
@@ -192,12 +198,13 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">CARTO RITUALS</a></div>
               <div className="description"><p><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">\Rituals in the cartographic practice\, visual archive hosts social technology practices and participatory cartography from the Global South as an endogenous product of the multiple relationship between body-territory-language. Countering epistemic racism</a></p></div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-7" title='Map Design'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-7 tooltip" data-text='Map Design'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 16 */}
@@ -209,11 +216,12 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">Comuni-<br />dados</a></div>
               <div className="description"><p><a href="https://chiroxiphiacaudata.github.io/comunidados/" target="_blank" rel="noopener noreferrer">\Comunidados\, is a participative platform to collect, share and process data, information, texts, videos, images, audio about Tinguá and the communities of the Tinguá Valley (Nova Iguaçu, Rio de Janiero, Brazil). From an environmentalist perspective and a fair and sustainable socio-economic development</a></p></div>
               <div className="viz">
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-7" title='Map Design'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-7 tooltip" data-text='Map Design'></div>
               </div>
+              <div className="lang" title='Language'>pt</div>
             </div>
 
 
@@ -226,10 +234,11 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Last Defence</a></div>
               <div className="description"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">\The last defence\, demonstrates how to avoid the ecological crisis and the collapse of the ecosystem of the Congo basin edge and investigates the notions of social, ecological and climate justice, focusing on the territory of Watsa, Haut-Uélé province, Democratic Republic of Congo</a></div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
               </div>
+              <div className="lang" title='Language'>en, fr</div>
             </div>
 
 
@@ -242,10 +251,11 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">Blood in the Forest</a></div>
               <div className="description"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">\Blood in the Forest\, identifies ecologically fragile priority areas for forest conservation and restoration in the Mambasa and Mongbwalu sector, Ituri province, Democratic Republic of Congo</a></div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 13 */}
@@ -257,10 +267,11 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">ALONG THE SHORES</a></div>
               <div className="description"><a href="https://chiroxiphiacaudata.github.io/the-minute-we-fall-silent/" target="_blank" rel="noopener noreferrer">\Along the Shores of the Itaka Lya Mwitanzige\, is a journey connecting women and their rights in the Northern Albertine Rift, Uganda</a></div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 12 */}
@@ -272,10 +283,11 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://www.alessandromusetta.com/comunidados/arquivo/Brasil/Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense/01-Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense.pdf" target="_blank" rel="noopener noreferrer">ÁGUA E MATA</a></div>
               <div className="description"><a href="https://www.alessandromusetta.com/comunidados/arquivo/Brasil/Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense/01-Onda-Verde-Um-centro-de-economia-florestal-pela-Baixada-Fluminense.pdf" target="_blank" rel="noopener noreferrer">A report to demonstrate how the conservation NGO Onda Verde could become the forest economy hub for the Baixada Fluminense (State of Rio de Janeiro, Brazil), enhancing the potential of forest restoration as a strategy to adapt to climate change</a></div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
               </div>
+              <div className="lang" title='Language'>pt</div>
             </div>
 
             {/*Add block 11 */}
@@ -287,11 +299,12 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">664<br />HECTARES</a></div>
               <div className="description"><a href="https://watetezi.org/data/maps/forest/bugoma.html" target="_blank" rel="noopener noreferrer">Two sugarcane companies have begun clearing thousands of hectares in disputed sections of Uganda’s Bugoma Forest. \664 Hectares\, enables satellite technology depicts the degree of forest destruction</a></div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 10 */}
@@ -303,10 +316,11 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">TRACKER</a></div>
               <div className="description"><a href="https://watetezi.org/tracker/" target="_blank" rel="noopener noreferrer">The \Albertine Region Tracker\, is a human rights abuses and environmental crimes reporting and mapping platform. The Albertine region tracker gathers, audits and publishes reports from a network of dedicated and trained activists based in the districts of northern and western Uganda</a></div>
               <div className="viz">
-                <div className="circles-6" title='Front-end web developer'></div>
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 09 */}
@@ -318,9 +332,10 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://valori.it/innalzamento-mari-danni-miliardari-mappe/" target="_blank" rel="noopener noreferrer">ITALY UNDERWATER</a></div>
               <div className="description"><a href="https://valori.it/innalzamento-mari-danni-miliardari-mappe/" target="_blank" rel="noopener noreferrer">\Italy underwater\, estimates the wealth that each Italian province would lose due to rising sea levels caused by climate change</a></div>
               <div className="viz">
-                <div className="circles-4" title='GIS specialist'></div>
-                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
               </div>
+              <div className="lang" title='Language'>it</div>
             </div>
 
             {/*Add block 08 */}
@@ -332,9 +347,10 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">METRO CARTO</a></div>
               <div className="description"><a href="https://www.alessandromusetta.com/metrocarto/Lk4YGYmTs4LaMCgV.html" target="_blank" rel="noopener noreferrer">\The metropolitan cartography\, is an online course about the process of reading, knowing and interpreting the territory of a metropolis using maps and spatial information technologies through a decision support system</a></div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-6" title='Front-end web developer'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
               </div>
+              <div className="lang" title='Language'>en</div>
             </div>
 
             {/*Add block 07 */}
@@ -346,9 +362,10 @@ export default class Home extends React.Component {
               <div className="title">PACEÑ@S Y ALTEÑ@S</div>
               <div className="description">Research materials and methods about La Paz / El Alto (Bolivia) urban area within the UN-Habitat Expert Group for developing the Guiding Principles on Urban-Rural Linkages for advancing integrated territorial development</div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-4" title='GIS specialist'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
               </div>
+              <div className="lang" title='Language'>es</div>
             </div>
 
             {/*Add block 06 */}
@@ -360,8 +377,9 @@ export default class Home extends React.Component {
               <div className="title">WAKATI UJAO JE?</div>
               <div className="description">Research materials and methods about secondary cities in Uganda with a focus in the Koboko, Arua, Nebbi corridor, West Nile Region (Uganda)</div>
               <div className="viz">
-                <div className="circles-3" title='Researcher'></div>
-                <div className="circles-4" title='GIS specialist'></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="lang" title='Language'>en</div>
               </div>
             </div>
 
@@ -388,8 +406,9 @@ export default class Home extends React.Component {
               <div className="title"><a href="https://www.alessandromusetta.com/cloud/Musetta_Dieselgate_Esta_FIOM_poster.pdf" target="_blank" rel="noopener noreferrer">DIESELGATE</a></div>
               <div className="description"><a href="https://www.alessandromusetta.com/cloud/Musetta_Dieselgate_Esta_FIOM_poster.pdf" target="_blank" rel="noopener noreferrer">A series of infographics on the Dieselgate case, presenting the steps taken towards a paradigm shift in the automotive sector</a></div>
               <div className="viz">
-                <div className="circles-5" title='Information designer'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
               </div>
+              <div className="lang" title='Language'>it</div>
             </div>
 
             {/*Add block 03 */}
