@@ -11,70 +11,70 @@ import Otc from './img/open_to_collaborate.png';
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
-export default class Home extends React.Component {
+export default class PtBR extends React.Component {
 
   static defaultProps = {
     margin: [2, 2],
   }
   render() {
     const layout = [
-      { i: "23", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "22", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "21", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "20", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "19", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "18", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "17", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "16", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "15", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "14", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "13", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "12", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "11", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "10", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "09", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "08", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "07", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "06", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "05", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "04", x: 9, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "03", x: 0, y: 15, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "02", x: 3, y: 15, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "01", x: 6, y: 15, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "22", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "21", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "20", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "19", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "18", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "17", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "16", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "15", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "14", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "13", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "12", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "11", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "10", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "09", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "08", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "07", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "06", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "05", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "04", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "03", x: 9, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "02", x: 0, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "01", x: 3, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true},
     ];
 
     const layoutxs = [
-      { i: "23", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "22", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "21", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "20", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "19", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "18", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "17", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "16", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "15", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "14", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "13", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "12", x: 9, y: 6, w: 3, h: 3, static: true },
-      { i: "11", x: 0, y: 9, w: 3, h: 3, static: true },
-      { i: "10", x: 3, y: 9, w: 3, h: 3, static: true },
-      { i: "09", x: 6, y: 9, w: 3, h: 3, static: true },
-      { i: "08", x: 9, y: 9, w: 3, h: 3, static: true },
-      { i: "07", x: 0, y: 12, w: 3, h: 3, static: true },
-      { i: "06", x: 3, y: 12, w: 3, h: 3, static: true },
-      { i: "05", x: 6, y: 12, w: 3, h: 3, static: true },
-      { i: "04", x: 9, y: 12, w: 3, h: 3, static: true },
-      { i: "03", x: 0, y: 15, w: 3, h: 3, static: true },
-      { i: "02", x: 3, y: 15, w: 3, h: 3, static: true },
-      { i: "01", x: 6, y: 15, w: 3, h: 3, static: true },
+      { i: "22", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "21", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "20", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "19", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "18", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "17", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "16", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "15", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "14", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "13", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "12", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "11", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "10", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "09", x: 3, y: 9, w: 3, h: 3, static: true },
+      { i: "08", x: 6, y: 9, w: 3, h: 3, static: true },
+      { i: "07", x: 9, y: 9, w: 3, h: 3, static: true },
+      { i: "06", x: 0, y: 12, w: 3, h: 3, static: true },
+      { i: "05", x: 3, y: 12, w: 3, h: 3, static: true },
+      { i: "04", x: 6, y: 12, w: 3, h: 3, static: true },
+      { i: "03", x: 9, y: 12, w: 3, h: 3, static: true },
+      { i: "02", x: 0, y: 15, w: 3, h: 3, static: true },
+      { i: "01", x: 3, y: 15, w: 3, h: 3, static: true },
     ];
 
     return (
 
-      <><NavbarptBR /><><><>
+      <><><><>
         <h1 className='ilnomecheappareprimadelrestopt'><span>ALESSANDRO</span></h1>
         <h2 className='dopoilnomecheappareprimadelrestopt'><span>AMPLIFICA AS VOZES DAS COMUNIDADES MARGINALIZADAS, CONSTRUINDO SOLIDARIEDADE POR MEIO DA COOPERAÇÃO SUL-SUL</span></h2>
         <h1 className='ascii'><span>☸</span></h1>
+
+        <NavbarptBR />
 
         <div>
           <ResponsiveGridLayout
@@ -88,8 +88,8 @@ export default class Home extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+0A5B3 */}
 
-            {/*Add block 23 */}
-            <div key="23" className='agathe'>
+            {/*Add block 22 */}
+            <div key="22" className='agathe'>
               <div className="header">
                 <div className="index">ꖘ</div>
                 <div className="year">2024</div>
@@ -105,8 +105,8 @@ export default class Home extends React.Component {
               <div className="lang" title='Language'>sw, en, fr</div>
             </div>
 
-            {/*Add block 22 */}
-            <div key="22" className='izzi'>
+            {/*Add block 21 */}
+            <div key="21" className='izzi'>
               <div className="header">
                 <div className="index">ⵞ</div>
                 <div className="year">2024</div>
@@ -120,22 +120,6 @@ export default class Home extends React.Component {
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
-
-            {/*Add block 21 */}
-            <div key="21" className='wwa'>
-              <div className="header">
-                <div className="index">ꕾ</div>
-                <div className="year">2023</div>
-              </div>
-              <div className="title"><a href="https://lsnmst.github.io/first-language/" target="_blank" rel="noopener noreferrer">FIRST LANGUAGE</a></div>
-              <div className="description"><p><a href="https://lsnmst.github.io/first-language/" target="_blank" rel="noopener noreferrer">Quem são elas e qual é o legado das mulheres que escrevem sobre a África em seus idiomas nativos? \O idioma nativo das mulheres que escrevem sobre a África\ reúne a expressão literária escrita das mulheres africanas ao longo dos últimos dois séculos</a></p></div>
-              <div className="viz">
-                <div className="circles-5 tooltip" data-text='Information designer'></div>
-                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
-              </div>
-              <div className="lang" title='Language'>en</div>
-            </div>
-
 
             {/*Add block 20 */}
             <div key="20" className='quilombo'>
@@ -396,8 +380,8 @@ export default class Home extends React.Component {
               </div>
             </div> */}
 
-            {/*Add block 04 */}
-            <div key="04" className='diesel'>
+            {/*Add block 05 */}
+            <div key="05" className='diesel'>
               <div className="header">
                 <div className="index">ꖵ</div>
                 <div className="year">2017</div>
@@ -436,8 +420,8 @@ export default class Home extends React.Component {
               </div>
             </div> */}
 
-            {/*Add block 01 */}
-            <div key="01" >
+            {/*Add block 04 */}
+            <div key="04" >
               <div className='legend'>
                 <div className="circles-3" style={{ width: "100%" }}>
                   <div className='legendtext'>Pesquisa</div>

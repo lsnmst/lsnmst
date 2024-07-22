@@ -1,27 +1,30 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import CasabarptBR from './Casabar-ptBR';
+import NavbarptBR from './Navbar-ptBR';
 import { Responsive, WidthProvider } from "react-grid-layout";
 import '../../node_modules/react-grid-layout/css/styles.css';
 import '../../node_modules/react-resizable/css/styles.css';
 import './block.css';
 import './patterns.css';
+import Otc from './img/open_to_collaborate.png';
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
-export default class Home extends React.Component {
+export default class IdeaptBR extends React.Component {
 
   static defaultProps = {
     margin: [2, 2],
   }
   render() {
     const layout = [
-      { i: "07", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "06", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "05", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "04", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "03", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "02", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "01", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "07", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "06", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "05", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "04", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "03", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "02", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "01", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
     ];
 
     const layoutxs = [
@@ -36,9 +39,12 @@ export default class Home extends React.Component {
 
     return (
 
-      <><CasabarptBR /><><><>
-        <h1 className='ilnomecheappareprimadelrestopt'><span>LSNMST</span></h1>
+      <><><><>
+        <h1 className='ilnomecheappareprimadelrestopt'><span>ALESSANDRO</span></h1>
+        <h2 className='dopoilnomecheappareprimadelrestopt'><span>AMPLIFICA AS VOZES DAS COMUNIDADES MARGINALIZADAS, CONSTRUINDO SOLIDARIEDADE POR MEIO DA COOPERAÇÃO SUL-SUL</span></h2>
         <h1 className='ascii'><span>✑</span></h1>
+
+        <NavbarptBR />
 
         <div>
           <ResponsiveGridLayout
@@ -125,9 +131,14 @@ export default class Home extends React.Component {
           </ResponsiveGridLayout>
 
         </div>
+      </>
 
-      </></><div className='bio'>
-          {/* <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Since we are human beings surrounded by an immensurable complexity, we couldn't terraform Mars in a matter a few human generations, or surgically engineer the climate without a torrent of unintended consequences. If you need short and simple solutions first you must be able to see the complexity. My superpower is to turn simple into complex, even though to many complex sounds or is mistaken for complicated.<br />Curiosity made me fall in love with research and investigations. Especially by building practices in the fields of political ecology, social and climate justice. But there is no such research without fieldwork, so I am available backpacking anytime.<br />Thanks for being here!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br /></div> */}
+      </><div className='bio'>
+          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Como somos seres humanos cercados por uma complexidade imensurável, não conseguimos terraformar Marte em uma questão de poucas gerações humanas, nem fazer a engenharia cirúrgica do clima sem uma enxurrada de consequências indesejadas. Então, se você precisa de soluções rápidas e simples, primeiro deve ser capaz de enxergar a complexidade. Meu superpoder é justamente transformar o simples em complexo (≠ complicado) e comunicá-lo, pois, uma vez revelado, será mais fácil encontrar soluções comuns. Ou pelo menos, tentamos. A urgência de compreender práticas, ontologias e epistemologias fizeram que me apaixonasse por pesquisas e investigações. Acima de tudo, construindo experiências nos campos da ecologia política e da justiça social; aliás, tenho um apego especial às causas dos movimentos africanos e afrodescendentes e às formas de libertação e cooperação Sul-Sul. Assim, não posso deixar de ouvir as pessoas e estou disposto a viajar o quanto for necessário para aprender com elas.<br /><br /><br /><img src={Otc} style={{ width: 20 }} /><br /><br />Entre os projetos apresentados, alguns foram desenvolvidos em conjunto com comunidades locais e tradicionais com o único objetivo de apoiar seus direitos territoriais e visibilizar suas lutas pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.
+            <br /><br /><b><i>Aberto para colaboração</i></b><br />ALESSANDRO está comprometido com o desenvolvimento de novos modos de colaboração, envolvimento e parceria com os povos indígenas para o cuidado e a conservação de coleções de patrimônio passadas e futuras. O que é este aviso? Leia mais <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>aqui</u></a>.<br />
+            <br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br />
+            <br /><br /><Link style={{ fontSize: 8 }} to="/idea">EN</Link><br /><br />
+          </div>
         </div></></>
     );
   }

@@ -17,66 +17,65 @@ export default class Home extends React.Component {
   }
   render() {
     const layout = [
-      { i: "23", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "22", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "21", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "20", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "19", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "18", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "17", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "16", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "15", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "14", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "13", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "12", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "11", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "10", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "09", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "08", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "07", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "06", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "05", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "04", x: 9, y: 12, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "03", x: 0, y: 15, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "02", x: 3, y: 15, w: 3, h: 3, minW: 2, minH: 2, },
-      { i: "01", x: 6, y: 15, w: 3, h: 3, minW: 2, minH: 2, },
+      { i: "22", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "21", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "20", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "19", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "18", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "17", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "16", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "15", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "14", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "13", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "12", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "11", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "10", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "09", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "08", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "07", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "06", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "05", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "04", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "03", x: 9, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "02", x: 0, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "01", x: 3, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true},
     ];
 
     const layoutxs = [
-      { i: "23", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "22", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "21", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "20", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "19", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "18", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "17", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "16", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "15", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "14", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "13", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "12", x: 9, y: 6, w: 3, h: 3, static: true },
-      { i: "11", x: 0, y: 9, w: 3, h: 3, static: true },
-      { i: "10", x: 3, y: 9, w: 3, h: 3, static: true },
-      { i: "09", x: 6, y: 9, w: 3, h: 3, static: true },
-      { i: "08", x: 9, y: 9, w: 3, h: 3, static: true },
-      { i: "07", x: 0, y: 12, w: 3, h: 3, static: true },
-      { i: "06", x: 3, y: 12, w: 3, h: 3, static: true },
-      { i: "05", x: 6, y: 12, w: 3, h: 3, static: true },
-      { i: "04", x: 9, y: 12, w: 3, h: 3, static: true },
-      { i: "03", x: 0, y: 15, w: 3, h: 3, static: true },
-      { i: "02", x: 3, y: 15, w: 3, h: 3, static: true },
-      { i: "01", x: 6, y: 15, w: 3, h: 3, static: true },
+      { i: "22", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "21", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "20", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "19", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "18", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "17", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "16", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "15", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "14", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "13", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "12", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "11", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "10", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "09", x: 3, y: 9, w: 3, h: 3, static: true },
+      { i: "08", x: 6, y: 9, w: 3, h: 3, static: true },
+      { i: "07", x: 9, y: 9, w: 3, h: 3, static: true },
+      { i: "06", x: 0, y: 12, w: 3, h: 3, static: true },
+      { i: "05", x: 3, y: 12, w: 3, h: 3, static: true },
+      { i: "04", x: 6, y: 12, w: 3, h: 3, static: true },
+      { i: "03", x: 9, y: 12, w: 3, h: 3, static: true },
+      { i: "02", x: 0, y: 15, w: 3, h: 3, static: true },
+      { i: "01", x: 3, y: 15, w: 3, h: 3, static: true },
     ];
 
 
     return (
 
-      <><Navbar /><><><>
+      <><><><>
         <h1 className='ilnomecheappareprimadelresto'><span>ALESSANDRO</span></h1>
         <h2 className='dopoilnomecheappareprimadelresto'><span>AMPLIFIES VOICES FROM MARGINALISED COMMUNITIES, BUILDING SOLIDARITY THROUGH SOUTH-SOUTH COOPERATION</span></h2>
         <h1 className='ascii'><span>☸</span></h1>
 
-
+        <Navbar />
+        
         <div>
           <ResponsiveGridLayout
             className="layout"
@@ -90,8 +89,8 @@ export default class Home extends React.Component {
             {/* key font https://decodeunicode.org/en/u+0A5B3 */}
 
 
-            {/*Add block 23 */}
-            <div key="23" className='agathe'>
+            {/*Add block 22 */}
+            <div key="22" className='agathe'>
               <div className="header">
                 <div className="index">ꖘ</div>
                 <div className="year">2024</div>
@@ -107,8 +106,8 @@ export default class Home extends React.Component {
               <div className="lang" title='Language'>sw, en, fr</div>
             </div>
 
-            {/*Add block 22 */}
-            <div key="22" className='izzi'>
+            {/*Add block 21 */}
+            <div key="21" className='izzi'>
               <div className="header">
                 <div className="index">ⵞ</div>
                 <div className="year">2024</div>
@@ -117,21 +116,6 @@ export default class Home extends React.Component {
               <div className="description"><p><a href="https://lsnmst.github.io/izzi/#/" target="_blank" rel="noopener noreferrer">The \Ecological and cosmic calendar of the Izzi people\ (Ȯra Ebonyi, Nigeria) is a living knowledge system that continually incorporate their understanding of time and cosmological phenomenologies in relation to ecological processes and the movement of celestial bodies. The calendar is presented here graphically with the aim of documenting and transmitting Indigenous knowledge</a></p></div>
               <div className="viz">
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
-                <div className="circles-5 tooltip" data-text='Information designer'></div>
-                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
-              </div>
-              <div className="lang" title='Language'>en</div>
-            </div>
-
-            {/*Add block 21 */}
-            <div key="21" className='wwa'>
-              <div className="header">
-                <div className="index">ꕾ</div>
-                <div className="year">2023</div>
-              </div>
-              <div className="title"><a href="https://lsnmst.github.io/first-language/" target="_blank" rel="noopener noreferrer">FIRST LANGUAGE</a></div>
-              <div className="description"><p><a href="https://lsnmst.github.io/first-language/" target="_blank" rel="noopener noreferrer">Who are they and what is the legacy of women writing Africa in their First languages? \The First language of the women writing Africa\ collects the written literary expression of African women along the last two centuries</a></p></div>
-              <div className="viz">
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
               </div>
@@ -397,8 +381,8 @@ export default class Home extends React.Component {
               </div>
             </div> */}
 
-            {/*Add block 04 */}
-            <div key="04" className='diesel'>
+            {/*Add block 05 */}
+            <div key="05" className='diesel'>
               <div className="header">
                 <div className="index">ꖵ</div>
                 <div className="year">2017</div>
@@ -437,8 +421,8 @@ export default class Home extends React.Component {
               </div>
             </div> */}
 
-            {/*Add block 01 */}
-            <div key="01" >
+            {/*Add block 04 */}
+            <div key="04" >
               <div className='legend'>
                 <div className="circles-3" style={{ width: "100%" }}>
                   <div className='legendtext'>Researcher</div>
