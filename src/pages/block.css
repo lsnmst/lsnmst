@@ -392,6 +392,14 @@ h2 {
     background-position: top right;
 }
 
+.raca:hover {
+    background: url("../../public/img/raca.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .tracker:hover {
     background: url("../../public/img/tracker.jpg") no-repeat;
     background-repeat: no-repeat;

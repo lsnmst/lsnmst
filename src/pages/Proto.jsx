@@ -18,17 +18,19 @@ export default class Proto extends React.Component {
   }
   render() {
     const layout = [
-      { i: "04", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "03", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "02", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "01", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "05", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "04", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "03", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "02", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "01", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "05", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "04", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "03", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "02", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "01", x: 0, y: 3, w: 3, h: 3, static: true },
     ];
 
 
@@ -54,8 +56,8 @@ export default class Proto extends React.Component {
             {/* key font https://decodeunicode.org/en/u+AB01 */}
 
 
-            {/*Add block 04 */}
-            <div key="04" className='carbon'>
+            {/*Add block 05 */}
+            <div key="05" className='carbon'>
               <div className="header">
                 <div className="index">ꮬ</div>
                 <div className="year">2024</div>
@@ -68,8 +70,8 @@ export default class Proto extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 03 */}
-            <div key="03" className='pacific'>
+            {/*Add block 04 */}
+            <div key="04" className='pacific'>
               <div className="header">
                 <div className="index">ꮼ</div>
                 <div className="year">2024</div>
@@ -83,8 +85,8 @@ export default class Proto extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 02 */}
-            <div key="02" className='wwa'>
+            {/*Add block 03 */}
+            <div key="03" className='wwa'>
               <div className="header">
                 <div className="index">ꕾ</div>
                 <div className="year">2023</div>
@@ -96,6 +98,22 @@ export default class Proto extends React.Component {
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
               </div>
               <div className="lang" title='Language'>en</div>
+            </div>
+
+            {/*Add block 02 */}
+            <div key="02" className='raca'>
+              <div className="header">
+                <div className="index">𐎊</div>
+                <div className="year">2021</div>
+              </div>
+              <div className="title"><a href="https://www.alessandromusetta.com/comunidados/dev-projects/dot/en.html" target="_blank" rel="noopener noreferrer">SER PRET@ NO RJ</a></div>
+              <div className="description"><p><a href="https://www.alessandromusetta.com/comunidados/dev-projects/dot/en.html" target="_blank" rel="noopener noreferrer">What does spatial inequality produced by racial segregation in Rio de Janeiro look like? Discover the relationship between risk area and colour/race of inhabitants</a></p></div>
+              <div className="viz">
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+              </div>
+              <div className="lang" title='Language'>pt, en</div>
             </div>
 
             {/*Add block 01 */}
