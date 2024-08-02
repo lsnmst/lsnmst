@@ -18,23 +18,25 @@ export default class Idea extends React.Component {
   }
   render() {
     const layout = [
-      { i: "07", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "06", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "05", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "04", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "03", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "02", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "01", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "08", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "07", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "06", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "05", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "07", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "06", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "05", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "04", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "03", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "02", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "01", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "08", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "07", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "06", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "05", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "04", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "03", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "02", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "01", x: 9, y: 3, w: 3, h: 3, static: true },
     ];
 
 
@@ -59,8 +61,8 @@ export default class Idea extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+AB01 */}
 
-            {/*Add block 07 */}
-            <div key="07" className='ice'>
+            {/*Add block 08 */}
+            <div key="08" className='ice'>
               <div className="header">
                 <div className="index">ꬤ</div>
                 <div className="yeartext">2023</div>
@@ -69,8 +71,8 @@ export default class Idea extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Antarctica, Southern Ocean, Ross Sea, Victoria Land, Transantarctic Mountains, Ross Ice Shelf, Mcmurdo Sound, Terra Nova Bay</a></div>
             </div>
 
-            {/*Add block 06 */}
-            <div key="06" className='desert'>
+            {/*Add block 07 */}
+            <div key="07" className='desert'>
               <div className="header">
                 <div className="index">ꬬ</div>
                 <div className="yeartext">2023</div>
@@ -79,8 +81,8 @@ export default class Idea extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Ténéré Desert, Aïr Mountains, Ighazer Plain, Aïr And Ténéré National Nature Reserve, Kawar Oases</a></div>
             </div>
 
-            {/*Add block 05 */}
-            <div key="05" className='forest'>
+            {/*Add block 06 */}
+            <div key="06" className='forest'>
               <div className="header">
                 <div className="index">︗</div>
                 <div className="yeartext">2023</div>
@@ -89,8 +91,8 @@ export default class Idea extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Forest, Congo Basin, Ituri And Hautuélé Provinces, Mambasa And Watsa Chiefdom, Okapi Wildlife Reserve, Kibali and Ituri River</a></div>
             </div>
 
-            {/*Add block 04 */}
-            <div key="04" className='amazonia'>
+            {/*Add block 05 */}
+            <div key="05" className='amazonia'>
               <div className="header">
                 <div className="index">ꬁ</div>
                 <div className="yeartext">2022</div>
@@ -99,8 +101,8 @@ export default class Idea extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/alliances-aliancas-alianzas-alliances.pdf" target="_blank" rel="noopener noreferrer">Tightening alliances between researchers, earth and land rights defenders between Amazonia and the Congo Basin</a></div>
             </div>
 
-            {/*Add block 03 */}
-            <div key="03" className='candomble'>
+            {/*Add block 04 */}
+            <div key="04" className='candomble'>
               <div className="header">
                 <div className="index">ꬉ</div>
                 <div className="yeartext">2022</div>
@@ -109,8 +111,8 @@ export default class Idea extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/culto-afro-educacao-ambiental_v02.pdf" target="_blank" rel="noopener noreferrer">Stop religious intolerance through environmental education. The African diaspora religions in Brazil</a></div>
             </div>
 
-            {/*Add block 02 */}
-            <div key="02" className='idp'>
+            {/*Add block 03 */}
+            <div key="03" className='idp'>
               <div className="header">
                 <div className="index">𐓦</div>
                 <div className="yeartext">2022</div>
@@ -119,8 +121,8 @@ export default class Idea extends React.Component {
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/Managing-water-scarcity-IDPs-Rutshuru-YOUsustain.pdf" target="_blank" rel="noopener noreferrer">Managing water scarcity in the IDPs camps located in the second-tier towns along the Congolese N2 national highway</a></div>
             </div>
 
-            {/*Add block 01 */}
-            <div key="01" className='simpleshort'>
+            {/*Add block 02 */}
+            <div key="02" className='simpleshort'>
               <div className="header">
                 <div className="index">༕</div>
                 <div className="yeartext">2018</div>
@@ -129,7 +131,15 @@ export default class Idea extends React.Component {
               <div className="titletext"><a href="https://medium.com/@lsnmst/redutionism-and-multiscale-indicators-in-the-complex-system-dynamics-approach-cb4bca38c9b8" target="_blank" rel="noopener noreferrer">When they sell you solutions on short and simple promises, don't trust them</a></div>
             </div>
 
-
+            {/*Add block 01 */}
+            <div key="01" className='soundofthings'>
+              <div className="header">
+                <div className="index">ꡤ</div>
+                <div className="yeartext">2016</div>
+              </div>
+              <div className="description">LANG_IT</div>
+              <div className="titletext"><a href="http://www.postmediabooks.it/2016/152aurali/9788874901524.htm" target="_blank" rel="noopener noreferrer">The sound of things</a></div>
+            </div>
 
           </ResponsiveGridLayout>
         </div>

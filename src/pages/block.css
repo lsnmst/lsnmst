@@ -595,7 +595,15 @@ h2 {
 .simpleshort:hover {
     background: url("../../public/img/simpleshort.png") no-repeat;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 500px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.soundofthings:hover {
+    background: url("../../public/img/soundofthings.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 200px;
     background-attachment: fixed;
     background-position: top right;
 }
