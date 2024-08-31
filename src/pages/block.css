@@ -217,6 +217,14 @@ h2 {
     left: 2%;
 }
 
+.arch {
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    border: solid 1px #000000;
+    margin: 1px;
+}
+
 .year {
     color: aliceblue;
     background-color: black;
@@ -671,9 +679,6 @@ h2 {
 
 @media screen and (max-width: 480px) {
 
-    .menu li a {
-        padding: 14px 8px !important;
-    }
 
     .legend {
         width: 70%;
@@ -713,10 +718,21 @@ h2 {
         margin: 0;
     }
 
+    .menu li a {
+        padding: 14px 8px !important;
+        display: table-caption;
+        min-width: 50px;
+    }
+
     .menu {
         font-size: 11px;
-        margin-top: 50px;
+        margin-top: 25px;
         line-height: 1.8;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
     }
 
     .ilnomecheappareprimadelresto>span {

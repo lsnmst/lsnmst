@@ -14,6 +14,9 @@ function NavbarptBR() {
             <NavLink to="/idea-ptBR" activeclassname="active">textos + ideias</NavLink>
           </li>
           <li>
+            <NavLink to="/archive-ptBR" activeclassname="active">curadoria de arquivos</NavLink>
+          </li>
+          <li>
             <NavLink to="/proto-ptBR" activeclassname="active">protótipos + fracassos</NavLink>
           </li>
         </ul>

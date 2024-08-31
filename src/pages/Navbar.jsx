@@ -14,6 +14,9 @@ function Navbar() {
             <NavLink to="/idea" activeclassname="active">texts + ideas</NavLink>
           </li>
           <li>
+            <NavLink to="/archive" activeclassname="active">curated archives</NavLink>
+          </li>
+          <li>
             <NavLink to="/proto" activeclassname="active">prototypes + failures</NavLink>
           </li>
         </ul>
