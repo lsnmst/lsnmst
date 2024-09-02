@@ -582,7 +582,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 450px;
     background-attachment: fixed;
-    background-position: top right;
+    background-position: bottom right;
 }
 
 .bugoma:hover {
@@ -615,6 +615,14 @@ h2 {
     background-size: 500px;
     background-attachment: fixed;
     background-position: top right;
+}
+
+.model:hover{
+    background: url("../../public/img/model.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+    background-position: bottom right;
 }
 
 .soundofthings:hover {
