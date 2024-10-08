@@ -18,27 +18,29 @@ export default class Idea extends React.Component {
   }
   render() {
     const layout = [
-      { i: "09", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "08", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "07", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "06", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "05", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "04", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "03", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "02", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "01", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "10", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "09", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "08", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "07", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "06", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "05", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "09", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "08", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "07", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "06", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "05", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "04", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "03", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "02", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "01", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "10", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "09", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "08", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "07", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "06", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "05", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "04", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "03", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "02", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "01", x: 3, y: 6, w: 3, h: 3, static: true },
     ];
 
 
@@ -63,13 +65,23 @@ export default class Idea extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+AB01 */}
 
+            {/*Add block 10 */}
+            <div key="10" className='aves'>
+              <div className="header">
+                <div className="index">ꣾ</div>
+                <div className="yeartext">2024</div>
+              </div>
+              <div className="description">IDEA: LANG_pt-BR</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST_paisagem-sonora-floresta-tingua.pdf" target="_blank" rel="noopener noreferrer">THE SOUNDSCAPE OF THE TINGUÁ FOREST. Archive, popularisation and environmental education involving bioacoustics</a></div>
+            </div>
+
             {/*Add block 09 */}
             <div key="09" className='ice'>
               <div className="header">
                 <div className="index">ꬤ</div>
                 <div className="yeartext">2023</div>
               </div>
-              <div className="description">LANG_EN</div>
+              <div className="description">TEXT: LANG_EN</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Antarctica, Southern Ocean, Ross Sea, Victoria Land, Transantarctic Mountains, Ross Ice Shelf, Mcmurdo Sound, Terra Nova Bay</a></div>
             </div>
 
@@ -79,7 +91,7 @@ export default class Idea extends React.Component {
                 <div className="index">ꬬ</div>
                 <div className="yeartext">2023</div>
               </div>
-              <div className="description">LANG_EN, FR</div>
+              <div className="description">TEXT: LANG_EN, FR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Ténéré Desert, Aïr Mountains, Ighazer Plain, Aïr And Ténéré National Nature Reserve, Kawar Oases</a></div>
             </div>
 
@@ -89,7 +101,7 @@ export default class Idea extends React.Component {
                 <div className="index">︗</div>
                 <div className="yeartext">2023</div>
               </div>
-              <div className="description">LANG_EN, FR</div>
+              <div className="description">TEXT: LANG_EN, FR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Reveal Complexity : Forest, Congo Basin, Ituri And Hautuélé Provinces, Mambasa And Watsa Chiefdom, Okapi Wildlife Reserve, Kibali and Ituri River</a></div>
             </div>
 
@@ -99,7 +111,7 @@ export default class Idea extends React.Component {
                 <div className="index">ꬁ</div>
                 <div className="yeartext">2022</div>
               </div>
-              <div className="description">LANG_EN, pt-BR, ES, FR</div>
+              <div className="description">IDEA: LANG_EN, pt-BR, ES, FR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/alliances-aliancas-alianzas-alliances.pdf" target="_blank" rel="noopener noreferrer">Tightening alliances between researchers, earth and land rights defenders between Amazonia and the Congo Basin</a></div>
             </div>
 
@@ -109,7 +121,7 @@ export default class Idea extends React.Component {
                 <div className="index">ꬉ</div>
                 <div className="yeartext">2022</div>
               </div>
-              <div className="description">LANG_EN, pt-BR</div>
+              <div className="description">IDEA: LANG_EN, pt-BR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/culto-afro-educacao-ambiental_v02.pdf" target="_blank" rel="noopener noreferrer">Stop religious intolerance through environmental education. The African diaspora religions in Brazil</a></div>
             </div>
 
@@ -119,7 +131,7 @@ export default class Idea extends React.Component {
                 <div className="index">𐓦</div>
                 <div className="yeartext">2022</div>
               </div>
-              <div className="description">LANG_EN</div>
+              <div className="description">TEXT: LANG_EN</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/Managing-water-scarcity-IDPs-Rutshuru-YOUsustain.pdf" target="_blank" rel="noopener noreferrer">Managing water scarcity in the IDPs camps located in the second-tier towns along the Congolese N2 national highway</a></div>
             </div>
 
@@ -129,7 +141,7 @@ export default class Idea extends React.Component {
                 <div className="index">שּ</div>
                 <div className="yeartext">2020</div>
               </div>
-              <div className="description">LANG_EN</div>
+              <div className="description">TEXT: LANG_EN</div>
               <div className="titletext"><a href="https://docs.google.com/presentation/d/1fquKsck_tr3GPNNOkClED8fFMgA7UZzOFcs7oPUeEOU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">A MODEL FOR UGANDAN SUBSISTENCE FARMERS AND FISHERFOLKS RESILIENCE</a></div>
             </div>
 
@@ -139,7 +151,7 @@ export default class Idea extends React.Component {
                 <div className="index">༕</div>
                 <div className="yeartext">2018</div>
               </div>
-              <div className="description">LANG_EN</div>
+              <div className="description">TEXT: LANG_EN</div>
               <div className="titletext"><a href="https://medium.com/@lsnmst/redutionism-and-multiscale-indicators-in-the-complex-system-dynamics-approach-cb4bca38c9b8" target="_blank" rel="noopener noreferrer">When they sell you solutions on short and simple promises, don't trust them</a></div>
             </div>
 
@@ -149,7 +161,7 @@ export default class Idea extends React.Component {
                 <div className="index">ꡤ</div>
                 <div className="yeartext">2016</div>
               </div>
-              <div className="description">LANG_IT</div>
+              <div className="description">IDEA: LANG_IT</div>
               <div className="titletext"><a href="http://www.postmediabooks.it/2016/152aurali/9788874901524.htm" target="_blank" rel="noopener noreferrer">The sound of things</a></div>
             </div>
 

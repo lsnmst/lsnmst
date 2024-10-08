@@ -585,6 +585,14 @@ h2 {
     background-position: bottom right;
 }
 
+.aves:hover {
+    background: url("../../public/img/aves.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
 .bugoma:hover {
     background: url("../../public/img/bugoma-CFR.jpg") no-repeat;
     background-repeat: no-repeat;

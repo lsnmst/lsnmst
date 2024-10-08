@@ -18,27 +18,29 @@ export default class IdeaptBR extends React.Component {
   }
   render() {
     const layout = [
-      { i: "09", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "08", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "07", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "06", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "05", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "04", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "03", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "02", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "01", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "10", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "09", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "08", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "07", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "06", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "05", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "09", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "08", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "07", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "06", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "05", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "04", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "03", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "02", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "01", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "10", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "09", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "08", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "07", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "06", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "05", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "04", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "03", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "02", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "01", x: 3, y: 6, w: 3, h: 3, static: true },
     ];
 
     return (
@@ -62,13 +64,23 @@ export default class IdeaptBR extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+AB01 */}
 
+            {/*Add block 10 */}
+            <div key="10" className='aves'>
+              <div className="header">
+                <div className="index">ꣾ</div>
+                <div className="yeartext">2024</div>
+              </div>
+              <div className="description">IDEIA: IDIOMAS_pt-BR</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST_paisagem-sonora-floresta-tingua.pdf" target="_blank" rel="noopener noreferrer">A PAISAGEM SONORA DA FLORESTA DO TINGUÁ. Arquivo, divulgação científica e educação ambiental envolvendo a bioacústica</a></div>
+            </div>
+
             {/*Add block 09 */}
             <div key="09" className='ice'>
               <div className="header">
                 <div className="index">ꬤ</div>
                 <div className="yeartext">2023</div>
               </div>
-              <div className="description">LANG_EN</div>
+              <div className="description">TEXTO: IDIOMAS_EN</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-antarctica.pdf" target="_blank" rel="noopener noreferrer">Revelando a complexidade : Antártica, Oceano Antártico, Mar de Ross, Terra de Victoria, Montanhas Transantárticas, Plataforma de Gelo Ross, Mcmurdo Sound</a></div>
             </div>
 
@@ -78,7 +90,7 @@ export default class IdeaptBR extends React.Component {
                 <div className="index">ꬬ</div>
                 <div className="yeartext">2023</div>
               </div>
-              <div className="description">LANG_EN, FR</div>
+              <div className="description">TEXTO: IDIOMAS_EN, FR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-desert.pdf" target="_blank" rel="noopener noreferrer">Revelando a complexidade : Deserto de Ténéré, Montanhas de Aïr, Planície de Ighazer, Reserva Natural Nacional de Aïr e Ténéré, Oásis de Kawar</a></div>
             </div>
 
@@ -88,7 +100,7 @@ export default class IdeaptBR extends React.Component {
                 <div className="index">︗</div>
                 <div className="yeartext">2023</div>
               </div>
-              <div className="description">LANG_EN, FR</div>
+              <div className="description">TEXTO: IDIOMAS_EN, FR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/LSNMST-mapping-empty-forest.pdf" target="_blank" rel="noopener noreferrer">Revelando a complexidade : Floresta, Bacia do Congo, Províncias de Ituri e Hautuélé, Chefatura de Mambasa e Watsa, Reserva do Okapi, Rio Kibali e Ituri</a></div>
             </div>
 
@@ -98,7 +110,7 @@ export default class IdeaptBR extends React.Component {
                 <div className="index">ꬁ</div>
                 <div className="yeartext">2022</div>
               </div>
-              <div className="description">LANG_EN, pt-BR, ES, FR</div>
+              <div className="description">IDEIA: IDIOMAS_EN, pt-BR, ES, FR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/alliances-aliancas-alianzas-alliances.pdf" target="_blank" rel="noopener noreferrer">Fortalecimento das alianças entre pesquisadorxs, defensorxs da terra e dos direitos territoriais entre a Amazônia e a Bacia do Congo</a></div>
             </div>
 
@@ -108,7 +120,7 @@ export default class IdeaptBR extends React.Component {
                 <div className="index">ꬉ</div>
                 <div className="yeartext">2022</div>
               </div>
-              <div className="description">LANG_EN, pt-BR</div>
+              <div className="description">IDEIA: IDIOMAS_EN, pt-BR</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/culto-afro-educacao-ambiental_v02.pdf" target="_blank" rel="noopener noreferrer">Acabar com a intolerância religiosa através da educação ambiental. As religiões da diáspora africana no Brasil</a></div>
             </div>
 
@@ -118,7 +130,7 @@ export default class IdeaptBR extends React.Component {
                 <div className="index">𐓦</div>
                 <div className="yeartext">2022</div>
               </div>
-              <div className="description">LANG_EN</div>
+              <div className="description">TEXTO: IDIOMAS_EN</div>
               <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/Managing-water-scarcity-IDPs-Rutshuru-YOUsustain.pdf" target="_blank" rel="noopener noreferrer">Gerenciar a falta de água nos campos de refugiados internos ao longo da rodovia nacional congolesa N2</a></div>
             </div>
 
@@ -128,7 +140,7 @@ export default class IdeaptBR extends React.Component {
                 <div className="index">שּ</div>
                 <div className="yeartext">2020</div>
               </div>
-              <div className="description">LANG_EN</div>
+              <div className="description">TEXTO: IDIOMAS_EN</div>
               <div className="titletext"><a href="https://docs.google.com/presentation/d/1fquKsck_tr3GPNNOkClED8fFMgA7UZzOFcs7oPUeEOU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">UM MODELO PARA A RESILIÊNCIA DE AGRICULTORES DE SUBSISTÊNCIA E PESCADORES NA UGANDA</a></div>
             </div>
 
@@ -138,7 +150,7 @@ export default class IdeaptBR extends React.Component {
                 <div className="index">༕</div>
                 <div className="yeartext">2018</div>
               </div>
-              <div className="description">LANG_EN</div>
+              <div className="description">TEXTO: IDIOMAS_EN</div>
               <div className="titletext"><a href="https://medium.com/@lsnmst/redutionism-and-multiscale-indicators-in-the-complex-system-dynamics-approach-cb4bca38c9b8" target="_blank" rel="noopener noreferrer">Quando lhe venderem soluções em promessas imediatistas e simplistas, não confie nelas</a></div>
             </div>
 
@@ -148,7 +160,7 @@ export default class IdeaptBR extends React.Component {
                 <div className="index">ꡤ</div>
                 <div className="yeartext">2016</div>
               </div>
-              <div className="description">LANG_IT</div>
+              <div className="description">IDEIA: IDIOMAS_IT</div>
               <div className="titletext"><a href="http://www.postmediabooks.it/2016/152aurali/9788874901524.htm" target="_blank" rel="noopener noreferrer">O som das coisas</a></div>
             </div>
 
