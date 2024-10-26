@@ -18,28 +18,28 @@ export default class PtBR extends React.Component {
   }
   render() {
     const layout = [
-      { i: "22", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "21", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "20", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "19", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "18", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "17", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "16", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "15", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "14", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "13", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "12", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "11", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "10", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "09", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "08", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "07", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "06", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "05", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "04", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "03", x: 9, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "02", x: 0, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true},
-      { i: "01", x: 3, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true},
+      { i: "22", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "21", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "20", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "19", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "18", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "17", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "16", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "15", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "14", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "13", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "12", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "11", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "10", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "09", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "08", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "07", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "06", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "05", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 9, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 0, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 3, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
@@ -447,8 +447,9 @@ export default class PtBR extends React.Component {
       </>
 
       </><div className='bio'>
-          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Como somos seres humanos cercados por uma complexidade imensurável, não conseguimos terraformar Marte em uma questão de poucas gerações humanas, nem fazer a engenharia cirúrgica do clima sem uma enxurrada de consequências indesejadas. Então, se você precisa de soluções rápidas e simples, primeiro deve ser capaz de enxergar a complexidade. Meu superpoder é justamente transformar o simples em complexo (≠ complicado) e comunicá-lo, pois, uma vez revelado, será mais fácil encontrar soluções comuns. Ou pelo menos, tentamos. A urgência de compreender práticas, ontologias e epistemologias fizeram que me apaixonasse por pesquisas e investigações. Acima de tudo, construindo experiências nos campos da ecologia política e da justiça social; aliás, tenho um apego especial às causas dos movimentos africanos e afrodescendentes e às formas de libertação e cooperação Sul-Sul. Assim, não posso deixar de ouvir as pessoas e estou disposto a viajar o quanto for necessário para aprender com elas.<br /><br /><br /><img src={Otc} style={{ width: 20 }} /><br /><br />Entre os projetos apresentados, alguns foram desenvolvidos em conjunto com comunidades locais e tradicionais com o único objetivo de apoiar seus direitos territoriais e visibilizar suas lutas pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.
-            <br /><br /><b><i>Aberto para colaboração</i></b><br />ALESSANDRO está comprometido com o desenvolvimento de novos modos de colaboração, envolvimento e parceria com os povos indígenas para o cuidado e a conservação de coleções de patrimônio passadas e futuras. O que é este aviso? Leia mais <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>aqui</u></a>.<br />
+          <div className='biotext'>🕮<br></br><br></br>✻ ✻ ✻ ✻ ✻ ✻<br></br><br></br>Como somos seres humanos cercados por uma complexidade imensurável, não conseguimos terraformar Marte em uma questão de poucas gerações humanas, nem fazer a engenharia cirúrgica do clima sem uma enxurrada de consequências indesejadas. Então, se você precisa de soluções rápidas e simples, primeiro deve ser capaz de enxergar a complexidade. Meu superpoder é justamente transformar o simples em complexo (≠ complicado) e comunicá-lo, pois, uma vez revelado, será mais fácil encontrar soluções comuns. Ou pelo menos, tentamos. A urgência de compreender práticas, ontologias e epistemologias fizeram que me apaixonasse por pesquisas e investigações. Acima de tudo, construindo experiências nos campos da ecologia política e da justiça social; aliás, tenho um apego especial às causas dos movimentos africanos e afrodescendentes e às formas de libertação e cooperação Sul-Sul. Assim, não posso deixar de ouvir as pessoas e estou disposto a viajar o quanto for necessário para aprender com elas.<br /><br /><br />
+            <p style={{ border: "1px black solid", padding: "12px" }}><img src={Otc} style={{ width: 20 }} /><br /><br />Entre os projetos apresentados, alguns foram desenvolvidos em conjunto com comunidades locais e tradicionais com o único objetivo de apoiar seus direitos territoriais e visibilizar suas lutas pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.
+              <br /><br /><b><i>Aberto para colaboração</i></b><br />ALESSANDRO está comprometido com o desenvolvimento de novos modos de colaboração, envolvimento e parceria com os povos indígenas para o cuidado e a conservação de coleções de patrimônio passadas e futuras. O que é este aviso? Leia mais <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>aqui</u></a>.<br /></p>
             <br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br />
             <br /><br /><Link style={{ fontSize: 8 }} to="/">EN</Link><br /><br />
           </div>
