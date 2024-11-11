@@ -18,53 +18,45 @@ export default class PtBR extends React.Component {
   }
   render() {
     const layout = [
-      { i: "22", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "21", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "20", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "19", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "18", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "17", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "16", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "15", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "14", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "13", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "12", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "11", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "10", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "09", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "08", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "07", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "06", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "05", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "04", x: 6, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "03", x: 9, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "02", x: 0, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "01", x: 3, y: 15, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "18", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "17", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "16", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "15", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "14", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "13", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "12", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "11", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "10", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "09", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "08", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "07", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "06", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "05", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 9, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 0, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 3, y: 12, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "22", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "21", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "20", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "19", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "18", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "17", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "16", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "15", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "14", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "13", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "12", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "11", x: 9, y: 6, w: 3, h: 3, static: true },
-      { i: "10", x: 0, y: 9, w: 3, h: 3, static: true },
-      { i: "09", x: 3, y: 9, w: 3, h: 3, static: true },
-      { i: "08", x: 6, y: 9, w: 3, h: 3, static: true },
-      { i: "07", x: 9, y: 9, w: 3, h: 3, static: true },
-      { i: "06", x: 0, y: 12, w: 3, h: 3, static: true },
-      { i: "05", x: 3, y: 12, w: 3, h: 3, static: true },
-      { i: "04", x: 6, y: 12, w: 3, h: 3, static: true },
-      { i: "03", x: 9, y: 12, w: 3, h: 3, static: true },
-      { i: "02", x: 0, y: 15, w: 3, h: 3, static: true },
-      { i: "01", x: 3, y: 15, w: 3, h: 3, static: true },
+      { i: "18", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "17", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "16", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "15", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "14", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "13", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "12", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "11", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "10", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "09", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "08", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "07", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "06", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "05", x: 3, y: 9, w: 3, h: 3, static: true },
+      { i: "04", x: 6, y: 9, w: 3, h: 3, static: true },
+      { i: "03", x: 9, y: 9, w: 3, h: 3, static: true },
+      { i: "02", x: 0, y: 12, w: 3, h: 3, static: true },
+      { i: "01", x: 3, y: 12, w: 3, h: 3, static: true },
     ];
 
     return (
@@ -87,9 +79,22 @@ export default class PtBR extends React.Component {
 
 
             {/* key font https://decodeunicode.org/en/u+0A5B3 */}
+            {/*Add block 18 */}
+            <div key="18" className='carbon'>
+              <div className="header">
+                <div className="index">ꮬ</div>
+                <div className="year">2024</div>
+              </div>
+              <div className="title"><a href="https://lsnmst.github.io/carbon-violence/" target="_blank" rel="noopener noreferrer">CARBON VIOLENCE</a></div>
+              <div className="description"><p><a href="https://lsnmst.github.io/carbon-violence/" target="_blank" rel="noopener noreferrer">O arquivo \Carbon Violence\ expõe a violência física, econômica, psicológica e epistêmica sofrida por indivíduos e comunidades que vivem nas áreas onde os projetos de compensação de carbono são implementados, responsabilizando os desenvolvedores de projetos, as empresas subsidiárias, os investidores, os financiadores, os órgãos de validação e verificação, os corretores e as empresas que compram créditos</a></p></div>
+              <div className="viz">
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+              </div>
+              <div className="lang" title='Language'>en</div>
+            </div>
 
-            {/*Add block 22 */}
-            <div key="22" className='agathe'>
+            {/*Add block 17 */}
+            <div key="17" className='agathe'>
               <div className="header">
                 <div className="index">ꖘ</div>
                 <div className="year">2024</div>
@@ -105,8 +110,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>sw, en, fr</div>
             </div>
 
-            {/*Add block 21 */}
-            <div key="21" className='izzi'>
+            {/*Add block 16 */}
+            <div key="16" className='izzi'>
               <div className="header">
                 <div className="index">ⵞ</div>
                 <div className="year">2024</div>
@@ -121,8 +126,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 20 */}
-            <div key="20" className='quilombo'>
+            {/*Add block 15 */}
+            <div key="15" className='quilombo'>
               <div className="header">
                 <div className="index">ꔞ</div>
                 <div className="year">2023</div>
@@ -138,8 +143,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>pt</div>
             </div>
 
-            {/*Add block 19 */}
-            <div key="19" className='ishasha'>
+            {/*Add block 14 */}
+            <div key="14" className='ishasha'>
               <div className="header">
                 <div className="index">ꖹ</div>
                 <div className="year">2023</div>
@@ -155,8 +160,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>en, fr</div>
             </div>
 
-            {/*Add block 18 */}
-            <div key="18" className='beatrice'>
+            {/*Add block 13 */}
+            <div key="13" className='beatrice'>
               <div className="header">
                 <div className="index">ㅆ</div>
                 <div className="year">2023</div>
@@ -172,8 +177,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 17 */}
-            <div key="17" className='carto'>
+            {/*Add block 12 */}
+            <div key="12" className='carto'>
               <div className="header">
                 <div className="index">ꗴ</div>
                 <div className="year">2023</div>
@@ -190,8 +195,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 16 */}
-            <div key="16" className='comunidados'>
+            {/*Add block 11 */}
+            <div key="11" className='comunidados'>
               <div className="header">
                 <div className="index">ꖳ</div>
                 <div className="year">2022</div>
@@ -208,8 +213,8 @@ export default class PtBR extends React.Component {
             </div>
 
 
-            {/*Add block 15 */}
-            <div key="15" className='defence'>
+            {/*Add block 10 */}
+            <div key="10" className='defence'>
               <div className="header">
                 <div className="index">ꖺ</div>
                 <div className="year">2022</div>
@@ -225,8 +230,8 @@ export default class PtBR extends React.Component {
             </div>
 
 
-            {/*Add block 14 */}
-            <div key="14" className='blood'>
+            {/*Add block 09 */}
+            <div key="09" className='blood'>
               <div className="header">
                 <div className="index">ꖁ</div>
                 <div className="year">2021</div>
@@ -241,8 +246,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 13 */}
-            <div key="13" className='shores'>
+            {/*Add block 08 */}
+            <div key="08" className='shores'>
               <div className="header">
                 <div className="index">ꖻ</div>
                 <div className="year">2021</div>
@@ -257,8 +262,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 12 */}
-            <div key="12" className='onda'>
+            {/*Add block 07 */}
+            <div key="07" className='onda'>
               <div className="header">
                 <div className="index">ꖃ</div>
                 <div className="year">2021</div>
@@ -273,8 +278,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>pt</div>
             </div>
 
-            {/*Add block 11 */}
-            <div key="11" className='bugoma'>
+            {/*Add block 06 */}
+            <div key="06" className='bugoma'>
               <div className="header">
                 <div className="index">ฒ</div>
                 <div className="year">2021</div>
@@ -290,8 +295,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 10 */}
-            <div key="10" className='tracker'>
+            {/*Add block 05 */}
+            <div key="05" className='tracker'>
               <div className="header">
                 <div className="index">ꖬ</div>
                 <div className="year">2020</div>
@@ -306,8 +311,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>en</div>
             </div>
 
-            {/*Add block 09 */}
-            <div key="09" className='underwater'>
+            {/*Add block 04 */}
+            <div key="04" className='underwater'>
               <div className="header">
                 <div className="index">ꖸ</div>
                 <div className="year">2020</div>
@@ -321,8 +326,8 @@ export default class PtBR extends React.Component {
               <div className="lang" title='Language'>it</div>
             </div>
 
-            {/*Add block 08 */}
-            <div key="08" className='metro'>
+            {/*Add block 03 */}
+            <div key="03" className='metro'>
               <div className="header">
                 <div className="index">ꖧ</div>
                 <div className="year">2019</div>
@@ -337,7 +342,7 @@ export default class PtBR extends React.Component {
             </div>
 
             {/*Add block 07 */}
-            <div key="07" className='paz'>
+            {/* <div key="07" className='paz'>
               <div className="header">
                 <div className="index">ꖅ</div>
                 <div className="year">2018</div>
@@ -349,10 +354,10 @@ export default class PtBR extends React.Component {
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
               </div>
               <div className="lang" title='Language'>es</div>
-            </div>
+            </div> */}
 
             {/*Add block 06 */}
-            <div key="06" className='uganda'>
+            {/* <div key="06" className='uganda'>
               <div className="header">
                 <div className="index">ꖐ</div>
                 <div className="year">2018</div>
@@ -364,7 +369,7 @@ export default class PtBR extends React.Component {
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="lang" title='Language'>en</div>
               </div>
-            </div>
+            </div> */}
 
             {/*Add block 05 */}
             {/* <div key="05" className='vie'>
@@ -380,8 +385,8 @@ export default class PtBR extends React.Component {
               </div>
             </div> */}
 
-            {/*Add block 05 */}
-            <div key="05" className='diesel'>
+            {/*Add block 02 */}
+            <div key="02" className='diesel'>
               <div className="header">
                 <div className="index">ꖵ</div>
                 <div className="year">2017</div>
@@ -420,8 +425,8 @@ export default class PtBR extends React.Component {
               </div>
             </div> */}
 
-            {/*Add block 04 */}
-            <div key="04" >
+            {/*Add block 01 */}
+            <div key="01" >
               <div className='legend'>
                 <div className="circles-3" style={{ width: "100%" }}>
                   <div className='legendtext'>Pesquisa</div>

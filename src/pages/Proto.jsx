@@ -18,21 +18,19 @@ export default class Proto extends React.Component {
   }
   render() {
     const layout = [
-      { i: "06", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "05", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "04", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "03", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "02", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "01", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "05", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "06", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "05", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "04", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "03", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "02", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "01", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "05", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "04", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "03", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "02", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "01", x: 0, y: 3, w: 3, h: 3, static: true },
     ];
 
 
@@ -59,6 +57,7 @@ export default class Proto extends React.Component {
 
 
             {/*Add block 06 */}
+            {/*
             <div key="06" className='carbon'>
               <div className="header">
                 <div className="index">ꮬ</div>
@@ -71,6 +70,7 @@ export default class Proto extends React.Component {
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
+            */}
 
             {/*Add block 05 */}
             <div key="05" className='pacific'>
@@ -166,7 +166,7 @@ export default class Proto extends React.Component {
             <p style={{ border: "1px black solid", padding: "12px" }}><img src={Otc} style={{ width: 20 }} /><br /><br />Some of the featured projects have been built together with local and traditional communities with the sole purpose of upholding their land rights and visibilizing their struggle for the cultural and biological survival. Any information and data rights on culture, cosmologic view, customary law, arts and crafts, tangible and intangible heritage, biodiversity, folklore and commons, remain with these Peoples.
               <br /><br /><b><i>Open to Collaborate</i></b><br />ALESSANDRO is committed to the development of new modes of collaboration, engagement, and partnership with Indigenous peoples for the care and stewardship of past and future heritage collections. What is this notice? Read more <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>here</u></a>.<br /></p>
             <br /><br />Thanks for being here!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br />
-            <br /><br /><Link style={{ fontSize: 8 }} to="/PtBR">ptBR</Link><br /><br />
+            <br /><br /><Link style={{ fontSize: 8 }} to="/proto-ptBR">ptBR</Link><br /><br />
           </div>
         </div></></>
     );
