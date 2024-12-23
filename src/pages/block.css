@@ -641,6 +641,22 @@ h2 {
     background-position: top right;
 }
 
+.popscape:hover {
+    background: url("../../public/img/popscape.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.performativa:hover {
+    background: url("../../public/img/performativa.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .legend {
     width: 85%;
     margin: 100px auto;

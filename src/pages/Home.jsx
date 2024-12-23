@@ -219,8 +219,8 @@ export default class Home extends React.Component {
                 <div className="index">ꖺ</div>
                 <div className="year">2022</div>
               </div>
-              <div className="title"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">Last Defence</a></div>
-              <div className="description"><a href="https://watetezi.org/wp-content/uploads/2022/04/HALTING-THE-ECOLOGICAL-CRISIS-AND-ECOSYSTEM-COLLAPSE-OF-THE-CONGO-BASIN-EDGE_v2_compressed.pdf" target="_blank" rel="noopener noreferrer">\The last defence\, demonstrates how to avoid the ecological crisis and the collapse of the ecosystem of the Congo basin edge and investigates the notions of social, ecological and climate justice, focusing on the territory of Watsa, Haut-Uélé province, Democratic Republic of Congo</a></div>
+              <div className="title"><a href="https://archive.org/details/halting-the-ecological-crisis-and-ecosystem-collapse-of-the-congo-basin-edge-v-2-compressed" target="_blank" rel="noopener noreferrer">Last Defence</a></div>
+              <div className="description"><a href="https://archive.org/details/halting-the-ecological-crisis-and-ecosystem-collapse-of-the-congo-basin-edge-v-2-compressed" target="_blank" rel="noopener noreferrer">\The last defence\, demonstrates how to avoid the ecological crisis and the collapse of the ecosystem of the Congo basin edge and investigates the notions of social, ecological and climate justice, focusing on the territory of Watsa, Haut-Uélé province, Democratic Republic of Congo</a></div>
               <div className="viz">
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
@@ -236,8 +236,8 @@ export default class Home extends React.Component {
                 <div className="index">ꖁ</div>
                 <div className="year">2021</div>
               </div>
-              <div className="title"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">Blood in the Forest</a></div>
-              <div className="description"><a href="https://www.watetezi.org/wp-content/uploads/2021/03/Environemtal-Defenders-Blood-in-the-forest-v01.pdf" target="_blank" rel="noopener noreferrer">\Blood in the Forest\, identifies ecologically fragile priority areas for forest conservation and restoration in the Mambasa and Mongbwalu sector, Ituri province, Democratic Republic of Congo</a></div>
+              <div className="title"><a href="https://archive.org/details/environmental-defenders-blood-in-the-forest-v-01/mode/2up" target="_blank" rel="noopener noreferrer">Blood in the Forest</a></div>
+              <div className="description"><a href="https://archive.org/details/environmental-defenders-blood-in-the-forest-v-01/mode/2up" target="_blank" rel="noopener noreferrer">\Blood in the Forest\, identifies ecologically fragile priority areas for forest conservation and restoration in the Mambasa and Mongbwalu sector, Ituri province, Democratic Republic of Congo</a></div>
               <div className="viz">
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
@@ -426,7 +426,7 @@ export default class Home extends React.Component {
             </div> */}
 
             {/*Add block 01 */}
-            <div key="01" >
+            {/*<div key="01" >
               <div className='legend'>
                 <div className="circles-3" style={{ width: "100%" }}>
                   <div className='legendtext'>Researcher</div>
@@ -444,8 +444,7 @@ export default class Home extends React.Component {
                   <div className='legendtext'>Map Designer</div>
                 </div>
               </div>
-            </div>
-
+            </div>*/}
 
           </ResponsiveGridLayout>
         </div>

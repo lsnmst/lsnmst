@@ -56,7 +56,7 @@ export default class Arch extends React.Component {
                 <div className="year">2024</div>
               </div>
               <div className="title"><a href="https://lsnmst.github.io/carbon-violence/" target="_blank" rel="noopener noreferrer">CARBON VIOLENCE</a></div>
-              <div className="description"><p><a href="https://lsnmst.github.io/carbon-violence/" target="_blank" rel="noopener noreferrer">The \Carbon Violence\ archive is an initiative intended to collect and make visible (physical, economic, psychological, epistemic) violence occurring to local communities living in areas where carbon offset projects are implemented</a></p></div>
+              <div className="description"><p><a href="https://lsnmst.github.io/carbon-violence/" target="_blank" rel="noopener noreferrer">The \Carbon Violence\ archive exposes the physical, economic, psychological, epistemic violence that occur to individuals and communities living in areas where carbon offsetting projects are implemented, making accountable project developers, subsidiaries, investors, funders, validation and verification bodies, brokers, corporations purchasing credits</a></p></div>
               <div className="viz">
                 <div className="arch"></div>
                 <div className="arch"></div>

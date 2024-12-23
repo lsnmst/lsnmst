@@ -135,7 +135,7 @@ export default class Proto extends React.Component {
             </div>
 
             {/*Add block 01 */}
-            <div key="01" >
+            {/*<div key="01" >
               <div className='legend'>
                 <div className="circles-3" style={{ width: "100%" }}>
                   <div className='legendtext'>Researcher</div>
@@ -153,7 +153,7 @@ export default class Proto extends React.Component {
                   <div className='legendtext'>Map Designer</div>
                 </div>
               </div>
-            </div>
+            </div>*/}
 
 
           </ResponsiveGridLayout>
