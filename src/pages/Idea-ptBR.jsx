@@ -18,33 +18,35 @@ export default class IdeaptBR extends React.Component {
   }
   render() {
     const layout = [
-      { i: "12", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "11", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "10", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "09", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "08", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "07", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "06", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "05", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "04", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "03", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "02", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "01", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "13", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "12", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "11", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "10", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "09", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "08", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "07", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "06", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "05", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "12", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "11", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "10", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "09", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "08", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "07", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "06", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "05", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "04", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "03", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "02", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "01", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "13", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "12", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "11", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "10", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "09", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "08", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "07", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "06", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "05", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "04", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "03", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "02", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "01", x: 0, y: 9, w: 3, h: 3, static: true },
     ];
 
     return (
@@ -67,6 +69,16 @@ export default class IdeaptBR extends React.Component {
 
 
             {/* key font https://decodeunicode.org/en/u+AB01 */}
+
+            {/*Add block 13 */}
+            <div key="13" className='cynthia'>
+              <div className="header">
+                <div className="index">ﻎ</div>
+                <div className="yeartext">2025</div>
+              </div>
+              <div className="description">TEXTO: IDIOMAS_EN</div>
+              <div className="titletext"><a href="https://icsf.net/yemaya/profile-fishing-against-odds-2/" target="_blank" rel="noopener noreferrer">Pescando contra todas as adversidades. Pescadoras do Lago Kivu lutam contra o estigma social e a discriminação com Mama Cynthia no comando</a></div>
+            </div>
 
             {/*Add block 12 */}
             <div key="12" className='aves'>
