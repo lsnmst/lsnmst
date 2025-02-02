@@ -89,6 +89,10 @@ export default class Home extends React.Component {
               <div className="description"><p><a href="https://lsnmst.github.io/carbon-violence/" target="_blank" rel="noopener noreferrer">The \Carbon Violence\ archive exposes the physical, economic, psychological, epistemic violence that occur to individuals and communities living in areas where carbon offsetting projects are implemented, making accountable project developers, subsidiaries, investors, funders, validation and verification bodies, brokers, corporations purchasing credits</a></p></div>
               <div className="viz">
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -106,6 +110,7 @@ export default class Home extends React.Component {
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
                 <div className="circles-7 tooltip" data-text='Map Design'></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>sw, en, fr</div>
             </div>
@@ -122,6 +127,8 @@ export default class Home extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -139,6 +146,7 @@ export default class Home extends React.Component {
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
                 <div className="circles-7 tooltip" data-text='Map Design'></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>pt</div>
             </div>
@@ -156,6 +164,7 @@ export default class Home extends React.Component {
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
                 <div className="circles-7 tooltip" data-text='Map Design'></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en, fr</div>
             </div>
@@ -173,6 +182,7 @@ export default class Home extends React.Component {
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
                 <div className="circles-7 tooltip" data-text='Map Design'></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -208,6 +218,7 @@ export default class Home extends React.Component {
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
                 <div className="circles-7 tooltip" data-text='Map Design'></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>pt</div>
             </div>
@@ -225,6 +236,8 @@ export default class Home extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en, fr</div>
             </div>
@@ -242,6 +255,8 @@ export default class Home extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -258,6 +273,8 @@ export default class Home extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -274,6 +291,8 @@ export default class Home extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>pt</div>
             </div>
@@ -291,6 +310,7 @@ export default class Home extends React.Component {
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -307,6 +327,8 @@ export default class Home extends React.Component {
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -322,6 +344,8 @@ export default class Home extends React.Component {
               <div className="viz">
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>it</div>
             </div>
@@ -337,6 +361,9 @@ export default class Home extends React.Component {
               <div className="viz">
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -395,6 +422,10 @@ export default class Home extends React.Component {
               <div className="description"><a href="https://www.alessandromusetta.com/cloud/Musetta_Dieselgate_Esta_FIOM_poster.pdf" target="_blank" rel="noopener noreferrer">A series of infographics on the Dieselgate case, presenting the steps taken towards a paradigm shift in the automotive sector</a></div>
               <div className="viz">
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>it</div>
             </div>

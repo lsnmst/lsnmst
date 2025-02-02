@@ -83,6 +83,9 @@ export default class Proto extends React.Component {
               <div className="viz">
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -98,6 +101,9 @@ export default class Proto extends React.Component {
               <div className="viz">
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -114,6 +120,8 @@ export default class Proto extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en, fr</div>
             </div>
@@ -130,6 +138,8 @@ export default class Proto extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>pt, en</div>
             </div>

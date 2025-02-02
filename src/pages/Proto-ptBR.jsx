@@ -82,6 +82,9 @@ export default class ProtoptBR extends React.Component {
               <div className="viz">
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -97,6 +100,9 @@ export default class ProtoptBR extends React.Component {
               <div className="viz">
                 <div className="circles-5 tooltip" data-text='Information designer'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -113,6 +119,8 @@ export default class ProtoptBR extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>en, fr</div>
             </div>
@@ -129,6 +137,8 @@ export default class ProtoptBR extends React.Component {
                 <div className="circles-3 tooltip" data-text='Researcher'></div>
                 <div className="circles-4 tooltip" data-text='GIS specialist'></div>
                 <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
               </div>
               <div className="lang" title='Language'>pt, en</div>
             </div>
@@ -165,7 +175,7 @@ export default class ProtoptBR extends React.Component {
             <p style={{ border: "1px black solid", padding: "12px" }}><img src={Otc} style={{ width: 20 }} /><br /><br />Entre os projetos apresentados, alguns foram desenvolvidos em conjunto com comunidades locais e tradicionais com o único objetivo de apoiar seus direitos territoriais e visibilizar suas lutas pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.
               <br /><br /><b><i>Aberto para colaboração</i></b><br />ALESSANDRO está comprometido com o desenvolvimento de novos modos de colaboração, envolvimento e parceria com os povos indígenas para o cuidado e a conservação de coleções de patrimônio passadas e futuras. O que é este aviso? Leia mais <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>aqui</u></a>.<br /></p>
             <br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br />
-            <br /><br /><Link style={{ fontSize: 8 }} to="/">EN</Link><br /><br />
+            <br /><br /><Link style={{ fontSize: 8 }} to="/proto">EN</Link><br /><br />
           </div>
         </div></></>
     );

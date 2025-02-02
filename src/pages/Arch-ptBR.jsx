@@ -19,13 +19,17 @@ export default class ArchptBR extends React.Component {
   }
   render() {
     const layout = [
-      { i: "02", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "01", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "02", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "01", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "04", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "03", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "02", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "01", x: 9, y: 0, w: 3, h: 3, static: true },
     ];
 
     return (
@@ -49,6 +53,41 @@ export default class ArchptBR extends React.Component {
 
             {/* key font https://decodeunicode.org/en/u+AB01 */}
 
+            {/*Add block 04 */}
+            <div key="04" className='recipe'>
+              <div className="header">
+                <div className="index">🜴</div>
+                <div className="year">2025</div>
+              </div>
+              <div className="title"><a href="https://lsnmst.github.io/endangered-recipes/" target="_blank" rel="noopener noreferrer">ENDANGERED RECIPES</a></div>
+              <div className="description"><p><a href="https://lsnmst.github.io/endangered-recipes/" target="_blank" rel="noopener noreferrer">\Endangered recipes\ é uma coleção de receitas compartilhadas por mulheres, indígenas e ecofeministas, guardiãs de sementes, florestas e água, líderes espirituais e culturais, cujos territórios estão ameaçados pelo extrativismo, pelas mudanças climáticas e pela destruição da cultura e da memória</a></p></div>
+              <div className="viz">
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="arch"></div>
+                <div className="arch"></div>
+              </div>
+              <div className="lang" title='Language'>en fr pt es</div>
+            </div>
+
+            {/*Add block 03 */}
+            <div key="03" className='linhas'>
+              <div className="header">
+                <div className="index">𒀭</div>
+                <div className="year">2025</div>
+              </div>
+              <div className="title"><a href="https://lsnmst.github.io/linhas/" target="_blank" rel="noopener noreferrer">LINHAS</a></div>
+              <div className="description"><p><a href="https://lsnmst.github.io/linhas/" target="_blank" rel="noopener noreferrer">O arquivo \Linhas\ conta as histórias dos ônibus que trabalhadorxs e moradorxs do Rio de Janeiro lotam todos os dias, vítimas de conflitos armados, discriminação e racismo, assédio sexual, eventos climáticos extremos, negligência ou falta de manutenção e falta de alternativas</a></p></div>
+              <div className="viz">
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-7 tooltip" data-text='Map Design'></div>
+              </div>
+              <div className="lang" title='Language'>pt</div>
+            </div>
 
             {/*Add block 02 */}
             <div key="02" className='carbon'>
@@ -59,6 +98,8 @@ export default class ArchptBR extends React.Component {
               <div className="title"><a href="https://lsnmst.github.io/carbon-violence/" target="_blank" rel="noopener noreferrer">CARBON VIOLENCE</a></div>
               <div className="description"><p><a href="https://lsnmst.github.io/carbon-violence/" target="_blank" rel="noopener noreferrer">O arquivo \Carbon Violence\ é uma iniciativa destinada a coletar e tornar visível a violência (física, econômica, psicológica, epistêmica) que ocorre nas comunidades locais que vivem em áreas onde são implementados projetos de compensação de carbono</a></p></div>
               <div className="viz">
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="arch"></div>
                 <div className="arch"></div>
                 <div className="arch"></div>
                 <div className="arch"></div>
@@ -76,9 +117,11 @@ export default class ArchptBR extends React.Component {
               <div className="title"><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">CARTO RITUALS</a></div>
               <div className="description"><p><a href="https://lsnmst.github.io/cartorituals/" target="_blank" rel="noopener noreferrer">\Rituals in the cartographic practice\, è um arquivo visual que reúne práticas de tecnologia social e cartografia participativa do Sul Global como um produto endógeno da relação múltipla entre corpo - território - idioma. Enfrentando o racismo epistêmico</a></p></div>
               <div className="viz">
-                <div className="arch"></div>
-                <div className="arch"></div>
-                <div className="arch"></div>
+                <div className="circles-3 tooltip" data-text='Researcher'></div>
+                <div className="circles-4 tooltip" data-text='GIS specialist'></div>
+                <div className="circles-5 tooltip" data-text='Information designer'></div>
+                <div className="circles-6 tooltip" data-text='Front-end web developer'></div>
+                <div className="circles-7 tooltip" data-text='Map Design'></div>
               </div>
               <div className="lang" title='Language'>en</div>
             </div>
@@ -93,7 +136,7 @@ export default class ArchptBR extends React.Component {
             <p style={{ border: "1px black solid", padding: "12px" }}><img src={Otc} style={{ width: 20 }} /><br /><br />Entre os projetos apresentados, alguns foram construídos em solidariedade e conjuntamente com comunidades indígenas, tradicionais e locais entre a América Latina e a África, com o objetivo de conscientizar sobre suas lutas pela sobrevivência cultural e biológica. Todos os direitos de informação e dados sobre cultura, visão cosmológica, direito consuetudinário, artesanato, patrimônio tangível e intangível, biodiversidade, folclore e bens comuns, permanecem com esses povos.
               <br /><br /><b><i>Aberto para colaboração</i></b><br />ALESSANDRO está comprometido com o desenvolvimento de novos modos de colaboração, envolvimento e parceria com os povos indígenas para o cuidado e a conservação de coleções de patrimônio passadas e futuras. O que é este aviso? Leia mais <a href="https://localcontexts.org/notice/open-to-collaborate/"><u>aqui</u></a>.<br /></p>
             <br /><br />Obrigado por estar aqui!<br /><br /><br />hello@alessandromusetta.com<br />PGP KEY <a href="img/HgauJwTzvNjsxVS2P3oJX.asc">🔒</a><br /> FINGERPRINT: D43A CD45 175E 79EA F11F D448 C90C 1302 EDCB 1889<br /><br /><br />
-            <br /><br /><Link style={{ fontSize: 8 }} to="/">EN</Link><br /><br />
+            <br /><br /><Link style={{ fontSize: 8 }} to="/archive">EN</Link><br /><br />
           </div>
         </div></></>
     );

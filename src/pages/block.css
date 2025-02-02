@@ -221,7 +221,7 @@ h2 {
     width: 15px;
     height: 15px;
     padding: 4px;
-    border: solid 1px #000000;
+    border: solid 2px #000000;
     margin: 1px;
 }
 
@@ -661,6 +661,30 @@ h2 {
     background: url("../../public/img/cynthia.png") no-repeat;
     background-repeat: no-repeat;
     background-size: 400px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.calendario:hover {
+    background: url("../../public/img/calendario.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.linhas:hover {
+    background: url("../../public/img/linhas.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.recipe:hover {
+    background: url("../../public/img/recipe.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 300px;
     background-attachment: fixed;
     background-position: top right;
 }
