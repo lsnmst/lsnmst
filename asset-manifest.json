@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/lsnmst/static/css/main.6d1058a8.css",
-    "main.js": "/lsnmst/static/js/main.688d56c3.js",
+    "main.css": "/lsnmst/static/css/main.fdb5f416.css",
+    "main.js": "/lsnmst/static/js/main.c1c16bfb.js",
     "static/js/787.7dc2dff3.chunk.js": "/lsnmst/static/js/787.7dc2dff3.chunk.js",
+    "static/media/recipe.png": "/lsnmst/static/media/recipe.d8df9444e53bb592c962.png",
     "static/media/uganda.jpg": "/lsnmst/static/media/uganda.2034338753667188e752.jpg",
     "static/media/tingua.jpg": "/lsnmst/static/media/tingua.2a2ec74b4f480e3ae339.jpg",
     "static/media/defence.jpg": "/lsnmst/static/media/defence.f8ce91d2e18786faaac7.jpg",
@@ -36,19 +37,21 @@
     "static/media/aves.jpg": "/lsnmst/static/media/aves.26175422ba66dcbbfbc5.jpg",
     "static/media/desert.png": "/lsnmst/static/media/desert.cb6462e9d0744e4f94d9.png",
     "static/media/simpleshort.png": "/lsnmst/static/media/simpleshort.e6e238238d81dcb165ea.png",
+    "static/media/linhas.jpg": "/lsnmst/static/media/linhas.58817890dd82049300a3.jpg",
     "static/media/quilombolas.jpg": "/lsnmst/static/media/quilombolas.9661d8b7d5adbf30613f.jpg",
     "static/media/wwa.jpg": "/lsnmst/static/media/wwa.0bca18af23d5e12e5722.jpg",
     "static/media/idp.jpeg": "/lsnmst/static/media/idp.bfb691a6f18a974a7b11.jpeg",
+    "static/media/calendario.jpg": "/lsnmst/static/media/calendario.43dfa9b8ebb5a67375cb.jpg",
     "static/media/open_to_collaborate.png": "/lsnmst/static/media/open_to_collaborate.5bc0767b266c20c583f9.png",
     "static/media/pacific.jpg": "/lsnmst/static/media/pacific.1a55901d12405fd05713.jpg",
     "static/media/carbon.gif": "/lsnmst/static/media/carbon.f2eb95942876eec7fbb4.gif",
     "index.html": "/lsnmst/index.html",
-    "main.6d1058a8.css.map": "/lsnmst/static/css/main.6d1058a8.css.map",
-    "main.688d56c3.js.map": "/lsnmst/static/js/main.688d56c3.js.map",
+    "main.fdb5f416.css.map": "/lsnmst/static/css/main.fdb5f416.css.map",
+    "main.c1c16bfb.js.map": "/lsnmst/static/js/main.c1c16bfb.js.map",
     "787.7dc2dff3.chunk.js.map": "/lsnmst/static/js/787.7dc2dff3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d1058a8.css",
-    "static/js/main.688d56c3.js"
+    "static/css/main.fdb5f416.css",
+    "static/js/main.c1c16bfb.js"
   ]
 }
