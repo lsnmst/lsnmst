@@ -79,8 +79,8 @@ export default class Idea extends React.Component {
                 <div className="index">𐤎</div>
                 <div className="yeartext">2025</div>
               </div>
-              <div className="description">TEXT: LANG_PT</div>
-              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/CALEND%C3%81RIO_ECOCOSMOL%C3%93GICO.pdf" target="_blank" rel="noopener noreferrer">Instructions to create an ecocosmological calendar</a></div>
+              <div className="description">TEXT: LANG_pt-BR, ES, EN</div>
+              <div className="titletext"><a href="https://www.alessandromusetta.com/cloud/CALENDARIO_ECOCOSMOLOGICO/CALENDARIO_ECOCOSMOLOGICO.pdf" target="_blank" rel="noopener noreferrer">Instructions to create an ecocosmological calendar</a></div>
             </div>
 
             {/*Add block 13 */}
