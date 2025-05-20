@@ -18,37 +18,39 @@ export default class Idea extends React.Component {
   }
   render() {
     const layout = [
-      { i: "14", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "13", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "12", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "11", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "10", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "09", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "08", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "07", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "06", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "05", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "04", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "03", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "02", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
-      { i: "01", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "15", x: 0, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "14", x: 3, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "13", x: 6, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "12", x: 9, y: 0, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "11", x: 0, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "10", x: 3, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "09", x: 6, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "08", x: 9, y: 3, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "07", x: 0, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "06", x: 3, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "05", x: 6, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "04", x: 9, y: 6, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "03", x: 0, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "02", x: 3, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
+      { i: "01", x: 6, y: 9, w: 3, h: 3, minW: 2, minH: 2, static: true },
     ];
 
     const layoutxs = [
-      { i: "14", x: 0, y: 0, w: 3, h: 3, static: true },
-      { i: "13", x: 3, y: 0, w: 3, h: 3, static: true },
-      { i: "12", x: 6, y: 0, w: 3, h: 3, static: true },
-      { i: "11", x: 9, y: 0, w: 3, h: 3, static: true },
-      { i: "10", x: 0, y: 3, w: 3, h: 3, static: true },
-      { i: "09", x: 3, y: 3, w: 3, h: 3, static: true },
-      { i: "08", x: 6, y: 3, w: 3, h: 3, static: true },
-      { i: "07", x: 9, y: 3, w: 3, h: 3, static: true },
-      { i: "06", x: 0, y: 6, w: 3, h: 3, static: true },
-      { i: "05", x: 3, y: 6, w: 3, h: 3, static: true },
-      { i: "04", x: 6, y: 6, w: 3, h: 3, static: true },
-      { i: "03", x: 9, y: 6, w: 3, h: 3, static: true },
-      { i: "02", x: 0, y: 9, w: 3, h: 3, static: true },
-      { i: "01", x: 3, y: 9, w: 3, h: 3, static: true },
+      { i: "15", x: 0, y: 0, w: 3, h: 3, static: true },
+      { i: "14", x: 3, y: 0, w: 3, h: 3, static: true },
+      { i: "13", x: 6, y: 0, w: 3, h: 3, static: true },
+      { i: "12", x: 9, y: 0, w: 3, h: 3, static: true },
+      { i: "11", x: 0, y: 3, w: 3, h: 3, static: true },
+      { i: "10", x: 3, y: 3, w: 3, h: 3, static: true },
+      { i: "09", x: 6, y: 3, w: 3, h: 3, static: true },
+      { i: "08", x: 9, y: 3, w: 3, h: 3, static: true },
+      { i: "07", x: 0, y: 6, w: 3, h: 3, static: true },
+      { i: "06", x: 3, y: 6, w: 3, h: 3, static: true },
+      { i: "05", x: 6, y: 6, w: 3, h: 3, static: true },
+      { i: "04", x: 9, y: 6, w: 3, h: 3, static: true },
+      { i: "03", x: 0, y: 9, w: 3, h: 3, static: true },
+      { i: "02", x: 3, y: 9, w: 3, h: 3, static: true },
+      { i: "01", x: 6, y: 9, w: 3, h: 3, static: true },
     ];
 
 
@@ -72,6 +74,16 @@ export default class Idea extends React.Component {
 
 
             {/* key font https://decodeunicode.org/en/u+AB01 */}
+
+            {/*Add block 15 */}
+            <div key="15" className='nyinga'>
+              <div className="header">
+                <div className="index">𐰪</div>
+                <div className="yeartext">2025</div>
+              </div>
+              <div className="description">TEXT: LANG_EN</div>
+              <div className="titletext"><a href="https://archive.org/details/nyinga_tye_beatrice" target="_blank" rel="noopener noreferrer">Nyinga Tye Beatrice</a></div>
+            </div>
 
             {/*Add block 14 */}
             <div key="14" className='calendario'>
