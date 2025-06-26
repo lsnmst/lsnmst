@@ -697,6 +697,14 @@ h2 {
     background-position: top right;
 }
 
+.matriarch:hover {
+    background: url("../../public/img/matriarch.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
 .legend {
     width: 85%;
     margin: 100px auto;
